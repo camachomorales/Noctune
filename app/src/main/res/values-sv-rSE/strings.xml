@@ -24,7 +24,7 @@
     <string name="new_release_albums">"Nya album"</string>
     <string name="forgotten_favorites">"Glömda favoriter"</string>
     <string name="similar_to">"Liknande"</string>
-    <string name="your_ytb_playlists">"Dina YouTube-listor"</string>
+    <string name="your_ytb_playlists">"Dina Streaming-listor"</string>
 
     <!-- History -->
     <string name="today">"Idag"</string>
@@ -45,7 +45,7 @@
 
     <!-- Search -->
     <string name="search">"Sök"</string>
-    <string name="search_yt_music">"Sök på YouTube Music..."</string>
+    <string name="search_yt_music">"Sök på Streaming..."</string>
     <string name="search_library">"Sök i biblioteket"</string>
     <string name="filter_library">"Bibliotek"</string>
     <string name="filter_liked">"Gillade"</string>
@@ -84,7 +84,7 @@
     <string name="remove_download_playlist_confirm">"Vill du verkligen ta bort alla \"%s\" låtar i spellistan från lagringsutrymmet för nedladdade låtar?"</string>
     <string name="delete_playlist_confirm">"Vill du verkligen ta bort spellistan \"%s\"?"</string>
     <string name="elements_selected">"%1$d objekt markerade"</string>
-    <string name="allows_for_sync_witch_youtube">"Obs! Detta möjliggör synkronisering med YouTube Music. Det kan inte ändras i efterhand."</string>
+    <string name="allows_for_sync_witch_youtube">"Obs! Detta möjliggör synkronisering med Streaming. Det kan inte ändras i efterhand."</string>
 
     <!-- Button -->
     <string name="retry">"Försök igen"</string>
@@ -293,7 +293,7 @@
     <string name="token_hidden">"Tryck för att visa token"</string>
     <string name="token_shown">"Tryck igen för att kopiera eller redigera"</string>
     <string name="token_adv_login_description">"Detta är en AVANCERAD inloggningsmetod. Som alternativ till webbportalen kan du ange eller uppdatera din inloggningstoken direkt här. Detta kan till exempel påskynda inloggning på flera enheter. Observera att appen avvisar ogiltiga tokenformat som den inte kan tolka."</string>
-    <string name="ytm_sync">"Automatisk synk med ditt YouTube Music-konto"</string>
+    <string name="ytm_sync">"Automatisk synk med ditt Streaming-konto"</string>
     <string name="general">"Allmänt"</string>
     <string name="content_language">"Standardinnehållsspråk"</string>
     <string name="content_country">"Standardinnehållsland"</string>
@@ -365,7 +365,7 @@
     <string name="backup_create_failed">"Det gick inte att skapa säkerhetskopia"</string>
     <string name="restore_failed">"Fel vid återställning"</string>
     <string name="discord_integration">"Discord-integration"</string>
-    <string name="discord_information">"OpenTune använder KizzyRPC-biblioteket för att sätta status på ditt Discord-konto. Detta innebär användning av Discord Gateway-anslutningen, vilket kan ses som ett brott mot Discords användarvillkor. Det finns dock inga kända fall där användarkonton stängts av av denna anledning. Använd på egen risk. OpenTune hämtar endast din token, allt annat lagras lokalt."</string>
+    <string name="discord_information">"music använder KizzyRPC-biblioteket för att sätta status på ditt Discord-konto. Detta innebär användning av Discord Gateway-anslutningen, vilket kan ses som ett brott mot Discords användarvillkor. Det finns dock inga kända fall där användarkonton stängts av av denna anledning. Använd på egen risk. music hämtar endast din token, allt annat lagras lokalt."</string>
     <string name="dismiss">"Avfärda"</string>
     <string name="options">"Alternativ"</string>
     <string name="preview">"Förhandsvisning"</string>
@@ -457,13 +457,8 @@
     <string name="edit_thumbnail">"Redigera miniatyr"</string>
     <string name="remove_thumbnail">"Ta bort miniatyr"</string>
     <string name="add_thumbnail">"Lägg till miniatyr"</string>
-    <string name="storage_overview"></string>
-    <string name="clear_downloads_confirmation"></string>
-    <string name="clear_song_cache_confirmation"></string>
-    <string name="clear_image_cache_confirmation"></string>
     <string name="confirm">"Bekräfta"</string>
     <string name="problem_solver">"Problemlösare"</string>
-    <string name="action_login"></string>
     <string name="generating_image">"Skapar bild"</string>
     <string name="please_wait">"Vänligen vänta"</string>
     <string name="share_lyrics">"Dela texter"</string>
@@ -477,24 +472,8 @@
     <string name="secondary_text_color">"Sekundär textfärg"</string>
     <string name="background_color">"Bakgrundsfärg"</string>
     <string name="back">"Bakåt"</string>
-    <string name="navigation_error"></string>
     <string name="notifications_enabled">"Aviseringar aktiverade"</string>
     <string name="notifications_disabled">"Aviseringar inaktiverade"</string>
-    <string name="visitor_data_title"></string>
-    <string name="visitor_data_description"></string>
-    <string name="visitor_data_info_button"></string>
-    <string name="visitor_data_reset_button"></string>
-    <string name="visitor_data_info_title"></string>
-    <string name="visitor_data_info_intro"></string>
-    <string name="visitor_data_info_problems"></string>
-    <string name="visitor_data_info_solution"></string>
-    <string name="visitor_data_info_note"></string>
-    <string name="visitor_data_info_confirm"></string>
-    <string name="visitor_data_reset_title"></string>
-    <string name="visitor_data_reset_message"></string>
-    <string name="visitor_data_reset_confirm"></string>
-    <string name="visitor_data_reset_cancel"></string>
-    <string name="widget_title"></string>
     <string name="error_saving_image">"Fel vid sparande av bild"</string>
     <string name="processing">"Bearbetar"</string>
     <string name="subscribed">"Prenumererar"</string>

@@ -23,7 +23,7 @@
     <string name="new_release_albums">"新作リリース"</string>
     <string name="forgotten_favorites">"忘れたお気に入りの楽曲"</string>
     <string name="similar_to">"これに似ている"</string>
-    <string name="your_ytb_playlists">"あなたのyoutubeアカウント"</string>
+    <string name="your_ytb_playlists">"あなたのStreamingアカウント"</string>
 
     <!-- History -->
     <string name="today">"今日"</string>
@@ -44,7 +44,7 @@
 
     <!-- Search -->
     <string name="search">"検索"</string>
-    <string name="search_yt_music">"youtube musicを検索…"</string>
+    <string name="search_yt_music">"Streamingを検索…"</string>
     <string name="search_library">"ライブラリを検索…"</string>
     <string name="filter_library">"ライブラリ"</string>
     <string name="filter_liked">"いいねした"</string>
@@ -83,7 +83,7 @@
     <string name="remove_download_playlist_confirm">"ダウンロード済み楽曲のストレージからプレイリスト \"%s\" の楽曲をすべて削除しますか？"</string>
     <string name="delete_playlist_confirm">"プレイリスト \"%s\" を削除しますか？"</string>
     <string name="elements_selected">"%1$d個 選択済み"</string>
-    <string name="allows_for_sync_witch_youtube">"注意 : これを行うと Youtube Music と同期が行われます。この設定は後から変更できません。"</string>
+    <string name="allows_for_sync_witch_youtube">"注意 : これを行うと Streaming と同期が行われます。この設定は後から変更できません。"</string>
 
     <!-- Button -->
     <string name="retry">"再試行"</string>
@@ -282,7 +282,7 @@
     <string name="token_hidden">"タップしてトークンを表示します"</string>
     <string name="token_shown">"もう一度タップしてコピーもしくは編集します"</string>
     <string name="token_adv_login_description">"これは高度なログイン方法で、ウェブからログインする代わりに、ここでログインのトークンを直接入力することもできます。例えば、複数のデバイスからログインするときに使用できます。正しいトークンの形式でないと認識されません。"</string>
-    <string name="ytm_sync">"Youtube Musicと自動で同期します"</string>
+    <string name="ytm_sync">"Streamingと自動で同期します"</string>
     <string name="general">"一般"</string>
     <string name="content_language">"デフォルトの言語"</string>
     <string name="content_country">"デフォルトの国"</string>
@@ -354,7 +354,7 @@
     <string name="backup_create_failed">"バックアップの作成に失敗しました"</string>
     <string name="restore_failed">"バックアップの復元に失敗しました"</string>
     <string name="discord_integration">"Discordと接続"</string>
-    <string name="discord_information">"OpenTuneはKizzyRPCライブラリを使用してDiscordアカウントのステータスを設定します。これにはDiscord ゲートウェイ接続が使用されるため、Discordの利用規約違反とみなされる可能性があります。ただし、この理由でユーザーアカウントが停止された事例は確認されていません。この設定の使用は完全に自己責任です。OpenTuneはトークンのみを抽出し、その他の情報はローカルに保存されるため安全です。"</string>
+    <string name="discord_information">"musicはKizzyRPCライブラリを使用してDiscordアカウントのステータスを設定します。これにはDiscord ゲートウェイ接続が使用されるため、Discordの利用規約違反とみなされる可能性があります。ただし、この理由でユーザーアカウントが停止された事例は確認されていません。この設定の使用は完全に自己責任です。musicはトークンのみを抽出し、その他の情報はローカルに保存されるため安全です。"</string>
     <string name="dismiss">"キャンセル"</string>
     <string name="options">"設定"</string>
     <string name="preview">"プレビュー"</string>
@@ -468,81 +468,13 @@
     <string name="navigation_error">"Error de navegación"</string>
     <string name="notifications_enabled">"Notificaciones habilitadas"</string>
     <string name="notifications_disabled">"Notificaciones desabilitadas"</string>
-    <string name="visitor_data_title"></string>
-    <string name="visitor_data_description"></string>
-    <string name="visitor_data_info_button"></string>
-    <string name="visitor_data_reset_button"></string>
-    <string name="visitor_data_info_title"></string>
-    <string name="visitor_data_info_intro"></string>
-    <string name="visitor_data_info_problems"></string>
-    <string name="visitor_data_info_solution"></string>
-    <string name="visitor_data_info_note"></string>
-    <string name="visitor_data_info_confirm"></string>
-    <string name="visitor_data_reset_title"></string>
-    <string name="visitor_data_reset_message"></string>
-    <string name="visitor_data_reset_confirm"></string>
-    <string name="visitor_data_reset_cancel"></string>
-    <string name="widget_title"></string>
     <string name="error_saving_image">"Error al guardar imagen"</string>
     <string name="processing">"Procesando"</string>
     <string name="subscribed">"登録済み"</string>
     <string name="subscribe">"登録"</string>
     <string name="language">"言語"</string>
-    <string name="selection_mode_active"></string>
 
     <!-- Avatar Selection -->
-    <string name="avatar_selection"></string>
-    <string name="choose_predefined_avatar"></string>
 
     <!-- Avatar Descriptions for Predefined Avatars -->
-    <string name="geometric_avatar_1"></string>
-    <string name="geometric_avatar_2"></string>
-    <string name="geometric_avatar_3"></string>
-    <string name="geometric_avatar_4"></string>
-    <string name="geometric_avatar_5"></string>
-    <string name="geometric_avatar_6"></string>
-    <string name="purple_initial_avatar"></string>
-    <string name="blue_initial_avatar"></string>
-    <string name="green_initial_avatar"></string>
-    <string name="orange_initial_avatar"></string>
-    <string name="red_initial_avatar"></string>
-    <string name="teal_initial_avatar"></string>
-    <string name="dots_pattern_avatar"></string>
-    <string name="waves_pattern_avatar"></string>
-    <string name="gradient_pattern_avatar"></string>
-    <string name="music_note_avatar"></string>
-    <string name="equalizer_avatar"></string>
-    <string name="headphones_avatar"></string>
-    <string name="discord_use_details"></string>
-    <string name="discord_use_details_description"></string>
-    <string name="community"></string>
-    <string name="app_info"></string>
-    <string name="hide_controls"></string>
-    <string name="show_controls"></string>
-    <string name="customize_lyrics_image"></string>
-    <string name="customize_image"></string>
-    <string name="select_theme"></string>
-    <string name="from_cover"></string>
-    <string name="presets"></string>
-    <string name="share_lyrics_image"></string>
-    <string name="error_generating_image"></string>
-    <string name="cover_color"></string>
-    <string name="Rotatelyricsbackground"></string>
-    <string name="playlist_add_local_to_synced_note"></string>
-    <string name="manage"></string>
-    <string name="clear"></string>
-    <string name="playing_from"></string>
-    <string name="SmallButtonsShape"></string>
-    <string name="cloud_upload_title"></string>
-    <string name="cloud_upload_enabled_description"></string>
-    <string name="cloud_upload_disabled_description"></string>
-    <string name="backup_with_cloud"></string>
-    <string name="uploading_backup"></string>
-    <string name="backup_success"></string>
-    <string name="backup_upload_error"></string>
-    <string name="cache_clearing"></string>
-    <string name="info_button"></string>
-    <string name="reset_button"></string>
-    <string name="processing_songs"></string>
-    <string name="understood"></string>
 </resources>

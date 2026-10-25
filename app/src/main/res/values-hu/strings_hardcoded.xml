@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-hu/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">A te zenéd, a te világod</string>
+    <string name="about_license_name">GNU GPL v3 vagy újabb</string>
+    <string name="about_license_title">Licenc</string>
+    <string name="about_license_text">A(z) %1$s szabad szoftver: a(z) %2$s licenc feltételei szerint használhatod, tanulmányozhatod, módosíthatod és terjesztheted. GARANCIA NÉLKÜL kerül terjesztésre.</string>
+    <string name="about_view_license">Licenc megtekintése</string>
+    <string name="about_source_code">Forráskód</string>
+    <string name="about_third_party_services">Harmadik féltől származó hálózati szolgáltatások: Audius, Internet Archive és LRCLIB (szinkronizált dalszövegek). Az alkalmazás nem tartalmaz hirdetéseket vagy nyomkövetőket.</string>
+    <string name="about_role_development">Fejlesztés</string>
+    <string name="about_role_bottomsheet">A BottomSheet alapkódja</string>
+    <string name="about_role_ui_base">A felület és a projekt alapja</string>
+    <string name="about_role_original_project">Az eredeti projekt, amelyre az OpenTune épül</string>
+    <string name="artist_subscribers_count">%1$s feliratkozó</string>
+    <string name="section_trending_week">A hét slágerei</string>
+    <string name="section_albums_now">Felkapott albumok</string>
+    <string name="section_playlists_discover">Felfedezésre váró lejátszási listák</string>
+    <string name="section_in_genre">Felkapott: %1$s</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-iw-rIL/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">התחברות</string>
+    <string name="auth_create_account">יצירת חשבון</string>
+    <string name="auth_welcome_back">טוב לראות אותך שוב!</string>
+    <string name="auth_join_today">הצטרפו אלינו היום!</string>
+    <string name="auth_create">יצירה</string>
+    <string name="auth_cancel">ביטול</string>
+    <string name="auth_name">שם</string>
+    <string name="auth_email">אימייל</string>
+    <string name="auth_password">סיסמה</string>
+    <string name="auth_toggle_password">הצגה או הסתרה של הסיסמה</string>
+    <string name="auth_statistics">סטטיסטיקות</string>
+    <string name="auth_songs_played">שירים שהושמעו</string>
+    <string name="auth_time_listened">זמן האזנה</string>
+    <string name="auth_favorites">מועדפים</string>
+    <string name="auth_account_info">פרטי החשבון</string>
+    <string name="auth_member_since">חברות מאז</string>
+    <string name="auth_sign_out_title">להתנתק?</string>
+    <string name="auth_sign_out_message">המכשיר יעבור למצב אורח. הפלייליסטים יחזרו לכאן עם ההתחברות מחדש.</string>
+    <string name="auth_guest_warning">צרו חשבון כדי שהפלייליסטים והסטטיסטיקות יישארו מקושרים אליכם במכשיר הזה.</string>
+    <string name="auth_error_name">יש להזין שם.</string>
+    <string name="auth_error_email_invalid">כתובת האימייל נראית לא תקינה.</string>
+    <string name="auth_error_password_short">הסיסמה חייבת להכיל לפחות %1$d תווים.</string>
+    <string name="auth_error_email_taken">כבר קיים חשבון עם כתובת האימייל הזו.</string>
+    <string name="auth_error_wrong_credentials">כתובת אימייל או סיסמה שגויות.</string>
+</resources>

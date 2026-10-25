@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-be/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">Увайсці</string>
+    <string name="auth_create_account">Стварыць уліковы запіс</string>
+    <string name="auth_welcome_back">З вяртаннем!</string>
+    <string name="auth_join_today">Далучайцеся да нас ужо сёння!</string>
+    <string name="auth_create">Стварыць</string>
+    <string name="auth_cancel">Скасаваць</string>
+    <string name="auth_name">Імя</string>
+    <string name="auth_email">Электронная пошта</string>
+    <string name="auth_password">Пароль</string>
+    <string name="auth_toggle_password">Паказаць або схаваць пароль</string>
+    <string name="auth_statistics">Статыстыка</string>
+    <string name="auth_songs_played">Прайграна песень</string>
+    <string name="auth_time_listened">Час праслухоўвання</string>
+    <string name="auth_favorites">Абранае</string>
+    <string name="auth_account_info">Звесткі пра ўліковы запіс</string>
+    <string name="auth_member_since">Удзельнік з</string>
+    <string name="auth_sign_out_title">Выйсці з уліковага запісу?</string>
+    <string name="auth_sign_out_message">Вы пяройдзеце ў гасцявы рэжым. Вашы плэй-лісты зноў будуць тут, калі вы ўвойдзеце паўторна.</string>
+    <string name="auth_guest_warning">Стварыце ўліковы запіс, каб вашы плэй-лісты і статыстыка заставаліся звязанымі з вамі на гэтай прыладзе.</string>
+    <string name="auth_error_name">Увядзіце сваё імя.</string>
+    <string name="auth_error_email_invalid">Гэты адрас электроннай пошты выглядае няправільным.</string>
+    <string name="auth_error_password_short">Пароль павінен змяшчаць не менш за %1$d сімвалаў.</string>
+    <string name="auth_error_email_taken">Уліковы запіс з такім адрасам электроннай пошты ўжо існуе.</string>
+    <string name="auth_error_wrong_credentials">Няправільны адрас электроннай пошты або пароль.</string>
+</resources>

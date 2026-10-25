@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">ਤੁਹਾਡਾ ਲੋਕਲ ਸੰਗੀਤ ਵੇਖਣ ਲਈ ਸਾਨੂੰ ਤੁਹਾਡੀਆਂ ਆਡੀਓ ਫ਼ਾਈਲਾਂ ਤੱਕ\nਪਹੁੰਚ ਚਾਹੀਦੀ ਹੈ।</string>
+    <string name="recently_added">ਹਾਲ ਹੀ ਵਿੱਚ ਜੋੜੇ ਗਏ</string>
+    <string name="search_banner_streaming">Streaming ਵਿੱਚ ਖੋਜ ਰਹੇ ਹਾਂ</string>
+    <string name="search_banner_local">ਤੁਹਾਡੀ ਲੋਕਲ ਲਾਇਬ੍ਰੇਰੀ ਵਿੱਚ ਖੋਜ ਰਹੇ ਹਾਂ</string>
+    <string name="search_banner_tap_local">ਲੋਕਲ ਤੇ ਜਾਣ ਲਈ ਟੈਪ ਕਰੋ</string>
+    <string name="search_banner_tap_streaming">ਸਟ੍ਰੀਮਿੰਗ ਤੇ ਜਾਣ ਲਈ ਟੈਪ ਕਰੋ</string>
+    <string name="mode_hint_to_local">ਹੋਮ, ਖੋਜ ਅਤੇ ਲਾਇਬ੍ਰੇਰੀ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਦਾ ਸੰਗੀਤ ਵਰਤਣਗੇ</string>
+    <string name="mode_hint_to_streaming">ਹੋਮ, ਖੋਜ ਅਤੇ ਲਾਇਬ੍ਰੇਰੀ Streaming ਵਰਤਣਗੇ</string>
+    <string name="search_hint_streaming">ਸਟ੍ਰੀਮਿੰਗ ਵਿੱਚ ਖੋਜੋ…</string>
+    <string name="search_hint_device">ਆਪਣੀ ਡਿਵਾਈਸ ਵਿੱਚ ਖੋਜੋ…</string>
+    <string name="forgotten_favorites">ਭੁੱਲੇ ਹੋਏ ਮਨਪਸੰਦ</string>
+    <string name="your_music_count">ਤੁਹਾਡਾ ਸੰਗੀਤ (%1$d ਗੀਤ)</string>
+</resources>

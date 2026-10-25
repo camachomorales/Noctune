@@ -24,7 +24,7 @@
     <string name="new_release_albums">"Neu veröffentlichte Alben"</string>
     <string name="forgotten_favorites">"Vergessene Favoriten"</string>
     <string name="similar_to">"Ähnlich zu"</string>
-    <string name="your_ytb_playlists">"Deine YouTube Wiedergabelisten"</string>
+    <string name="your_ytb_playlists">"Deine Streaming Wiedergabelisten"</string>
 
     <!-- History -->
     <string name="today">"Heute"</string>
@@ -45,7 +45,7 @@
 
     <!-- Search -->
     <string name="search">"Suche"</string>
-    <string name="search_yt_music">"YouTube Music durchsuchen…"</string>
+    <string name="search_yt_music">"Streaming durchsuchen…"</string>
     <string name="search_library">"Bibliothek durchsuchen…"</string>
     <string name="filter_library">"Bibliothek"</string>
     <string name="filter_liked">"Favoriten"</string>
@@ -84,7 +84,7 @@
     <string name="remove_download_playlist_confirm">"Bist du dir sicher, dass du alle \"%s\" Lieder der Wiedergabeliste aus dem Speicher der heruntergeladenen Titel löschen willst?"</string>
     <string name="delete_playlist_confirm">"Bist du dir sicher, dass du die Wiedergabeliste \"%s\" löschen willst?"</string>
     <string name="elements_selected">"%1$d Elemente ausgewählt"</string>
-    <string name="allows_for_sync_witch_youtube">"Hinweis: Dies ermöglicht die Synchronisierung mit YouTube Music. Dies ist später NICHT änderbar."</string>
+    <string name="allows_for_sync_witch_youtube">"Hinweis: Dies ermöglicht die Synchronisierung mit Streaming. Dies ist später NICHT änderbar."</string>
 
     <!-- Button -->
     <string name="retry">"Wiederholen"</string>
@@ -293,7 +293,7 @@
     <string name="token_hidden">"Tippen um token anzuzeigen"</string>
     <string name="token_shown">"Nochmal tippen um zu kopieren oder zu bearbeiten"</string>
     <string name="token_adv_login_description">"Dies ist eine FORTGESCHRITTENE Anmeldemethode. Als Alternative zum Webportal kannst du dein Anmelde-Token hier direkt eingeben oder aktualisieren. Dies kann zum Beispiel das Anmelden auf mehreren Geräten beschleunigen. Bitte beachte, dass alle ungültigen Token-Formate, die von der App nicht analysiert werden können, nicht akzeptiert werden."</string>
-    <string name="ytm_sync">"Automatischer Abgleich mit deinem YouTube Music Konto"</string>
+    <string name="ytm_sync">"Automatischer Abgleich mit deinem Streaming Konto"</string>
     <string name="general">"Allgemein"</string>
     <string name="content_language">"Standard-Inhaltssprache"</string>
     <string name="content_country">"Standard-Inhaltsland"</string>
@@ -365,7 +365,7 @@
     <string name="backup_create_failed">"Konnte keine Sicherung erstellen"</string>
     <string name="restore_failed">"Wiederherstellung der Sicherung fehlgeschlagen"</string>
     <string name="discord_integration">"Discors-Integration"</string>
-    <string name="discord_information">"OpenTune verwendet die KizzyRPC-Bibliothek, um den Status deines Discord-Kontos zu setzen. Dabei wird die Discord-Gateway-Verbindung verwendet, was als Verstoß gegen die AGB von Discord angesehen werden kann. Es sind jedoch keine Fälle bekannt, in denen Benutzerkonten aus diesem Grund gesperrt wurden. Die Verwendung erfolgt auf eigene Gefahr. OpenTune extrahiert nur dein Token, alles andere wird lokal gespeichert."</string>
+    <string name="discord_information">"music verwendet die KizzyRPC-Bibliothek, um den Status deines Discord-Kontos zu setzen. Dabei wird die Discord-Gateway-Verbindung verwendet, was als Verstoß gegen die AGB von Discord angesehen werden kann. Es sind jedoch keine Fälle bekannt, in denen Benutzerkonten aus diesem Grund gesperrt wurden. Die Verwendung erfolgt auf eigene Gefahr. music extrahiert nur dein Token, alles andere wird lokal gespeichert."</string>
     <string name="dismiss">"Ignorieren"</string>
     <string name="options">"Optionen"</string>
     <string name="preview">"Vorschau"</string>
@@ -480,81 +480,13 @@
     <string name="navigation_error">"Error de navegación"</string>
     <string name="notifications_enabled">"Notificaciones habilitadas"</string>
     <string name="notifications_disabled">"Notificaciones desabilitadas"</string>
-    <string name="visitor_data_title"></string>
-    <string name="visitor_data_description"></string>
-    <string name="visitor_data_info_button"></string>
-    <string name="visitor_data_reset_button"></string>
-    <string name="visitor_data_info_title"></string>
-    <string name="visitor_data_info_intro"></string>
-    <string name="visitor_data_info_problems"></string>
-    <string name="visitor_data_info_solution"></string>
-    <string name="visitor_data_info_note"></string>
-    <string name="visitor_data_info_confirm"></string>
-    <string name="visitor_data_reset_title"></string>
-    <string name="visitor_data_reset_message"></string>
-    <string name="visitor_data_reset_confirm"></string>
-    <string name="visitor_data_reset_cancel"></string>
-    <string name="widget_title"></string>
     <string name="error_saving_image">"Error al guardar imagen"</string>
     <string name="processing">"verarbeiten"</string>
     <string name="subscribed">"abonniert"</string>
     <string name="subscribe">"abonnieren"</string>
     <string name="language">"Sprache"</string>
-    <string name="selection_mode_active"></string>
 
     <!-- Avatar Selection -->
-    <string name="avatar_selection"></string>
-    <string name="choose_predefined_avatar"></string>
 
     <!-- Avatar Descriptions for Predefined Avatars -->
-    <string name="geometric_avatar_1"></string>
-    <string name="geometric_avatar_2"></string>
-    <string name="geometric_avatar_3"></string>
-    <string name="geometric_avatar_4"></string>
-    <string name="geometric_avatar_5"></string>
-    <string name="geometric_avatar_6"></string>
-    <string name="purple_initial_avatar"></string>
-    <string name="blue_initial_avatar"></string>
-    <string name="green_initial_avatar"></string>
-    <string name="orange_initial_avatar"></string>
-    <string name="red_initial_avatar"></string>
-    <string name="teal_initial_avatar"></string>
-    <string name="dots_pattern_avatar"></string>
-    <string name="waves_pattern_avatar"></string>
-    <string name="gradient_pattern_avatar"></string>
-    <string name="music_note_avatar"></string>
-    <string name="equalizer_avatar"></string>
-    <string name="headphones_avatar"></string>
-    <string name="discord_use_details"></string>
-    <string name="discord_use_details_description"></string>
-    <string name="community"></string>
-    <string name="app_info"></string>
-    <string name="hide_controls"></string>
-    <string name="show_controls"></string>
-    <string name="customize_lyrics_image"></string>
-    <string name="customize_image"></string>
-    <string name="select_theme"></string>
-    <string name="from_cover"></string>
-    <string name="presets"></string>
-    <string name="share_lyrics_image"></string>
-    <string name="error_generating_image"></string>
-    <string name="cover_color"></string>
-    <string name="Rotatelyricsbackground"></string>
-    <string name="playlist_add_local_to_synced_note"></string>
-    <string name="manage"></string>
-    <string name="clear"></string>
-    <string name="playing_from"></string>
-    <string name="SmallButtonsShape"></string>
-    <string name="cloud_upload_title"></string>
-    <string name="cloud_upload_enabled_description"></string>
-    <string name="cloud_upload_disabled_description"></string>
-    <string name="backup_with_cloud"></string>
-    <string name="uploading_backup"></string>
-    <string name="backup_success"></string>
-    <string name="backup_upload_error"></string>
-    <string name="cache_clearing"></string>
-    <string name="info_button"></string>
-    <string name="reset_button"></string>
-    <string name="processing_songs"></string>
-    <string name="understood"></string>
 </resources>

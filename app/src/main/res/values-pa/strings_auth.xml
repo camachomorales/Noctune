@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-pa/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">ਸਾਈਨ ਇਨ</string>
+    <string name="auth_create_account">ਖਾਤਾ ਬਣਾਓ</string>
+    <string name="auth_welcome_back">ਵਾਪਸੀ ਤੇ ਜੀ ਆਇਆਂ ਨੂੰ!</string>
+    <string name="auth_join_today">ਅੱਜ ਹੀ ਸਾਡੇ ਨਾਲ ਜੁੜੋ!</string>
+    <string name="auth_create">ਬਣਾਓ</string>
+    <string name="auth_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="auth_name">ਨਾਂ</string>
+    <string name="auth_email">ਈਮੇਲ</string>
+    <string name="auth_password">ਪਾਸਵਰਡ</string>
+    <string name="auth_toggle_password">ਪਾਸਵਰਡ ਦਿਖਾਓ ਜਾਂ ਲੁਕਾਓ</string>
+    <string name="auth_statistics">ਅੰਕੜੇ</string>
+    <string name="auth_songs_played">ਚਲਾਏ ਗਏ ਗੀਤ</string>
+    <string name="auth_time_listened">ਸੁਣਨ ਦਾ ਸਮਾਂ</string>
+    <string name="auth_favorites">ਮਨਪਸੰਦ</string>
+    <string name="auth_account_info">ਖਾਤੇ ਦੀ ਜਾਣਕਾਰੀ</string>
+    <string name="auth_member_since">ਮੈਂਬਰ ਬਣਨ ਦੀ ਤਾਰੀਖ</string>
+    <string name="auth_sign_out_title">ਸਾਈਨ ਆਊਟ ਕਰਨਾ ਹੈ?</string>
+    <string name="auth_sign_out_message">ਤੁਸੀਂ ਮਹਿਮਾਨ ਮੋਡ ਵਿੱਚ ਚਲੇ ਜਾਓਗੇ। ਦੁਬਾਰਾ ਸਾਈਨ ਇਨ ਕਰਨ ਤੋਂ ਬਾਅਦ ਤੁਹਾਡੀਆਂ ਪਲੇਲਿਸਟਾਂ ਇੱਥੇ ਮੁੜ ਆ ਜਾਣਗੀਆਂ।</string>
+    <string name="auth_guest_warning">ਇਸ ਡੀਵਾਈਸ ਉੱਤੇ ਤੁਹਾਡੀਆਂ ਪਲੇਲਿਸਟਾਂ ਅਤੇ ਅੰਕੜੇ ਤੁਹਾਡੇ ਨਾਲ ਜੁੜੇ ਰਹਿਣ, ਇਸ ਲਈ ਇੱਕ ਖਾਤਾ ਬਣਾਓ।</string>
+    <string name="auth_error_name">ਆਪਣਾ ਨਾਂ ਦਰਜ ਕਰੋ।</string>
+    <string name="auth_error_email_invalid">ਇਹ ਈਮੇਲ ਸਹੀ ਨਹੀਂ ਲੱਗਦੀ।</string>
+    <string name="auth_error_password_short">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ %1$d ਅੱਖਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।</string>
+    <string name="auth_error_email_taken">ਇਸ ਈਮੇਲ ਨਾਲ ਪਹਿਲਾਂ ਹੀ ਇੱਕ ਖਾਤਾ ਮੌਜੂਦ ਹੈ।</string>
+    <string name="auth_error_wrong_credentials">ਈਮੇਲ ਜਾਂ ਪਾਸਵਰਡ ਗਲਤ ਹੈ।</string>
+</resources>

@@ -22,7 +22,7 @@
     <string name="forgotten_favorites">Preferiti dimenticati</string>
     <string name="similar_to">Simile a</string>
     <string name="keep_listening">Continua ad ascoltare</string>
-    <string name="your_ytb_playlists">Il tuo account YouTube</string>
+    <string name="your_ytb_playlists">Il tuo account Streaming</string>
     <!-- History -->
     <string name="today">Oggi</string>
     <string name="yesterday">Ieri</string>
@@ -40,7 +40,7 @@
     <string name="continuous">Continuo</string>
     <!-- Search -->
     <string name="search">Ricerca</string>
-    <string name="search_yt_music">Ricerca YouTube Music…</string>
+    <string name="search_yt_music">Ricerca Streaming…</string>
     <string name="search_library">Ricerca libreria…</string>
     <string name="filter_library">Libreria</string>
     <string name="filter_liked">Piaciuti</string>
@@ -75,7 +75,7 @@
     <string name="remove_download_playlist_confirm">Vuoi davvero rimuovere tutti i brani della playlist \"%s\" dallo spazio di archiviazione dei brani scaricati?</string>
     <string name="delete_playlist_confirm">Vuoi davvero eliminare la playlist \"%s\"?</string>
     <string name="elements_selected">%1$d Elementi selezionati</string>
-    <string name="allows_for_sync_witch_youtube">Nota: Questo permette la sincronizzazione con YouTube Music. Non è modificabile in seguito.</string>
+    <string name="allows_for_sync_witch_youtube">Nota: Questo permette la sincronizzazione con Streaming. Non è modificabile in seguito.</string>
     <!-- Button -->
     <string name="retry">Riprova</string>
     <string name="radio">Radio</string>
@@ -223,7 +223,7 @@
     <string name="queue_searched_songs">Brani cercati</string>
     <string name="similar_content">Contenuto simile</string>
     <!-- Notification name -->
-    <string name="music_player">Player Musicale</string>
+    <string name="music_player">Player musicale</string>
     <!-- Settings -->
     <string name="settings">Impostazioni</string>
     <string name="login_settings">Impostazioni di accesso</string>
@@ -273,7 +273,7 @@
     <string name="token_hidden">Tocca per visualizzare il token</string>
     <string name="token_shown">Tocca ancora per copiare o modificare</string>
     <string name="token_adv_login_description">Si tratta di un metodo di login AVANZATO. In alternativa al portale web, è possibile inserire o aggiornare direttamente il token di login qui. Ad esempio, questo può accelerare il login su più dispositivi. Si prega di notare che con qualsiasi formato token non valido l\'app non riesce ad analizzarlo e non sarà accettato</string>
-    <string name="ytm_sync">Sincronizza automaticamente con il tuo account YouTube Music</string>
+    <string name="ytm_sync">Sincronizza automaticamente con il tuo account Streaming</string>
     <string name="general">Generale</string>
     <string name="content_language">Lingua predefinita contenuto</string>
     <string name="content_country">Paese contenuto predefinito</string>
@@ -345,7 +345,7 @@
     <string name="backup_create_failed">Non posso creare un backup</string>
     <string name="restore_failed">Ripristino backup fallito</string>
     <string name="discord_integration">Integrazione con Discord</string>
-    <string name="discord_information">OpenTune utilizza la libreria KizzyRPC per impostare lo stato del tuo account Discord. Ciò comporta l\'utilizzo della connessione Discord Gateway, che può essere considerata una violazione del TOS di Discord. Tuttavia, non ci sono casi noti di account utente sospesi per questo motivo. Usa a tuo rischio. OpenTunne estrarrà solo il tuo token e tutto il resto verrà memorizzato localmente.</string>
+    <string name="discord_information">music utilizza la libreria KizzyRPC per impostare lo stato del tuo account Discord. Ciò comporta l\'utilizzo della connessione Discord Gateway, che può essere considerata una violazione del TOS di Discord. Tuttavia, non ci sono casi noti di account utente sospesi per questo motivo. Usa a tuo rischio. OpenTunne estrarrà solo il tuo token e tutto il resto verrà memorizzato localmente.</string>
     <string name="dismiss">Scartare</string>
     <string name="options">Opzioni</string>
     <string name="preview">Anteprima</string>

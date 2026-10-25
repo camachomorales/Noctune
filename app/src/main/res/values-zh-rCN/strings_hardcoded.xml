@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 新文件：app/src/main/res/values-zh-rCN/strings_hardcoded.xml -->
+<resources>
+    <!-- 关于页面 -->
+    <string name="about_app_description">您的音乐，您的世界</string>
+    <string name="about_license_name">GNU GPL v3 或更高版本</string>
+    <string name="about_license_title">许可证</string>
+    <string name="about_license_text">%1$s 是自由软件：您可以根据 %2$s 许可证的条款使用、研究、修改和重新分发它。本软件不提供任何担保。</string>
+    <string name="about_view_license">查看许可证</string>
+    <string name="about_source_code">源代码</string>
+    <string name="about_third_party_services">第三方网络服务：Audius、Internet Archive 和 LRCLIB（同步歌词）。本应用不含广告和跟踪器。</string>
+    <string name="about_role_development">开发</string>
+    <string name="about_role_bottomsheet">BottomSheet 基础代码</string>
+    <string name="about_role_ui_base">界面和项目基础</string>
+    <string name="about_role_original_project">OpenTune 所基于的原始项目</string>
+
+    <!-- 艺术家页面 -->
+    <string name="artist_subscribers_count">%1$s 位订阅者</string>
+
+    <!-- Home -->
+    <string name="section_trending_week">本周热门</string>
+    <string name="section_albums_now">热门专辑</string>
+    <string name="section_playlists_discover">值得发现的播放列表</string>
+    <string name="section_in_genre">%1$s 热门</string>
+</resources>

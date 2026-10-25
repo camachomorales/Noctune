@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-af-rZA/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">Meld aan</string>
+    <string name="auth_create_account">Skep rekening</string>
+    <string name="auth_welcome_back">Welkom terug!</string>
+    <string name="auth_join_today">Sluit vandag by ons aan!</string>
+    <string name="auth_create">Skep</string>
+    <string name="auth_cancel">Kanselleer</string>
+    <string name="auth_name">Naam</string>
+    <string name="auth_email">E-pos</string>
+    <string name="auth_password">Wagwoord</string>
+    <string name="auth_toggle_password">Wys of versteek wagwoord</string>
+    <string name="auth_statistics">Statistiek</string>
+    <string name="auth_songs_played">Liedjies gespeel</string>
+    <string name="auth_time_listened">Luistertyd</string>
+    <string name="auth_favorites">Gunstelinge</string>
+    <string name="auth_account_info">Rekeninginligting</string>
+    <string name="auth_member_since">Lid sedert</string>
+    <string name="auth_sign_out_title">Meld af?</string>
+    <string name="auth_sign_out_message">Jy skakel oor na gasmodus. Jou snitlyste sal weer hier wees wanneer jy weer aanmeld.</string>
+    <string name="auth_guest_warning">Skep \'n rekening sodat jou snitlyste en statistiek op hierdie toestel aan jou gekoppel bly.</string>
+    <string name="auth_error_name">Voer jou naam in.</string>
+    <string name="auth_error_email_invalid">Hierdie e-pos lyk nie geldig nie.</string>
+    <string name="auth_error_password_short">Die wagwoord moet minstens %1$d karakters lank wees.</string>
+    <string name="auth_error_email_taken">Daar bestaan reeds \'n rekening met hierdie e-pos.</string>
+    <string name="auth_error_wrong_credentials">Verkeerde e-pos of wagwoord.</string>
+</resources>

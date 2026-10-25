@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-ja-rJP/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">あなたの音楽、あなたの世界</string>
+    <string name="about_license_name">GNU GPL v3 以降</string>
+    <string name="about_license_title">ライセンス</string>
+    <string name="about_license_text">%1$s はフリーソフトウェアです。%2$s ライセンスの条件に従って、使用、研究、改変、再配布することができます。保証は一切ありません。</string>
+    <string name="about_view_license">ライセンスを表示</string>
+    <string name="about_source_code">ソースコード</string>
+    <string name="about_third_party_services">サードパーティのネットワークサービス：Audius、Internet Archive、LRCLIB（同期歌詞）。このアプリには広告やトラッカーは含まれていません。</string>
+    <string name="about_role_development">開発</string>
+    <string name="about_role_bottomsheet">BottomSheet のベースコード</string>
+    <string name="about_role_ui_base">インターフェースとプロジェクトの基盤</string>
+    <string name="about_role_original_project">OpenTune のベースとなったオリジナルプロジェクト</string>
+    <string name="artist_subscribers_count">登録者数 %1$s</string>
+    <string name="section_trending_week">今週のトレンド</string>
+    <string name="section_albums_now">注目のアルバム</string>
+    <string name="section_playlists_discover">新しい発見のためのプレイリスト</string>
+    <string name="section_in_genre">%1$s のトレンド</string>
+</resources>

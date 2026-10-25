@@ -1,27 +1,64 @@
 @file:Suppress("UnstableApiUsage")
+import java.util.Properties
 
 plugins {
     id("com.android.application")
     kotlin("android")
     kotlin("plugin.serialization") version "2.1.0"
-    kotlin("kapt")
     alias(libs.plugins.hilt)
     alias(libs.plugins.kotlin.ksp)
     alias(libs.plugins.compose.compiler)
 }
 
+// local.properties (archivo local, NO se sube al repo). Se lee una sola vez.
+val localProps = Properties().apply {
+    val f = rootProject.file("local.properties")
+    if (f.exists()) f.inputStream().use { load(it) }
+}
+
+// Firma de release OPCIONAL: solo si existe keystore.properties (archivo local, NO se sube al repo).
+// En F-Droid ese archivo no existe, así que el APK sale sin firmar y F-Droid lo firma con su clave.
+val keystoreProps = Properties().apply {
+    val f = rootProject.file("keystore.properties")
+    if (f.exists()) f.inputStream().use { load(it) }
+}
+
+// Solo para pruebas locales: firma el release con la clave debug si lo activas en local.properties
+val signReleaseWithDebug = localProps.getProperty("signing.useDebug") == "true"
+
+// Clave opcional de Audius. Orden: local.properties (audius.apiKey) -> variable de entorno
+// AUDIUS_API_KEY -> vacía. Sin clave (como en F-Droid) la app compila igual.
+val audiusApiKey: String =
+    (localProps.getProperty("audius.apiKey") ?: System.getenv("AUDIUS_API_KEY") ?: "")
+        .trim()
+        .replace("\\", "\\\\")
+        .replace("\"", "\\\"")
+
 android {
-    namespace = "com.arturo254.opentune"
+    namespace = "com.betsy.music"
     //noinspection GradleDependency
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.Arturo254.opentune"
+        applicationId = "com.betsy.music"
         minSdk = 24
         targetSdk = 35
         versionCode = 126
-        versionName = "2.0.12"
+        versionName = "1.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "AUDIUS_API_KEY", "\"$audiusApiKey\"")
+    }
+
+    signingConfigs {
+        if (keystoreProps.isNotEmpty()) {
+            create("release") {
+                storeFile = file(keystoreProps.getProperty("storeFile"))
+                storePassword = keystoreProps.getProperty("storePassword")
+                keyAlias = keystoreProps.getProperty("keyAlias")
+                keyPassword = keystoreProps.getProperty("keyPassword")
+            }
+        }
     }
 
     buildTypes {
@@ -33,20 +70,18 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-        }
-        debug {
-            applicationIdSuffix = ".debug"
-        }
-    }
-
-    signingConfigs {
-        getByName("debug") {
-            if (System.getenv("MUSIC_DEBUG_SIGNING_STORE_PASSWORD") != null) {
-                storeFile = file(System.getenv("MUSIC_DEBUG_KEYSTORE_FILE"))
-                storePassword = System.getenv("MUSIC_DEBUG_SIGNING_STORE_PASSWORD")
-                keyAlias = "debug"
-                keyPassword = System.getenv("MUSIC_DEBUG_SIGNING_KEY_PASSWORD")
+            // 1) keystore.properties presente -> tu clave de release
+            // 2) signing.useDebug=true en local.properties -> clave debug (solo pruebas locales)
+            // 3) ninguno (F-Droid) -> APK sin firmar; F-Droid lo firma con su propia clave
+            signingConfig = when {
+                keystoreProps.isNotEmpty() -> signingConfigs.getByName("release")
+                signReleaseWithDebug -> signingConfigs.getByName("debug")
+                else -> null
             }
+        }
+
+        debug {
+
         }
     }
 
@@ -66,7 +101,6 @@ android {
         compose = true
     }
 
-    // ✅ Alineamos TODO a Java 21
     compileOptions {
         isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_21
@@ -91,11 +125,11 @@ android {
         disable += "MissingTranslation"
     }
 
+    // F-Droid: no incluir metadatos de dependencias dentro del APK
     dependenciesInfo {
         includeInApk = false
         includeInBundle = false
     }
-
 }
 
 ksp {
@@ -137,31 +171,24 @@ dependencies {
 
     implementation(libs.room.runtime)
     implementation(libs.kotlinx.serialization.json)
-    implementation(libs.blurry)
     implementation(libs.material.ripple)
-    implementation(libs.room.runtime.android)
     implementation(libs.material.icons.extended)
-    implementation(libs.glance.appwidget)
-    implementation(libs.glance.material3)
     implementation(libs.graphics.shapes)
-    implementation(libs.work.runtime.ktx)
     implementation(libs.constraintlayout)
-    implementation(libs.itextg)
-    implementation(libs.mpandroidchart)
+    implementation(libs.androidx.foundation.layout)
+    implementation(libs.androidx.ui.unit)
+    implementation(libs.androidx.ui.geometry)
     ksp(libs.room.compiler)
     implementation(libs.room.ktx)
 
     implementation(libs.apache.lang3)
 
     implementation(libs.hilt)
-    implementation("org.jsoup:jsoup:1.18.1")
-    kapt(libs.hilt.compiler)
+    ksp(libs.hilt.compiler)
 
-    implementation(projects.innertube)
-    implementation(projects.kugou)
+    implementation(projects.audius)
     implementation(projects.lrclib)
-    implementation(projects.kizzy)
-    implementation(project(":jossredconnect"))
+    implementation(project(":internetarchive"))
 
     implementation(libs.ktor.client.core)
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-id/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">Musik Anda, dunia Anda</string>
+    <string name="about_license_name">GNU GPL v3 atau yang lebih baru</string>
+    <string name="about_license_title">Lisensi</string>
+    <string name="about_license_text">%1$s adalah perangkat lunak bebas: Anda dapat menggunakan, mempelajari, mengubah, dan mendistribusikannya kembali berdasarkan ketentuan lisensi %2$s. Didistribusikan TANPA JAMINAN APA PUN.</string>
+    <string name="about_view_license">Lihat lisensi</string>
+    <string name="about_source_code">Kode sumber</string>
+    <string name="about_third_party_services">Layanan jaringan pihak ketiga: Audius, Internet Archive, dan LRCLIB (lirik tersinkron). Aplikasi ini tidak berisi iklan atau pelacak.</string>
+    <string name="about_role_development">Pengembangan</string>
+    <string name="about_role_bottomsheet">Kode dasar BottomSheet</string>
+    <string name="about_role_ui_base">Dasar antarmuka dan proyek</string>
+    <string name="about_role_original_project">Proyek asli yang menjadi dasar OpenTune</string>
+    <string name="artist_subscribers_count">%1$s pelanggan</string>
+    <string name="section_trending_week">Tren minggu ini</string>
+    <string name="section_albums_now">Album populer</string>
+    <string name="section_playlists_discover">Daftar putar untuk dijelajahi</string>
+    <string name="section_in_genre">Tren di %1$s</string>
+</resources>

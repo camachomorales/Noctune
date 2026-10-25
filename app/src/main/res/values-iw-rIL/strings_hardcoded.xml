@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-iw-rIL/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">המוזיקה שלך, העולם שלך</string>
+    <string name="about_license_name">GNU GPL גרסה 3 ומעלה</string>
+    <string name="about_license_title">רישיון</string>
+    <string name="about_license_text">%1$s היא תוכנה חופשית: אפשר להשתמש בה, לחקור אותה, לשנות אותה ולהפיץ אותה מחדש בהתאם לתנאי הרישיון %2$s. התוכנה מופצת ללא כל אחריות.</string>
+    <string name="about_view_license">הצגת הרישיון</string>
+    <string name="about_source_code">קוד מקור</string>
+    <string name="about_third_party_services">שירותי רשת של צד שלישי: Audius, Internet Archive ו-LRCLIB (מילות שירים מסונכרנות). האפליקציה אינה כוללת פרסומות או מעקבים.</string>
+    <string name="about_role_development">פיתוח</string>
+    <string name="about_role_bottomsheet">קוד הבסיס של BottomSheet</string>
+    <string name="about_role_ui_base">בסיס הממשק והפרויקט</string>
+    <string name="about_role_original_project">הפרויקט המקורי שעליו OpenTune מבוסס</string>
+    <string name="artist_subscribers_count">%1$s מנויים</string>
+    <string name="section_trending_week">פופולרי השבוע</string>
+    <string name="section_albums_now">אלבומים פופולריים</string>
+    <string name="section_playlists_discover">פלייליסטים לגילוי</string>
+    <string name="section_in_genre">פופולרי: %1$s</string>
+</resources>

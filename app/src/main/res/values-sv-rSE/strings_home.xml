@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">För att visa din lokala musik behöver vi åtkomst\ntill dina ljudfiler.</string>
+    <string name="recently_added">Nyligen tillagda</string>
+    <string name="search_banner_streaming">Söker i Streaming</string>
+    <string name="search_banner_local">Söker i ditt lokala bibliotek</string>
+    <string name="search_banner_tap_local">Tryck för att byta till Lokalt</string>
+    <string name="search_banner_tap_streaming">Tryck för att byta till Streaming</string>
+    <string name="mode_hint_to_local">Hem, sök och bibliotek använder musik från din enhet</string>
+    <string name="mode_hint_to_streaming">Hem, sök och bibliotek använder Streaming</string>
+    <string name="search_hint_streaming">Sök i streaming…</string>
+    <string name="search_hint_device">Sök på din enhet…</string>
+    <string name="your_music_count">Din musik (%1$d låtar)</string>
+</resources>

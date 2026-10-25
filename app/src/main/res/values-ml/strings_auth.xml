@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-ml/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">സൈൻ ഇൻ</string>
+    <string name="auth_create_account">അക്കൗണ്ട് സൃഷ്ടിക്കുക</string>
+    <string name="auth_welcome_back">തിരികെ സ്വാഗതം!</string>
+    <string name="auth_join_today">ഇന്നുതന്നെ ഞങ്ങളോടൊപ്പം ചേരൂ!</string>
+    <string name="auth_create">സൃഷ്ടിക്കുക</string>
+    <string name="auth_cancel">റദ്ദാക്കുക</string>
+    <string name="auth_name">പേര്</string>
+    <string name="auth_email">ഇമെയിൽ</string>
+    <string name="auth_password">പാസ്‌വേഡ്</string>
+    <string name="auth_toggle_password">പാസ്‌വേഡ് കാണിക്കുക അല്ലെങ്കിൽ മറയ്ക്കുക</string>
+    <string name="auth_statistics">സ്ഥിതിവിവരക്കണക്കുകൾ</string>
+    <string name="auth_songs_played">പ്ലേ ചെയ്ത ഗാനങ്ങൾ</string>
+    <string name="auth_time_listened">കേട്ട സമയം</string>
+    <string name="auth_favorites">പ്രിയപ്പെട്ടവ</string>
+    <string name="auth_account_info">അക്കൗണ്ട് വിവരങ്ങൾ</string>
+    <string name="auth_member_since">അംഗമായത്</string>
+    <string name="auth_sign_out_title">സൈൻ ഔട്ട് ചെയ്യണോ?</string>
+    <string name="auth_sign_out_message">നിങ്ങൾ ഗസ്റ്റ് മോഡിലേക്ക് മാറും. വീണ്ടും സൈൻ ഇൻ ചെയ്യുമ്പോൾ നിങ്ങളുടെ പ്ലേലിസ്റ്റുകൾ ഇവിടെ തിരികെ വരും.</string>
+    <string name="auth_guest_warning">ഈ ഉപകരണത്തിൽ നിങ്ങളുടെ പ്ലേലിസ്റ്റുകളും സ്ഥിതിവിവരക്കണക്കുകളും നിങ്ങളോടൊപ്പം ബന്ധിപ്പിച്ച് നിലനിർത്താൻ ഒരു അക്കൗണ്ട് സൃഷ്ടിക്കുക.</string>
+    <string name="auth_error_name">നിങ്ങളുടെ പേര് നൽകുക.</string>
+    <string name="auth_error_email_invalid">ഈ ഇമെയിൽ സാധുവായി തോന്നുന്നില്ല.</string>
+    <string name="auth_error_password_short">പാസ്‌വേഡിൽ കുറഞ്ഞത് %1$d പ്രതീകങ്ങൾ ഉണ്ടായിരിക്കണം.</string>
+    <string name="auth_error_email_taken">ഈ ഇമെയിൽ ഉപയോഗിച്ച് ഇതിനകം ഒരു അക്കൗണ്ട് ഉണ്ട്.</string>
+    <string name="auth_error_wrong_credentials">ഇമെയിലോ പാസ്‌വേഡോ തെറ്റാണ്.</string>
+</resources>

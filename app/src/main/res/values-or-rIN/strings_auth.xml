@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-or-rIN/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">ସାଇନ୍ ଇନ୍</string>
+    <string name="auth_create_account">ଖାତା ତିଆରି କରନ୍ତୁ</string>
+    <string name="auth_welcome_back">ପୁଣି ସ୍ୱାଗତ!</string>
+    <string name="auth_join_today">ଆଜି ହିଁ ଆମ ସହିତ ଯୋଗ ଦିଅନ୍ତୁ!</string>
+    <string name="auth_create">ତିଆରି କରନ୍ତୁ</string>
+    <string name="auth_cancel">ବାତିଲ୍</string>
+    <string name="auth_name">ନାମ</string>
+    <string name="auth_email">ଇମେଲ୍</string>
+    <string name="auth_password">ପାସୱାର୍ଡ</string>
+    <string name="auth_toggle_password">ପାସୱାର୍ଡ ଦେଖାନ୍ତୁ ବା ଲୁଚାନ୍ତୁ</string>
+    <string name="auth_statistics">ପରିସଂଖ୍ୟାନ</string>
+    <string name="auth_songs_played">ବଜାଯାଇଥିବା ଗୀତ</string>
+    <string name="auth_time_listened">ଶୁଣିବା ସମୟ</string>
+    <string name="auth_favorites">ପସନ୍ଦ</string>
+    <string name="auth_account_info">ଖାତା ସୂଚନା</string>
+    <string name="auth_member_since">ସଦସ୍ୟ ହୋଇଥିବା ତାରିଖ</string>
+    <string name="auth_sign_out_title">ସାଇନ୍ ଆଉଟ୍ କରିବେ?</string>
+    <string name="auth_sign_out_message">ଆପଣ ଅତିଥି ମୋଡ୍‌କୁ ଯିବେ। ପୁଣି ସାଇନ୍ ଇନ୍ କଲେ ଆପଣଙ୍କ ପ୍ଲେଲିଷ୍ଟ ଏଠାରେ ଫେରିଆସିବ।</string>
+    <string name="auth_guest_warning">ଏହି ଡିଭାଇସ୍‌ରେ ଆପଣଙ୍କ ପ୍ଲେଲିଷ୍ଟ ଓ ପରିସଂଖ୍ୟାନ ଆପଣଙ୍କ ସହିତ ଯୁକ୍ତ ରହିବା ପାଇଁ ଏକ ଖାତା ତିଆରି କରନ୍ତୁ।</string>
+    <string name="auth_error_name">ଆପଣଙ୍କ ନାମ ଲେଖନ୍ତୁ।</string>
+    <string name="auth_error_email_invalid">ଏହି ଇମେଲ୍ ଠିକ୍ ଭଳି ଦେଖାଯାଉନାହିଁ।</string>
+    <string name="auth_error_password_short">ପାସୱାର୍ଡରେ ଅତିକମରେ %1$d ଟି ଅକ୍ଷର ରହିବା ଆବଶ୍ୟକ।</string>
+    <string name="auth_error_email_taken">ଏହି ଇମେଲ୍ ସହିତ ଏକ ଖାତା ପୂର୍ବରୁ ଅଛି।</string>
+    <string name="auth_error_wrong_credentials">ଇମେଲ୍ କିମ୍ବା ପାସୱାର୍ଡ ଭୁଲ୍।</string>
+</resources>

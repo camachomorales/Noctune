@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-id/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">Masuk</string>
+    <string name="auth_create_account">Buat akun</string>
+    <string name="auth_welcome_back">Selamat datang kembali!</string>
+    <string name="auth_join_today">Bergabunglah hari ini!</string>
+    <string name="auth_create">Buat</string>
+    <string name="auth_cancel">Batal</string>
+    <string name="auth_name">Nama</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Kata sandi</string>
+    <string name="auth_toggle_password">Tampilkan atau sembunyikan kata sandi</string>
+    <string name="auth_statistics">Statistik</string>
+    <string name="auth_songs_played">Lagu diputar</string>
+    <string name="auth_time_listened">Waktu mendengarkan</string>
+    <string name="auth_favorites">Favorit</string>
+    <string name="auth_account_info">Info akun</string>
+    <string name="auth_member_since">Anggota sejak</string>
+    <string name="auth_sign_out_title">Keluar?</string>
+    <string name="auth_sign_out_message">Anda akan beralih ke mode tamu. Daftar putar Anda akan kembali di sini saat Anda masuk lagi.</string>
+    <string name="auth_guest_warning">Buat akun agar daftar putar dan statistik Anda tetap terhubung dengan Anda di perangkat ini.</string>
+    <string name="auth_error_name">Masukkan nama Anda.</string>
+    <string name="auth_error_email_invalid">Email ini sepertinya tidak valid.</string>
+    <string name="auth_error_password_short">Kata sandi minimal %1$d karakter.</string>
+    <string name="auth_error_email_taken">Akun dengan email ini sudah ada.</string>
+    <string name="auth_error_wrong_credentials">Email atau kata sandi salah.</string>
+</resources>

@@ -26,7 +26,7 @@
     <string name="new_release_albums">"Новые релизы"</string>
     <string name="forgotten_favorites">"Забытые избранные"</string>
     <string name="similar_to">"Похожие на"</string>
-    <string name="your_ytb_playlists">"Ваш аккаунт YouTube"</string>
+    <string name="your_ytb_playlists">"Ваш аккаунт Streaming"</string>
 
     <!-- History -->
     <string name="today">"Сегодня"</string>
@@ -47,7 +47,7 @@
 
     <!-- Search -->
     <string name="search">"Поиск"</string>
-    <string name="search_yt_music">"Поиск в YouTube Music…"</string>
+    <string name="search_yt_music">"Поиск в Streaming…"</string>
     <string name="search_library">"Поиск в библиотеке…"</string>
     <string name="filter_library">"Библиотека"</string>
     <string name="filter_liked">"Нравится"</string>
@@ -86,7 +86,7 @@
     <string name="remove_download_playlist_confirm">"Вы действительно хотите удалить все треки плейлиста «%s» из хранилища?"</string>
     <string name="delete_playlist_confirm">"Вы действительно хотите удалить плейлист «%s»?"</string>
     <string name="elements_selected">"%1$d выбрано"</string>
-    <string name="allows_for_sync_witch_youtube">"Синхронизация плейлиста с YouTube Music. Это не изменить позже."</string>
+    <string name="allows_for_sync_witch_youtube">"Синхронизация плейлиста с Streaming. Это не изменить позже."</string>
 
     <!-- Button -->
     <string name="retry">"Повторить"</string>
@@ -315,7 +315,7 @@
     <string name="token_hidden">"Нажмите, чтобы показать токен"</string>
     <string name="token_shown">"Нажмите снова, чтобы скопировать или изменить"</string>
     <string name="token_adv_login_description">"Это расширенный метод авторизации. В качестве альтернативы вы можете напрямую ввести или обновить здесь свой токен для входа. К примеру, это может ускорить авторизацию на нескольких устройствах. Обратите внимание, что некорректные токены не будут применены."</string>
-    <string name="ytm_sync">"Автоматическая синхронизация с вашим аккаунтом YouTube Music"</string>
+    <string name="ytm_sync">"Автоматическая синхронизация с вашим аккаунтом Streaming"</string>
     <string name="general">"Основные"</string>
     <string name="content_language">"Язык контента"</string>
     <string name="content_country">"Страна контента"</string>
@@ -387,7 +387,7 @@
     <string name="backup_create_failed">"Не удалось создать резервную копию"</string>
     <string name="restore_failed">"Не удалось восстановить резервную копию"</string>
     <string name="discord_integration">"Интеграция с Discord"</string>
-    <string name="discord_information">"OpenTune использует библиотеку KizzyRPC для установки статуса вашего аккаунта Discord. Это включает использование соединения через Discord Gateway, что может считаться нарушением условий использования Discord. Однако, на данный момент нет известных случаев блокировки учетных записей пользователей по этой причине. Используйте на свой страх и риск.  OpenTunne будет извлекать только ваш токен, а все остальное хранится локально."</string>
+    <string name="discord_information">"music использует библиотеку KizzyRPC для установки статуса вашего аккаунта Discord. Это включает использование соединения через Discord Gateway, что может считаться нарушением условий использования Discord. Однако, на данный момент нет известных случаев блокировки учетных записей пользователей по этой причине. Используйте на свой страх и риск.  OpenTunne будет извлекать только ваш токен, а все остальное хранится локально."</string>
     <string name="dismiss">"Закрыть"</string>
     <string name="options">"Настройки"</string>
     <string name="preview">"Предпросмотр"</string>
@@ -504,81 +504,16 @@
     <string name="navigation_error">"Error de navegación"</string>
     <string name="notifications_enabled">"Notificaciones habilitadas"</string>
     <string name="notifications_disabled">"Notificaciones desabilitadas"</string>
-    <string name="visitor_data_title"></string>
-    <string name="visitor_data_description"></string>
-    <string name="visitor_data_info_button"></string>
-    <string name="visitor_data_reset_button"></string>
-    <string name="visitor_data_info_title"></string>
-    <string name="visitor_data_info_intro"></string>
-    <string name="visitor_data_info_problems"></string>
-    <string name="visitor_data_info_solution"></string>
-    <string name="visitor_data_info_note"></string>
-    <string name="visitor_data_info_confirm"></string>
-    <string name="visitor_data_reset_title"></string>
-    <string name="visitor_data_reset_message"></string>
-    <string name="visitor_data_reset_confirm"></string>
-    <string name="visitor_data_reset_cancel"></string>
-    <string name="widget_title"></string>
     <string name="error_saving_image">"Error al guardar imagen"</string>
     <string name="processing">"Procesando"</string>
     <string name="subscribed">"Suscrito"</string>
     <string name="subscribe">"Suscribirse"</string>
     <string name="language">"Idioma"</string>
-    <string name="selection_mode_active"></string>
 
     <!-- Avatar Selection -->
-    <string name="avatar_selection"></string>
-    <string name="choose_predefined_avatar"></string>
 
     <!-- Avatar Descriptions for Predefined Avatars -->
-    <string name="geometric_avatar_1"></string>
-    <string name="geometric_avatar_2"></string>
-    <string name="geometric_avatar_3"></string>
-    <string name="geometric_avatar_4"></string>
-    <string name="geometric_avatar_5"></string>
-    <string name="geometric_avatar_6"></string>
-    <string name="purple_initial_avatar"></string>
-    <string name="blue_initial_avatar"></string>
-    <string name="green_initial_avatar"></string>
-    <string name="orange_initial_avatar"></string>
-    <string name="red_initial_avatar"></string>
-    <string name="teal_initial_avatar"></string>
-    <string name="dots_pattern_avatar"></string>
-    <string name="waves_pattern_avatar"></string>
-    <string name="gradient_pattern_avatar"></string>
-    <string name="music_note_avatar"></string>
-    <string name="equalizer_avatar"></string>
-    <string name="headphones_avatar"></string>
-    <string name="discord_use_details"></string>
-    <string name="discord_use_details_description"></string>
-    <string name="community"></string>
-    <string name="app_info"></string>
-    <string name="hide_controls"></string>
-    <string name="show_controls"></string>
-    <string name="customize_lyrics_image"></string>
-    <string name="customize_image"></string>
-    <string name="select_theme"></string>
-    <string name="from_cover"></string>
-    <string name="presets"></string>
-    <string name="share_lyrics_image"></string>
-    <string name="error_generating_image"></string>
-    <string name="cover_color"></string>
-    <string name="Rotatelyricsbackground"></string>
-    <string name="playlist_add_local_to_synced_note"></string>
-    <string name="manage"></string>
-    <string name="clear"></string>
-    <string name="playing_from"></string>
-    <string name="SmallButtonsShape"></string>
-    <string name="cloud_upload_title"></string>
-    <string name="cloud_upload_enabled_description"></string>
-    <string name="cloud_upload_disabled_description"></string>
-    <string name="backup_with_cloud"></string>
-    <string name="uploading_backup"></string>
-    <string name="backup_success"></string>
-    <string name="backup_upload_error"></string>
-    <string name="cache_clearing"></string>
-    <string name="info_button"></string>
-    <string name="reset_button"></string>
-    <string name="processing_songs"></string>
-    <string name="understood"></string>
+
+    <string name="move_up_in_playlist">Переместить вверх в плейлисте</string>
+    <string name="move_down_in_playlist">Переместить вниз в плейлисте</string>
 </resources>

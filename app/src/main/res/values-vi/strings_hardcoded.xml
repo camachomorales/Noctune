@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-vi/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">Âm nhạc của bạn, thế giới của bạn</string>
+    <string name="about_license_name">GNU GPL v3 trở lên</string>
+    <string name="about_license_title">Giấy phép</string>
+    <string name="about_license_text">%1$s là phần mềm tự do: bạn có thể sử dụng, nghiên cứu, sửa đổi và phân phối lại theo các điều khoản của giấy phép %2$s. Phần mềm được phân phối KHÔNG CÓ BẤT KỲ BẢO HÀNH NÀO.</string>
+    <string name="about_view_license">Xem giấy phép</string>
+    <string name="about_source_code">Mã nguồn</string>
+    <string name="about_third_party_services">Dịch vụ mạng của bên thứ ba: Audius, Internet Archive và LRCLIB (lời bài hát đồng bộ). Ứng dụng không chứa quảng cáo hay trình theo dõi.</string>
+    <string name="about_role_development">Phát triển</string>
+    <string name="about_role_bottomsheet">Mã nguồn cơ sở của BottomSheet</string>
+    <string name="about_role_ui_base">Nền tảng giao diện và dự án</string>
+    <string name="about_role_original_project">Dự án gốc mà OpenTune dựa trên</string>
+    <string name="artist_subscribers_count">%1$s người đăng ký</string>
+    <string name="section_trending_week">Xu hướng tuần này</string>
+    <string name="section_albums_now">Album thịnh hành</string>
+    <string name="section_playlists_discover">Danh sách phát để khám phá</string>
+    <string name="section_in_genre">Xu hướng trong %1$s</string>
+</resources>

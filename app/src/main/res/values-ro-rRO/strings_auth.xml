@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-ro-rRO/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">Autentifică-te</string>
+    <string name="auth_create_account">Creează un cont</string>
+    <string name="auth_welcome_back">Bine ai revenit!</string>
+    <string name="auth_join_today">Alătură-te nouă astăzi!</string>
+    <string name="auth_create">Creează</string>
+    <string name="auth_cancel">Anulează</string>
+    <string name="auth_name">Nume</string>
+    <string name="auth_email">E-mail</string>
+    <string name="auth_password">Parolă</string>
+    <string name="auth_toggle_password">Afișează sau ascunde parola</string>
+    <string name="auth_statistics">Statistici</string>
+    <string name="auth_songs_played">Melodii redate</string>
+    <string name="auth_time_listened">Timp de ascultare</string>
+    <string name="auth_favorites">Favorite</string>
+    <string name="auth_account_info">Informații despre cont</string>
+    <string name="auth_member_since">Membru din</string>
+    <string name="auth_sign_out_title">Te deconectezi?</string>
+    <string name="auth_sign_out_message">Vei trece în modul invitat. Listele tale de redare vor reapărea aici când te vei autentifica din nou.</string>
+    <string name="auth_guest_warning">Creează un cont pentru ca listele tale de redare și statisticile să rămână asociate cu tine pe acest dispozitiv.</string>
+    <string name="auth_error_name">Introdu numele tău.</string>
+    <string name="auth_error_email_invalid">Această adresă de e-mail nu pare validă.</string>
+    <string name="auth_error_password_short">Parola trebuie să aibă cel puțin %1$d caractere.</string>
+    <string name="auth_error_email_taken">Există deja un cont cu această adresă de e-mail.</string>
+    <string name="auth_error_wrong_credentials">Adresă de e-mail sau parolă incorectă.</string>
+</resources>

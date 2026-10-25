@@ -23,7 +23,7 @@
     <string name="forgotten_favorites">पसंदीदा पसंदीदा</string>
     <string name="similar_to">के समान</string>
     <string name="keep_listening">सुनते रहो</string>
-    <string name="your_ytb_playlists">आपका YouTube खाता</string>
+    <string name="your_ytb_playlists">आपका Streaming खाता</string>
 
     <!-- History -->
     <string name="today">आज</string>
@@ -44,7 +44,7 @@
 
     <!-- Search -->
     <string name="search">खोज</string>
-    <string name="search_yt_music">YouTube संगीत खोजें ...</string>
+    <string name="search_yt_music">Streaming संगीत खोजें ...</string>
     <string name="search_library">खोज पुस्तकालय…</string>
     <string name="filter_library">पुस्तकालय</string>
     <string name="filter_liked">पसंद किया</string>
@@ -83,7 +83,7 @@
     <string name="remove_download_playlist_confirm">क्या आप वास्तव में डाउनलोड किए गए गाने के भंडारण से सभी \ "%s \" प्लेलिस्ट गाने को हटाना चाहते हैं?</string>
     <string name="delete_playlist_confirm">क्या आप वास्तव में प्लेलिस्ट \ "%s \" को हटाना चाहते हैं?</string>
     <string name="elements_selected">%1 $ डी तत्व चयनित</string>
-    <string name="allows_for_sync_witch_youtube">नोट: यह YouTube संगीत के साथ सिंक करने की अनुमति देता है। यह बाद में परिवर्तनशील नहीं है।</string>
+    <string name="allows_for_sync_witch_youtube">नोट: यह Streaming संगीत के साथ सिंक करने की अनुमति देता है। यह बाद में परिवर्तनशील नहीं है।</string>
 
     <!-- Button -->
     <string name="retry">पुन: प्रयास करें</string>
@@ -300,7 +300,7 @@
     <string name="token_hidden">टोकन दिखाने के लिए टैप करें</string>
     <string name="token_shown">कॉपी या एडिट करने के लिए फिर से टैप करें</string>
     <string name="token_adv_login_description">यह एक उन्नत लॉगिन विधि है। वेब पोर्टल के विकल्प के रूप में, आप सीधे अपने लॉगिन टोकन को दर्ज या अपडेट कर सकते हैं। उदाहरण के लिए, यह कई उपकरणों पर लॉगिंग को गति दे सकता है। कृपया ध्यान दें कि किसी भी अमान्य टोकन प्रारूप में ऐप को पार्स करने में विफल रहता है, इसे स्वीकार नहीं किया जाएगा</string>
-    <string name="ytm_sync">अपने YouTube संगीत खाते के साथ स्वचालित रूप से सिंक करें</string>
+    <string name="ytm_sync">अपने Streaming संगीत खाते के साथ स्वचालित रूप से सिंक करें</string>
     <string name="general">सामान्य</string>
     <string name="content_language">डिफ़ॉल्ट सामग्री भाषा</string>
     <string name="content_country">डिफ़ॉल्ट सामग्री देश</string>
@@ -378,7 +378,7 @@
     <string name="restore_failed">बैकअप को पुनर्स्थापित करने में विफल रहा</string>
 
     <string name="discord_integration">कलह एकीकरण</string>
-    <string name="discord_information">Opentune अपने डिस्कोर्ड अकाउंट की स्थिति को सेट करने के लिए KizzyRPC लाइब्रेरी का उपयोग करता है। इसमें डिस्कॉर्ड गेटवे कनेक्शन का उपयोग करना शामिल है, जिसे डिस्कोर्ड के टीओएस का उल्लंघन माना जा सकता है। हालांकि, इस कारण से उपयोगकर्ता खातों के निलंबित होने के कोई ज्ञात मामले नहीं हैं। अपने जोखिम पर उपयोग करें।  Opentunne केवल आपके टोकन को निकाल देगा, और बाकी सब कुछ स्थानीय रूप से संग्रहीत है।</string>
+    <string name="discord_information">music अपने डिस्कोर्ड अकाउंट की स्थिति को सेट करने के लिए KizzyRPC लाइब्रेरी का उपयोग करता है। इसमें डिस्कॉर्ड गेटवे कनेक्शन का उपयोग करना शामिल है, जिसे डिस्कोर्ड के टीओएस का उल्लंघन माना जा सकता है। हालांकि, इस कारण से उपयोगकर्ता खातों के निलंबित होने के कोई ज्ञात मामले नहीं हैं। अपने जोखिम पर उपयोग करें।  Opentunne केवल आपके टोकन को निकाल देगा, और बाकी सब कुछ स्थानीय रूप से संग्रहीत है।</string>
     <string name="dismiss">नकार देना</string>
     <string name="options">विकल्प</string>
     <string name="preview">पूर्व दर्शन</string>

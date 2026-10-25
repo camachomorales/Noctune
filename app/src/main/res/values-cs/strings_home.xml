@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Abychom zobrazili vaši místní hudbu, potřebujeme přístup\nk vašim zvukovým souborům.</string>
+    <string name="recently_added">Nedávno přidané</string>
+    <string name="search_banner_streaming">Hledání v Streaming</string>
+    <string name="search_banner_local">Hledání ve vaší místní knihovně</string>
+    <string name="search_banner_tap_local">Klepnutím přepnete na Místní</string>
+    <string name="search_banner_tap_streaming">Klepnutím přepnete na Streamování</string>
+    <string name="mode_hint_to_local">Domů, hledání a knihovna budou používat hudbu ze zařízení</string>
+    <string name="mode_hint_to_streaming">Domů, hledání a knihovna budou používat Streaming</string>
+    <string name="search_hint_streaming">Hledat ve streamování…</string>
+    <string name="search_hint_device">Hledat v zařízení…</string>
+</resources>

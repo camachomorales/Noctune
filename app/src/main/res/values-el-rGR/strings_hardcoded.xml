@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-el-rGR/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">Η μουσική σας, ο κόσμος σας</string>
+    <string name="about_license_name">GNU GPL v3 ή νεότερη</string>
+    <string name="about_license_title">Άδεια χρήσης</string>
+    <string name="about_license_text">Το %1$s είναι ελεύθερο λογισμικό: μπορείτε να το χρησιμοποιείτε, να το μελετάτε, να το τροποποιείτε και να το αναδιανέμετε σύμφωνα με τους όρους της άδειας %2$s. Διανέμεται ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ.</string>
+    <string name="about_view_license">Προβολή άδειας</string>
+    <string name="about_source_code">Πηγαίος κώδικας</string>
+    <string name="about_third_party_services">Υπηρεσίες δικτύου τρίτων: Audius, Internet Archive και LRCLIB (συγχρονισμένοι στίχοι). Η εφαρμογή δεν περιέχει διαφημίσεις ή ιχνηλάτες.</string>
+    <string name="about_role_development">Ανάπτυξη</string>
+    <string name="about_role_bottomsheet">Βασικός κώδικας του BottomSheet</string>
+    <string name="about_role_ui_base">Βάση της διεπαφής και του έργου</string>
+    <string name="about_role_original_project">Το αρχικό έργο στο οποίο βασίζεται το OpenTune</string>
+    <string name="artist_subscribers_count">%1$s συνδρομητές</string>
+    <string name="section_trending_week">Τάσεις της εβδομάδας</string>
+    <string name="section_albums_now">Άλμπουμ της στιγμής</string>
+    <string name="section_playlists_discover">Λίστες για να ανακαλύψετε</string>
+    <string name="section_in_genre">Τάσεις σε %1$s</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-hi/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">आपका संगीत, आपकी दुनिया</string>
+    <string name="about_license_name">GNU GPL v3 या उसके बाद का संस्करण</string>
+    <string name="about_license_title">लाइसेंस</string>
+    <string name="about_license_text">%1$s मुफ़्त सॉफ़्टवेयर है: आप %2$s लाइसेंस की शर्तों के तहत इसका उपयोग, अध्ययन, संशोधन और पुनर्वितरण कर सकते हैं। यह बिना किसी वारंटी के वितरित किया जाता है।</string>
+    <string name="about_view_license">लाइसेंस देखें</string>
+    <string name="about_source_code">सोर्स कोड</string>
+    <string name="about_third_party_services">तृतीय-पक्ष नेटवर्क सेवाएँ: Audius, Internet Archive और LRCLIB (सिंक किए गए बोल)। ऐप में कोई विज्ञापन या ट्रैकर नहीं हैं।</string>
+    <string name="about_role_development">डेवलपमेंट</string>
+    <string name="about_role_bottomsheet">BottomSheet का बेस कोड</string>
+    <string name="about_role_ui_base">इंटरफ़ेस और प्रोजेक्ट का आधार</string>
+    <string name="about_role_original_project">मूल प्रोजेक्ट जिस पर OpenTune आधारित है</string>
+    <string name="artist_subscribers_count">%1$s सब्सक्राइबर</string>
+    <string name="section_trending_week">इस सप्ताह के ट्रेंड</string>
+    <string name="section_albums_now">ट्रेंडिंग एल्बम</string>
+    <string name="section_playlists_discover">खोजने के लिए प्लेलिस्ट</string>
+    <string name="section_in_genre">%1$s में ट्रेंडिंग</string>
+</resources>

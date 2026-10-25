@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-no-rNO/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">Logg inn</string>
+    <string name="auth_create_account">Opprett konto</string>
+    <string name="auth_welcome_back">Velkommen tilbake!</string>
+    <string name="auth_join_today">Bli med i dag!</string>
+    <string name="auth_create">Opprett</string>
+    <string name="auth_cancel">Avbryt</string>
+    <string name="auth_name">Navn</string>
+    <string name="auth_email">E-post</string>
+    <string name="auth_password">Passord</string>
+    <string name="auth_toggle_password">Vis eller skjul passord</string>
+    <string name="auth_statistics">Statistikk</string>
+    <string name="auth_songs_played">Spilte sanger</string>
+    <string name="auth_time_listened">Lyttetid</string>
+    <string name="auth_favorites">Favoritter</string>
+    <string name="auth_account_info">Kontoinformasjon</string>
+    <string name="auth_member_since">Medlem siden</string>
+    <string name="auth_sign_out_title">Logge ut?</string>
+    <string name="auth_sign_out_message">Du bytter til gjestemodus. Spillelistene dine er her igjen når du logger inn på nytt.</string>
+    <string name="auth_guest_warning">Opprett en konto for å holde spillelistene og statistikken din knyttet til deg på denne enheten.</string>
+    <string name="auth_error_name">Skriv inn navnet ditt.</string>
+    <string name="auth_error_email_invalid">Denne e-postadressen ser ikke riktig ut.</string>
+    <string name="auth_error_password_short">Passordet må være minst %1$d tegn langt.</string>
+    <string name="auth_error_email_taken">Det finnes allerede en konto med denne e-postadressen.</string>
+    <string name="auth_error_wrong_credentials">Feil e-postadresse eller passord.</string>
+</resources>

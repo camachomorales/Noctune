@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-ko-rKR/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">로그인</string>
+    <string name="auth_create_account">계정 만들기</string>
+    <string name="auth_welcome_back">다시 오신 것을 환영해요!</string>
+    <string name="auth_join_today">지금 바로 함께해요!</string>
+    <string name="auth_create">만들기</string>
+    <string name="auth_cancel">취소</string>
+    <string name="auth_name">이름</string>
+    <string name="auth_email">이메일</string>
+    <string name="auth_password">비밀번호</string>
+    <string name="auth_toggle_password">비밀번호 표시 또는 숨기기</string>
+    <string name="auth_statistics">통계</string>
+    <string name="auth_songs_played">재생한 노래</string>
+    <string name="auth_time_listened">청취 시간</string>
+    <string name="auth_favorites">즐겨찾기</string>
+    <string name="auth_account_info">계정 정보</string>
+    <string name="auth_member_since">가입일</string>
+    <string name="auth_sign_out_title">로그아웃할까요?</string>
+    <string name="auth_sign_out_message">게스트 모드로 전환돼요. 다시 로그인하면 플레이리스트가 여기에 다시 나타나요.</string>
+    <string name="auth_guest_warning">계정을 만들면 이 기기에서 플레이리스트와 통계가 내 계정에 연결된 채로 유지돼요.</string>
+    <string name="auth_error_name">이름을 입력해 주세요.</string>
+    <string name="auth_error_email_invalid">이메일 주소가 올바르지 않은 것 같아요.</string>
+    <string name="auth_error_password_short">비밀번호는 %1$d자 이상이어야 해요.</string>
+    <string name="auth_error_email_taken">이 이메일로 만든 계정이 이미 있어요.</string>
+    <string name="auth_error_wrong_credentials">이메일 또는 비밀번호가 올바르지 않아요.</string>
+</resources>

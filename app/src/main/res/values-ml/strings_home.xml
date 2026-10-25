@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">നിങ്ങളുടെ ലോക്കൽ സംഗീതം കാണാൻ നിങ്ങളുടെ ഓഡിയോ ഫയലുകളിലേക്ക്\nആക്സസ് ആവശ്യമാണ്.</string>
+    <string name="recently_added">അടുത്തിടെ ചേർത്തത്</string>
+    <string name="search_banner_streaming">Streaming-ൽ തിരയുന്നു</string>
+    <string name="search_banner_local">നിങ്ങളുടെ ലോക്കൽ ലൈബ്രറിയിൽ തിരയുന്നു</string>
+    <string name="search_banner_tap_local">ലോക്കലിലേക്ക് മാറാൻ ടാപ്പ് ചെയ്യുക</string>
+    <string name="search_banner_tap_streaming">സ്ട്രീമിംഗിലേക്ക് മാറാൻ ടാപ്പ് ചെയ്യുക</string>
+    <string name="mode_hint_to_local">ഹോം, തിരയൽ, ലൈബ്രറി എന്നിവ നിങ്ങളുടെ ഉപകരണത്തിലെ സംഗീതം ഉപയോഗിക്കും</string>
+    <string name="mode_hint_to_streaming">ഹോം, തിരയൽ, ലൈബ്രറി എന്നിവ Streaming ഉപയോഗിക്കും</string>
+    <string name="search_hint_streaming">സ്ട്രീമിംഗിൽ തിരയുക…</string>
+    <string name="search_hint_device">നിങ്ങളുടെ ഉപകരണത്തിൽ തിരയുക…</string>
+    <string name="your_music_count">നിങ്ങളുടെ സംഗീതം (%1$d പാട്ടുകൾ)</string>
+</resources>

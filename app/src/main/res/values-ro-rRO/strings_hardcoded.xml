@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-ro-rRO/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">Muzica ta, lumea ta</string>
+    <string name="about_license_name">GNU GPL v3 sau o versiune ulterioară</string>
+    <string name="about_license_title">Licență</string>
+    <string name="about_license_text">%1$s este software liber: îl poți folosi, studia, modifica și redistribui în conformitate cu termenii licenței %2$s. Este distribuit FĂRĂ NICIO GARANȚIE.</string>
+    <string name="about_view_license">Vezi licența</string>
+    <string name="about_source_code">Cod sursă</string>
+    <string name="about_third_party_services">Servicii de rețea ale unor terți: Audius, Internet Archive și LRCLIB (versuri sincronizate). Aplicația nu conține reclame sau trackere.</string>
+    <string name="about_role_development">Dezvoltare</string>
+    <string name="about_role_bottomsheet">Codul de bază pentru BottomSheet</string>
+    <string name="about_role_ui_base">Baza interfeței și a proiectului</string>
+    <string name="about_role_original_project">Proiectul original pe care se bazează OpenTune</string>
+    <string name="artist_subscribers_count">%1$s abonați</string>
+    <string name="section_trending_week">În tendințe săptămâna aceasta</string>
+    <string name="section_albums_now">Albume în tendințe</string>
+    <string name="section_playlists_discover">Liste de redare de descoperit</string>
+    <string name="section_in_genre">În tendințe la %1$s</string>
+</resources>

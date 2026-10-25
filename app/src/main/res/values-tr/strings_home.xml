@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Yerel müziğini görmek için ses dosyalarına\nerişim iznine ihtiyacımız var.</string>
+    <string name="recently_added">Son eklenenler</string>
+    <string name="search_banner_streaming">Streaming\'te aranıyor</string>
+    <string name="search_banner_local">Yerel kitaplığında aranıyor</string>
+    <string name="search_banner_tap_local">Yerele geçmek için dokun</string>
+    <string name="search_banner_tap_streaming">Akışa geçmek için dokun</string>
+    <string name="mode_hint_to_local">Ana sayfa, arama ve kitaplık cihazındaki müziği kullanacak</string>
+    <string name="mode_hint_to_streaming">Ana sayfa, arama ve kitaplık Streaming\'i kullanacak</string>
+    <string name="search_hint_streaming">Akışta ara…</string>
+    <string name="search_hint_device">Cihazında ara…</string>
+</resources>

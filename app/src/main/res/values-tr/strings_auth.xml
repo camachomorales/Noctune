@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yeni dosya: app/src/main/res/values-tr/strings_auth.xml -->
+<resources>
+    <string name="auth_sign_in">Giriş yap</string>
+    <string name="auth_create_account">Hesap oluştur</string>
+    <string name="auth_welcome_back">Tekrar hoş geldiniz!</string>
+    <string name="auth_join_today">Bugün bize katılın!</string>
+    <string name="auth_create">Oluştur</string>
+    <string name="auth_cancel">İptal</string>
+    <string name="auth_name">Ad</string>
+    <string name="auth_email">E-posta</string>
+    <string name="auth_password">Şifre</string>
+    <string name="auth_toggle_password">Şifreyi göster veya gizle</string>
+    <string name="auth_statistics">İstatistikler</string>
+    <string name="auth_songs_played">Çalınan şarkılar</string>
+    <string name="auth_time_listened">Dinleme süresi</string>
+    <string name="auth_favorites">Favoriler</string>
+    <string name="auth_account_info">Hesap bilgileri</string>
+    <string name="auth_member_since">Üyelik tarihi</string>
+    <string name="auth_sign_out_title">Çıkış yapılsın mı?</string>
+    <string name="auth_sign_out_message">Misafir moduna geçeceksiniz. Tekrar giriş yaptığınızda çalma listeleriniz yeniden burada olacak.</string>
+    <string name="auth_guest_warning">Çalma listelerinizin ve istatistiklerinizin bu cihazda size bağlı kalması için bir hesap oluşturun.</string>
+    <string name="auth_error_name">Adınızı girin.</string>
+    <string name="auth_error_email_invalid">Bu e-posta adresi doğru görünmüyor.</string>
+    <string name="auth_error_password_short">Şifre en az %1$d karakter olmalıdır.</string>
+    <string name="auth_error_email_taken">Bu e-posta adresiyle zaten bir hesap var.</string>
+    <string name="auth_error_wrong_credentials">E-posta veya şifre hatalı.</string>
+</resources>

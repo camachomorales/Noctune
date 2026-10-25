@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-el-rGR/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">Σύνδεση</string>
+    <string name="auth_create_account">Δημιουργία λογαριασμού</string>
+    <string name="auth_welcome_back">Καλώς ήρθατε ξανά!</string>
+    <string name="auth_join_today">Γίνετε μέλος σήμερα!</string>
+    <string name="auth_create">Δημιουργία</string>
+    <string name="auth_cancel">Ακύρωση</string>
+    <string name="auth_name">Όνομα</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Κωδικός πρόσβασης</string>
+    <string name="auth_toggle_password">Εμφάνιση ή απόκρυψη κωδικού πρόσβασης</string>
+    <string name="auth_statistics">Στατιστικά</string>
+    <string name="auth_songs_played">Τραγούδια που παίχτηκαν</string>
+    <string name="auth_time_listened">Χρόνος ακρόασης</string>
+    <string name="auth_favorites">Αγαπημένα</string>
+    <string name="auth_account_info">Στοιχεία λογαριασμού</string>
+    <string name="auth_member_since">Μέλος από</string>
+    <string name="auth_sign_out_title">Αποσύνδεση;</string>
+    <string name="auth_sign_out_message">Θα μεταβείτε σε λειτουργία επισκέπτη. Οι λίστες σας θα εμφανιστούν ξανά εδώ όταν συνδεθείτε ξανά.</string>
+    <string name="auth_guest_warning">Δημιουργήστε λογαριασμό για να παραμένουν οι λίστες και τα στατιστικά σας συνδεδεμένα με εσάς σε αυτή τη συσκευή.</string>
+    <string name="auth_error_name">Εισαγάγετε το όνομά σας.</string>
+    <string name="auth_error_email_invalid">Αυτό το email δεν φαίνεται έγκυρο.</string>
+    <string name="auth_error_password_short">Ο κωδικός πρόσβασης πρέπει να έχει τουλάχιστον %1$d χαρακτήρες.</string>
+    <string name="auth_error_email_taken">Υπάρχει ήδη λογαριασμός με αυτό το email.</string>
+    <string name="auth_error_wrong_credentials">Λάθος email ή κωδικός πρόσβασης.</string>
+</resources>

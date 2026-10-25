@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Để xem nhạc cục bộ của bạn, chúng tôi cần quyền truy cập\nvào các tệp âm thanh của bạn.</string>
+    <string name="recently_added">Mới thêm gần đây</string>
+    <string name="search_banner_streaming">Đang tìm trên Streaming</string>
+    <string name="search_banner_local">Đang tìm trong thư viện cục bộ của bạn</string>
+    <string name="search_banner_tap_local">Chạm để chuyển sang Cục bộ</string>
+    <string name="search_banner_tap_streaming">Chạm để chuyển sang Phát trực tuyến</string>
+    <string name="mode_hint_to_local">Trang chủ, tìm kiếm và thư viện sẽ dùng nhạc trên thiết bị của bạn</string>
+    <string name="mode_hint_to_streaming">Trang chủ, tìm kiếm và thư viện sẽ dùng Streaming</string>
+    <string name="search_hint_streaming">Tìm trong phát trực tuyến…</string>
+    <string name="search_hint_device">Tìm trên thiết bị của bạn…</string>
+    <string name="your_music_count">Nhạc của bạn (%1$d bài hát)</string>
+</resources>

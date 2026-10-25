@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-vi/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">Đăng nhập</string>
+    <string name="auth_create_account">Tạo tài khoản</string>
+    <string name="auth_welcome_back">Chào mừng bạn trở lại!</string>
+    <string name="auth_join_today">Tham gia cùng chúng tôi ngay hôm nay!</string>
+    <string name="auth_create">Tạo</string>
+    <string name="auth_cancel">Hủy</string>
+    <string name="auth_name">Tên</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Mật khẩu</string>
+    <string name="auth_toggle_password">Hiện hoặc ẩn mật khẩu</string>
+    <string name="auth_statistics">Thống kê</string>
+    <string name="auth_songs_played">Bài hát đã phát</string>
+    <string name="auth_time_listened">Thời gian nghe</string>
+    <string name="auth_favorites">Yêu thích</string>
+    <string name="auth_account_info">Thông tin tài khoản</string>
+    <string name="auth_member_since">Thành viên từ</string>
+    <string name="auth_sign_out_title">Đăng xuất?</string>
+    <string name="auth_sign_out_message">Bạn sẽ chuyển sang chế độ khách. Danh sách phát của bạn sẽ quay lại đây khi bạn đăng nhập lại.</string>
+    <string name="auth_guest_warning">Hãy tạo tài khoản để danh sách phát và thống kê của bạn luôn gắn với bạn trên thiết bị này.</string>
+    <string name="auth_error_name">Vui lòng nhập tên của bạn.</string>
+    <string name="auth_error_email_invalid">Email này có vẻ không hợp lệ.</string>
+    <string name="auth_error_password_short">Mật khẩu phải có ít nhất %1$d ký tự.</string>
+    <string name="auth_error_email_taken">Đã có tài khoản sử dụng email này.</string>
+    <string name="auth_error_wrong_credentials">Email hoặc mật khẩu không đúng.</string>
+</resources>

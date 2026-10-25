@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Για να δεις την τοπική μουσική σου χρειαζόμαστε πρόσβαση\nστα αρχεία ήχου σου.</string>
+    <string name="recently_added">Προστέθηκαν πρόσφατα</string>
+    <string name="search_banner_streaming">Αναζήτηση στο Streaming</string>
+    <string name="search_banner_local">Αναζήτηση στην τοπική βιβλιοθήκη σου</string>
+    <string name="search_banner_tap_local">Πάτα για εναλλαγή σε Τοπικά</string>
+    <string name="search_banner_tap_streaming">Πάτα για εναλλαγή σε Streaming</string>
+    <string name="mode_hint_to_local">Η Αρχική, η αναζήτηση και η βιβλιοθήκη θα χρησιμοποιούν μουσική από τη συσκευή σου</string>
+    <string name="mode_hint_to_streaming">Η Αρχική, η αναζήτηση και η βιβλιοθήκη θα χρησιμοποιούν Streaming</string>
+    <string name="search_hint_streaming">Αναζήτηση στο streaming…</string>
+    <string name="search_hint_device">Αναζήτηση στη συσκευή σου…</string>
+    <string name="your_music_count">Η μουσική σου (%1$d τραγούδια)</string>
+</resources>

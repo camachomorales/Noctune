@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-ko-rKR/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">당신의 음악, 당신의 세상</string>
+    <string name="about_license_name">GNU GPL v3 이상</string>
+    <string name="about_license_title">라이선스</string>
+    <string name="about_license_text">%1$s은(는) 자유 소프트웨어예요. %2$s 라이선스 조건에 따라 사용, 연구, 수정, 재배포할 수 있어요. 어떠한 보증도 제공되지 않아요.</string>
+    <string name="about_view_license">라이선스 보기</string>
+    <string name="about_source_code">소스 코드</string>
+    <string name="about_third_party_services">타사 네트워크 서비스: Audius, Internet Archive, LRCLIB(동기화된 가사). 이 앱에는 광고나 추적기가 없어요.</string>
+    <string name="about_role_development">개발</string>
+    <string name="about_role_bottomsheet">BottomSheet 기본 코드</string>
+    <string name="about_role_ui_base">인터페이스 및 프로젝트 기반</string>
+    <string name="about_role_original_project">OpenTune의 기반이 된 원본 프로젝트</string>
+    <string name="artist_subscribers_count">구독자 %1$s명</string>
+    <string name="section_trending_week">이번 주 인기</string>
+    <string name="section_albums_now">지금 인기 있는 앨범</string>
+    <string name="section_playlists_discover">새로 발견할 플레이리스트</string>
+    <string name="section_in_genre">%1$s 인기</string>
+</resources>

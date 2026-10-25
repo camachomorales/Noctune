@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-sr/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">Пријава</string>
+    <string name="auth_create_account">Направи налог</string>
+    <string name="auth_welcome_back">Добро дошли назад!</string>
+    <string name="auth_join_today">Придружите нам се већ данас!</string>
+    <string name="auth_create">Направи</string>
+    <string name="auth_cancel">Откажи</string>
+    <string name="auth_name">Име</string>
+    <string name="auth_email">Имејл</string>
+    <string name="auth_password">Лозинка</string>
+    <string name="auth_toggle_password">Прикажи или сакриј лозинку</string>
+    <string name="auth_statistics">Статистика</string>
+    <string name="auth_songs_played">Пуштене песме</string>
+    <string name="auth_time_listened">Време слушања</string>
+    <string name="auth_favorites">Омиљено</string>
+    <string name="auth_account_info">Подаци о налогу</string>
+    <string name="auth_member_since">Члан од</string>
+    <string name="auth_sign_out_title">Одјавити се?</string>
+    <string name="auth_sign_out_message">Прећи ћете у гостински режим. Ваше плејлисте ће поново бити овде када се поново пријавите.</string>
+    <string name="auth_guest_warning">Направите налог да би ваше плејлисте и статистика остали повезани са вама на овом уређају.</string>
+    <string name="auth_error_name">Унесите своје име.</string>
+    <string name="auth_error_email_invalid">Овај имејл не изгледа исправно.</string>
+    <string name="auth_error_password_short">Лозинка мора имати најмање %1$d знакова.</string>
+    <string name="auth_error_email_taken">Налог са овим имејлом већ постоји.</string>
+    <string name="auth_error_wrong_credentials">Погрешан имејл или лозинка.</string>
+</resources>

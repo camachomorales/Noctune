@@ -23,7 +23,7 @@
     <string name="forgotten_favorites">Vergete gunstelinge</string>
     <string name="similar_to">Soortgelyk aan</string>
     <string name="keep_listening">Hou aan luister</string>
-    <string name="your_ytb_playlists">U YouTube -rekening</string>
+    <string name="your_ytb_playlists">U Streaming -rekening</string>
 
     <!-- History -->
     <string name="today">Vandag</string>
@@ -44,7 +44,7 @@
 
     <!-- Search -->
     <string name="search">Soek</string>
-    <string name="search_yt_music">Soek YouTube -musiek …</string>
+    <string name="search_yt_music">Soek Streaming -musiek …</string>
     <string name="search_library">Soekbiblioteek …</string>
     <string name="filter_library">Biblioteek</string>
     <string name="filter_liked">Hou van</string>
@@ -83,7 +83,7 @@
     <string name="remove_download_playlist_confirm">Wil u regtig alle \ "%s \" snitlys liedjies uit die afgelaaide liedjiesberging verwyder?</string>
     <string name="delete_playlist_confirm">Wil u regtig die snitlys \ "%s \" uitvee?</string>
     <string name="elements_selected">%1 $ d elemente gekies</string>
-    <string name="allows_for_sync_witch_youtube">Opmerking: dit maak voorsiening vir synchronisasie met YouTube -musiek. Dit is nie later veranderbaar nie.</string>
+    <string name="allows_for_sync_witch_youtube">Opmerking: dit maak voorsiening vir synchronisasie met Streaming -musiek. Dit is nie later veranderbaar nie.</string>
 
     <!-- Button -->
     <string name="retry">Herver hierdie</string>
@@ -300,7 +300,7 @@
     <string name="token_hidden">Tik om Token te wys</string>
     <string name="token_shown">Tik weer om te kopieer of te redigeer</string>
     <string name="token_adv_login_description">Dit is "n gevorderde aanmeldmetode. As alternatief vir die webportaal, kan u u aanmeldtoken hier direk invoer of opdateer. Byvoorbeeld, dit kan die aanmelding op verskeie toestelle bespoedig. Let daarop dat enige ongeldige token -formate die app versuim om nie te ontleed nie</string>
-    <string name="ytm_sync">Synchroniseer outomaties met u YouTube -musiekrekening</string>
+    <string name="ytm_sync">Synchroniseer outomaties met u Streaming -musiekrekening</string>
     <string name="general">Generaal</string>
     <string name="content_language">Standaardinhoudstaal</string>
     <string name="content_country">Standaardinhoud land</string>
@@ -378,7 +378,7 @@
     <string name="restore_failed">Kon nie die rugsteun herstel nie</string>
 
     <string name="discord_integration">Onenigheidsintegrasie</string>
-    <string name="discord_information">Opentune gebruik die KizzyRPC -biblioteek om u status van u Discord -rekening in te stel. Dit behels die gebruik van die Discord Gateway -verbinding, wat beskou kan word as "n oortreding van die TOS van Discord. Daar is egter geen bekende gevalle van gebruikersrekeninge wat om hierdie rede opgeskort word nie. Gebruik u eie risiko.  Opentunne sal net u teken uittrek, en alles anders word plaaslik geberg.</string>
+    <string name="discord_information">music gebruik die KizzyRPC -biblioteek om u status van u Discord -rekening in te stel. Dit behels die gebruik van die Discord Gateway -verbinding, wat beskou kan word as "n oortreding van die TOS van Discord. Daar is egter geen bekende gevalle van gebruikersrekeninge wat om hierdie rede opgeskort word nie. Gebruik u eie risiko.  Opentunne sal net u teken uittrek, en alles anders word plaaslik geberg.</string>
     <string name="dismiss">Afdank</string>
     <string name="options">Opsies</string>
     <string name="preview">Voorskou</string>

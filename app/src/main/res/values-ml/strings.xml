@@ -84,7 +84,7 @@
     <string name="remove_download_playlist_confirm">"ഡൗൺലോഡ് ചെയ്ത ഗാനങ്ങളുടെ സംഭരണത്തിൽ നിന്ന് എല്ലാ \"%s\" പ്ലേലിസ്റ്റ് ഗാനങ്ങളും നീക്കം ചെയ്യാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?"</string>
     <string name="delete_playlist_confirm">"\"%s\" എന്ന പ്ലേലിസ്റ്റ് ഇല്ലാതാക്കാൻ നിങ്ങൾ ശരിക്കും ആഗ്രഹിക്കുന്നുണ്ടോ?"</string>
     <string name="elements_selected">"%1$d ഘടകങ്ങൾ തിരഞ്ഞെടുത്തു"</string>
-    <string name="allows_for_sync_witch_youtube">"കുറിപ്പ്: ഇത് YouTube സംഗീതവുമായി സമന്വയിപ്പിക്കാൻ അനുവദിക്കുന്നു. ഇത് പിന്നീട് മാറ്റാൻ കഴിയില്ല."</string>
+    <string name="allows_for_sync_witch_youtube">"കുറിപ്പ്: ഇത് Streaming സംഗീതവുമായി സമന്വയിപ്പിക്കാൻ അനുവദിക്കുന്നു. ഇത് പിന്നീട് മാറ്റാൻ കഴിയില്ല."</string>
 
     <!-- Button -->
     <string name="retry">"വീണ്ടും ശ്രമിക്കുക"</string>
@@ -293,7 +293,7 @@
     <string name="token_hidden">"ടോക്കൺ കാണിക്കാൻ ടാപ്പ് ചെയ്യുക"</string>
     <string name="token_shown">"പകർത്താനോ എഡിറ്റ് ചെയ്യാനോ വീണ്ടും ടാപ്പ് ചെയ്യുക"</string>
     <string name="token_adv_login_description">"ഇതൊരു നൂതന ലോഗിൻ രീതിയാണ്. വെബ് പോർട്ടലിന് പകരമായി, നിങ്ങൾക്ക് ഇവിടെ നേരിട്ട് നിങ്ങളുടെ ലോഗിൻ ടോക്കൺ നൽകാനോ അപ്ഡേറ്റ് ചെയ്യാനോ കഴിയും. ഉദാഹരണത്തിന്, ഒന്നിലധികം ഉപകരണങ്ങളിൽ ലോഗിൻ ചെയ്യുന്നത് വേഗത്തിലാക്കാൻ ഇതിന് കഴിയും. ആപ്പ് പാഴ്‌സ് ചെയ്യുന്നതിൽ പരാജയപ്പെടുന്ന ഏതെങ്കിലും അസാധുവായ ടോക്കൺ ഫോർമാറ്റുകൾ സ്വീകരിക്കപ്പെടില്ലെന്ന് ദയവായി ശ്രദ്ധിക്കുക."</string>
-    <string name="ytm_sync">"നിങ്ങളുടെ YouTube Music അക്കൗണ്ടുമായി സ്വയമേവ സമന്വയിപ്പിക്കുക"</string>
+    <string name="ytm_sync">"നിങ്ങളുടെ Streaming അക്കൗണ്ടുമായി സ്വയമേവ സമന്വയിപ്പിക്കുക"</string>
     <string name="general">"ജനറൽ"</string>
     <string name="content_language">"ഡിഫോൾട്ട് ഉള്ളടക്ക ഭാഷ"</string>
     <string name="content_country">"ഡിഫോൾട്ട് ഉള്ളടക്ക രാജ്യം"</string>
@@ -365,7 +365,7 @@
     <string name="backup_create_failed">"ബാക്കപ്പ് സൃഷ്ടിക്കാൻ കഴിഞ്ഞില്ല"</string>
     <string name="restore_failed">"ബാക്കപ്പ് പുനഃസ്ഥാപിക്കാനായില്ല"</string>
     <string name="discord_integration">"ഡിസ്കോർഡ് ഇന്റഗ്രേഷൻ"</string>
-    <string name="discord_information">"നിങ്ങളുടെ Discord അക്കൗണ്ടിന്റെ സ്റ്റാറ്റസ് സജ്ജീകരിക്കാൻ OpenTune KizzyRPC ലൈബ്രറി ഉപയോഗിക്കുന്നു. ഇതിൽ Discord ഗേറ്റ്‌വേ കണക്ഷൻ ഉപയോഗിക്കുന്നത് ഉൾപ്പെടുന്നു, ഇത് Discord-ന്റെ TOS-ന്റെ ലംഘനമായി കണക്കാക്കാം. എന്നിരുന്നാലും, ഈ കാരണത്താൽ ഉപയോക്തൃ അക്കൗണ്ടുകൾ താൽക്കാലികമായി നിർത്തിവച്ചതായി അറിയപ്പെടുന്ന കേസുകളൊന്നുമില്ല. നിങ്ങളുടെ സ്വന്തം ഉത്തരവാദിത്തത്തിൽ ഉപയോഗിക്കുക. OpenTunne നിങ്ങളുടെ ടോക്കൺ മാത്രമേ എക്‌സ്‌ട്രാക്റ്റ് ചെയ്യുകയുള്ളൂ, മറ്റെല്ലാം പ്രാദേശികമായി സംഭരിക്കപ്പെടും."</string>
+    <string name="discord_information">"നിങ്ങളുടെ Discord അക്കൗണ്ടിന്റെ സ്റ്റാറ്റസ് സജ്ജീകരിക്കാൻ music KizzyRPC ലൈബ്രറി ഉപയോഗിക്കുന്നു. ഇതിൽ Discord ഗേറ്റ്‌വേ കണക്ഷൻ ഉപയോഗിക്കുന്നത് ഉൾപ്പെടുന്നു, ഇത് Discord-ന്റെ TOS-ന്റെ ലംഘനമായി കണക്കാക്കാം. എന്നിരുന്നാലും, ഈ കാരണത്താൽ ഉപയോക്തൃ അക്കൗണ്ടുകൾ താൽക്കാലികമായി നിർത്തിവച്ചതായി അറിയപ്പെടുന്ന കേസുകളൊന്നുമില്ല. നിങ്ങളുടെ സ്വന്തം ഉത്തരവാദിത്തത്തിൽ ഉപയോഗിക്കുക. OpenTunne നിങ്ങളുടെ ടോക്കൺ മാത്രമേ എക്‌സ്‌ട്രാക്റ്റ് ചെയ്യുകയുള്ളൂ, മറ്റെല്ലാം പ്രാദേശികമായി സംഭരിക്കപ്പെടും."</string>
     <string name="dismiss">"നിരസിക്കുക"</string>
     <string name="options">"ഓപ്ഷനുകൾ"</string>
     <string name="preview">"പ്രിവ്യൂ"</string>
@@ -500,61 +500,8 @@
     <string name="subscribed">"സബ്‌സ്‌ക്രൈബുചെയ്‌തു"</string>
     <string name="subscribe">"സബ്സ്ക്രൈബ് ചെയ്യുക"</string>
     <string name="language">"ഭാഷ"</string>
-    <string name="selection_mode_active"></string>
 
     <!-- Avatar Selection -->
-    <string name="avatar_selection"></string>
-    <string name="choose_predefined_avatar"></string>
 
     <!-- Avatar Descriptions for Predefined Avatars -->
-    <string name="geometric_avatar_1"></string>
-    <string name="geometric_avatar_2"></string>
-    <string name="geometric_avatar_3"></string>
-    <string name="geometric_avatar_4"></string>
-    <string name="geometric_avatar_5"></string>
-    <string name="geometric_avatar_6"></string>
-    <string name="purple_initial_avatar"></string>
-    <string name="blue_initial_avatar"></string>
-    <string name="green_initial_avatar"></string>
-    <string name="orange_initial_avatar"></string>
-    <string name="red_initial_avatar"></string>
-    <string name="teal_initial_avatar"></string>
-    <string name="dots_pattern_avatar"></string>
-    <string name="waves_pattern_avatar"></string>
-    <string name="gradient_pattern_avatar"></string>
-    <string name="music_note_avatar"></string>
-    <string name="equalizer_avatar"></string>
-    <string name="headphones_avatar"></string>
-    <string name="discord_use_details"></string>
-    <string name="discord_use_details_description"></string>
-    <string name="community"></string>
-    <string name="app_info"></string>
-    <string name="hide_controls"></string>
-    <string name="show_controls"></string>
-    <string name="customize_lyrics_image"></string>
-    <string name="customize_image"></string>
-    <string name="select_theme"></string>
-    <string name="from_cover"></string>
-    <string name="presets"></string>
-    <string name="share_lyrics_image"></string>
-    <string name="error_generating_image"></string>
-    <string name="cover_color"></string>
-    <string name="Rotatelyricsbackground"></string>
-    <string name="playlist_add_local_to_synced_note"></string>
-    <string name="manage"></string>
-    <string name="clear"></string>
-    <string name="playing_from"></string>
-    <string name="SmallButtonsShape"></string>
-    <string name="cloud_upload_title"></string>
-    <string name="cloud_upload_enabled_description"></string>
-    <string name="cloud_upload_disabled_description"></string>
-    <string name="backup_with_cloud"></string>
-    <string name="uploading_backup"></string>
-    <string name="backup_success"></string>
-    <string name="backup_upload_error"></string>
-    <string name="cache_clearing"></string>
-    <string name="info_button"></string>
-    <string name="reset_button"></string>
-    <string name="processing_songs"></string>
-    <string name="understood"></string>
 </resources>

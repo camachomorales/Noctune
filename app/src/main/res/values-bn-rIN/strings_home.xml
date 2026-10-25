@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">আপনার লোকাল মিউজিক দেখতে আমাদের আপনার অডিও ফাইলে\nঅ্যাক্সেস প্রয়োজন।</string>
+    <string name="recently_added">সম্প্রতি যোগ করা</string>
+    <string name="search_banner_streaming">Streaming-এ খোঁজা হচ্ছে</string>
+    <string name="search_banner_local">আপনার লোকাল লাইব্রেরিতে খোঁজা হচ্ছে</string>
+    <string name="search_banner_tap_local">লোকালে যেতে ট্যাপ করুন</string>
+    <string name="search_banner_tap_streaming">স্ট্রিমিংয়ে যেতে ট্যাপ করুন</string>
+    <string name="mode_hint_to_local">হোম, সার্চ ও লাইব্রেরি আপনার ডিভাইসের গান ব্যবহার করবে</string>
+    <string name="mode_hint_to_streaming">হোম, সার্চ ও লাইব্রেরি Streaming ব্যবহার করবে</string>
+    <string name="search_hint_streaming">স্ট্রিমিংয়ে খুঁজুন…</string>
+    <string name="search_hint_device">আপনার ডিভাইসে খুঁজুন…</string>
+    <string name="forgotten_favorites">ভুলে যাওয়া প্রিয় গান</string>
+    <string name="your_music_count">আপনার সংগীত (%1$dটি গান)</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">لعرض موسيقاك المحلية نحتاج إلى الوصول\nإلى ملفاتك الصوتية.</string>
+    <string name="recently_added">أُضيفت مؤخرًا</string>
+    <string name="search_banner_streaming">جارٍ البحث في Streaming</string>
+    <string name="search_banner_local">جارٍ البحث في مكتبتك المحلية</string>
+    <string name="search_banner_tap_local">اضغط للتبديل إلى المحلي</string>
+    <string name="search_banner_tap_streaming">اضغط للتبديل إلى البث</string>
+    <string name="mode_hint_to_local">ستستخدم الرئيسية والبحث والمكتبة موسيقى جهازك</string>
+    <string name="mode_hint_to_streaming">ستستخدم الرئيسية والبحث والمكتبة Streaming</string>
+    <string name="search_hint_streaming">ابحث في البث…</string>
+    <string name="search_hint_device">ابحث في جهازك…</string>
+</resources>

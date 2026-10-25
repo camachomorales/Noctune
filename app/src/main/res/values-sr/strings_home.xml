@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Да бисмо приказали вашу локалну музику, потребан нам је приступ\nвашим аудио фајловима.</string>
+    <string name="recently_added">Недавно додато</string>
+    <string name="search_banner_streaming">Претрага на Streaming</string>
+    <string name="search_banner_local">Претрага ваше локалне библиотеке</string>
+    <string name="search_banner_tap_local">Додирните да пређете на локално</string>
+    <string name="search_banner_tap_streaming">Додирните да пређете на стримовање</string>
+    <string name="mode_hint_to_local">Почетна, претрага и библиотека користиће музику са уређаја</string>
+    <string name="mode_hint_to_streaming">Почетна, претрага и библиотека користиће Streaming</string>
+    <string name="search_hint_streaming">Претражи стримовање…</string>
+    <string name="search_hint_device">Претражи уређај…</string>
+    <string name="forgotten_favorites">Заборављени омиљени</string>
+    <string name="your_music_count">Ваша музика (%1$d песама)</string>
+</resources>

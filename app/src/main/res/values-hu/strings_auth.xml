@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-hu/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">Bejelentkezés</string>
+    <string name="auth_create_account">Fiók létrehozása</string>
+    <string name="auth_welcome_back">Üdv újra itt!</string>
+    <string name="auth_join_today">Csatlakozz hozzánk még ma!</string>
+    <string name="auth_create">Létrehozás</string>
+    <string name="auth_cancel">Mégse</string>
+    <string name="auth_name">Név</string>
+    <string name="auth_email">E-mail</string>
+    <string name="auth_password">Jelszó</string>
+    <string name="auth_toggle_password">Jelszó megjelenítése vagy elrejtése</string>
+    <string name="auth_statistics">Statisztikák</string>
+    <string name="auth_songs_played">Lejátszott dalok</string>
+    <string name="auth_time_listened">Hallgatási idő</string>
+    <string name="auth_favorites">Kedvencek</string>
+    <string name="auth_account_info">Fiókadatok</string>
+    <string name="auth_member_since">Tag ezóta</string>
+    <string name="auth_sign_out_title">Kijelentkezel?</string>
+    <string name="auth_sign_out_message">Vendég módba váltasz. A lejátszási listáid újra itt lesznek, amint ismét bejelentkezel.</string>
+    <string name="auth_guest_warning">Hozz létre egy fiókot, hogy a lejátszási listáid és a statisztikáid ezen az eszközön hozzád kötődjenek.</string>
+    <string name="auth_error_name">Add meg a neved.</string>
+    <string name="auth_error_email_invalid">Ez az e-mail-cím nem tűnik érvényesnek.</string>
+    <string name="auth_error_password_short">A jelszónak legalább %1$d karakter hosszúnak kell lennie.</string>
+    <string name="auth_error_email_taken">Ezzel az e-mail-címmel már létezik fiók.</string>
+    <string name="auth_error_wrong_credentials">Hibás e-mail-cím vagy jelszó.</string>
+</resources>

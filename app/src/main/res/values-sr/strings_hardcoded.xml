@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-sr/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">Ваша музика, ваш свет</string>
+    <string name="about_license_name">GNU GPL в3 или новија</string>
+    <string name="about_license_title">Лиценца</string>
+    <string name="about_license_text">%1$s је слободан софтвер: можете га користити, проучавати, мењати и поново дистрибуирати према условима лиценце %2$s. Дистрибуира се БЕЗ ИКАКВЕ ГАРАНЦИЈЕ.</string>
+    <string name="about_view_license">Прикажи лиценцу</string>
+    <string name="about_source_code">Изворни код</string>
+    <string name="about_third_party_services">Мрежне услуге трећих страна: Audius, Internet Archive и LRCLIB (синхронизовани стихови). Апликација не садржи рекламе нити алате за праћење.</string>
+    <string name="about_role_development">Развој</string>
+    <string name="about_role_bottomsheet">Основни код за BottomSheet</string>
+    <string name="about_role_ui_base">Основа интерфејса и пројекта</string>
+    <string name="about_role_original_project">Оригинални пројекат на коме се заснива OpenTune</string>
+    <string name="artist_subscribers_count">Претплатника: %1$s</string>
+    <string name="section_trending_week">У тренду ове недеље</string>
+    <string name="section_albums_now">Популарни албуми</string>
+    <string name="section_playlists_discover">Плејлисте за откривање</string>
+    <string name="section_in_genre">У тренду: %1$s</string>
+</resources>

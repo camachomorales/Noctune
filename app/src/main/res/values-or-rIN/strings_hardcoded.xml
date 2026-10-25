@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-or-rIN/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">ଆପଣଙ୍କ ସଙ୍ଗୀତ, ଆପଣଙ୍କ ଦୁନିଆ</string>
+    <string name="about_license_name">GNU GPL v3 କିମ୍ବା ପରବର୍ତ୍ତୀ</string>
+    <string name="about_license_title">ଲାଇସେନ୍ସ</string>
+    <string name="about_license_text">%1$s ଏକ ମୁକ୍ତ ସଫ୍ଟୱେର୍: ଆପଣ %2$s ଲାଇସେନ୍ସର ସର୍ତ୍ତ ଅନୁସାରେ ଏହାକୁ ବ୍ୟବହାର, ଅଧ୍ୟୟନ, ପରିବର୍ତ୍ତନ ଏବଂ ପୁନଃବଣ୍ଟନ କରିପାରିବେ। ଏହା କୌଣସି ଗ୍ୟାରେଣ୍ଟି ବିନା ବଣ୍ଟନ କରାଯାଏ।</string>
+    <string name="about_view_license">ଲାଇସେନ୍ସ ଦେଖନ୍ତୁ</string>
+    <string name="about_source_code">ସୋର୍ସ କୋଡ୍</string>
+    <string name="about_third_party_services">ତୃତୀୟ ପକ୍ଷର ନେଟୱାର୍କ ସେବା: Audius, Internet Archive ଏବଂ LRCLIB (ସିଙ୍କ୍ ହୋଇଥିବା ଗୀତର ବୋଲ)। ଆପ୍‌ରେ କୌଣସି ବିଜ୍ଞାପନ କିମ୍ବା ଟ୍ରାକର ନାହିଁ।</string>
+    <string name="about_role_development">ଡେଭଲପମେଣ୍ଟ</string>
+    <string name="about_role_bottomsheet">BottomSheet ର ବେସ୍ କୋଡ୍</string>
+    <string name="about_role_ui_base">ଇଣ୍ଟରଫେସ୍ ଓ ପ୍ରକଳ୍ପର ଭିତ୍ତି</string>
+    <string name="about_role_original_project">OpenTune ଯେଉଁ ମୂଳ ପ୍ରକଳ୍ପ ଉପରେ ଆଧାରିତ</string>
+    <string name="artist_subscribers_count">%1$s ସବସ୍କ୍ରାଇବର୍</string>
+    <string name="section_trending_week">ଏହି ସପ୍ତାହର ଟ୍ରେଣ୍ଡିଂ</string>
+    <string name="section_albums_now">ଟ୍ରେଣ୍ଡିଂ ଆଲବମ୍</string>
+    <string name="section_playlists_discover">ଆବିଷ୍କାର ପାଇଁ ପ୍ଲେଲିଷ୍ଟ</string>
+    <string name="section_in_genre">%1$s ରେ ଟ୍ରେଣ୍ଡିଂ</string>
+</resources>

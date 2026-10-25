@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Om je lokale muziek te zien, hebben we toegang nodig\ntot je audiobestanden.</string>
+    <string name="recently_added">Onlangs toegevoegd</string>
+    <string name="search_banner_streaming">Zoeken in Streaming</string>
+    <string name="search_banner_local">Zoeken in je lokale bibliotheek</string>
+    <string name="search_banner_tap_local">Tik om over te schakelen naar Lokaal</string>
+    <string name="search_banner_tap_streaming">Tik om over te schakelen naar Streaming</string>
+    <string name="mode_hint_to_local">Start, zoeken en bibliotheek gebruiken muziek van je apparaat</string>
+    <string name="mode_hint_to_streaming">Start, zoeken en bibliotheek gebruiken Streaming</string>
+    <string name="search_hint_streaming">Streaming doorzoeken…</string>
+    <string name="search_hint_device">Je apparaat doorzoeken…</string>
+    <string name="forgotten_favorites">Vergeten favorieten</string>
+    <string name="your_music_count">Jouw muziek (%1$d nummers)</string>
+</resources>

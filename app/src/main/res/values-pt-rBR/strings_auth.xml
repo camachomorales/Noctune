@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-pt-rBR/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">Entrar</string>
+    <string name="auth_create_account">Criar conta</string>
+    <string name="auth_welcome_back">Que bom ter você de volta!</string>
+    <string name="auth_join_today">Junte-se a nós hoje mesmo!</string>
+    <string name="auth_create">Criar</string>
+    <string name="auth_cancel">Cancelar</string>
+    <string name="auth_name">Nome</string>
+    <string name="auth_email">E-mail</string>
+    <string name="auth_password">Senha</string>
+    <string name="auth_toggle_password">Mostrar ou ocultar senha</string>
+    <string name="auth_statistics">Estatísticas</string>
+    <string name="auth_songs_played">Músicas reproduzidas</string>
+    <string name="auth_time_listened">Tempo de escuta</string>
+    <string name="auth_favorites">Favoritos</string>
+    <string name="auth_account_info">Informações da conta</string>
+    <string name="auth_member_since">Membro desde</string>
+    <string name="auth_sign_out_title">Sair da conta?</string>
+    <string name="auth_sign_out_message">Você mudará para o modo convidado. Suas listas de reprodução voltarão a aparecer aqui quando você entrar de novo.</string>
+    <string name="auth_guest_warning">Crie uma conta para manter suas listas de reprodução e estatísticas vinculadas a você neste dispositivo.</string>
+    <string name="auth_error_name">Digite seu nome.</string>
+    <string name="auth_error_email_invalid">Esse e-mail não parece válido.</string>
+    <string name="auth_error_password_short">A senha deve ter pelo menos %1$d caracteres.</string>
+    <string name="auth_error_email_taken">Já existe uma conta com esse e-mail.</string>
+    <string name="auth_error_wrong_credentials">E-mail ou senha incorretos.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-be/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">Ваша музыка, ваш свет</string>
+    <string name="about_license_name">GNU GPL версіі 3 або навейшая</string>
+    <string name="about_license_title">Ліцэнзія</string>
+    <string name="about_license_text">%1$s — свабоднае праграмнае забеспячэнне: вы можаце выкарыстоўваць, вывучаць, змяняць і распаўсюджваць яго на ўмовах ліцэнзіі %2$s. Яно распаўсюджваецца БЕЗ ЯКІХ-ЛЕБО ГАРАНТЫЙ.</string>
+    <string name="about_view_license">Паглядзець ліцэнзію</string>
+    <string name="about_source_code">Зыходны код</string>
+    <string name="about_third_party_services">Сеткавыя сэрвісы трэціх бакоў: Audius, Internet Archive і LRCLIB (сінхранізаваныя тэксты песень). У праграме няма рэкламы і трэкераў.</string>
+    <string name="about_role_development">Распрацоўка</string>
+    <string name="about_role_bottomsheet">Базавы код BottomSheet</string>
+    <string name="about_role_ui_base">Аснова інтэрфейсу і праекта</string>
+    <string name="about_role_original_project">Зыходны праект, на якім заснаваны OpenTune</string>
+    <string name="artist_subscribers_count">Падпісчыкаў: %1$s</string>
+    <string name="section_trending_week">Трэнды тыдня</string>
+    <string name="section_albums_now">Папулярныя альбомы</string>
+    <string name="section_playlists_discover">Плэй-лісты для адкрыццяў</string>
+    <string name="section_in_genre">У трэндзе: %1$s</string>
+</resources>

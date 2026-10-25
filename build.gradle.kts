@@ -1,16 +1,16 @@
 @file:Suppress("DEPRECATION")
 
 plugins {
+    kotlin("android") version "2.1.0" apply false
     alias(libs.plugins.hilt) apply(false)
     alias(libs.plugins.kotlin.ksp) apply(false)
     alias(libs.plugins.compose.compiler) apply false
 }
 
-    buildscript {
+buildscript {
     repositories {
         google()
         mavenCentral()
-        maven { setUrl("https://jitpack.io") }
     }
     dependencies {
         classpath(libs.gradle)
@@ -18,7 +18,7 @@ plugins {
     }
 }
 
-tasks.register<Delete>("Clean") {
+tasks.register<Delete>("clean") {
     delete(rootProject.layout.buildDirectory)
 }
 

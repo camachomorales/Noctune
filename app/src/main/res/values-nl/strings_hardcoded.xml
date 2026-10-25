@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-nl/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">Jouw muziek, jouw wereld</string>
+    <string name="about_license_name">GNU GPL v3 of nieuwer</string>
+    <string name="about_license_title">Licentie</string>
+    <string name="about_license_text">%1$s is vrije software: je mag het gebruiken, bestuderen, aanpassen en herdistribueren onder de voorwaarden van de %2$s-licentie. Het wordt verspreid ZONDER ENIGE GARANTIE.</string>
+    <string name="about_view_license">Licentie bekijken</string>
+    <string name="about_source_code">Broncode</string>
+    <string name="about_third_party_services">Netwerkdiensten van derden: Audius, Internet Archive en LRCLIB (gesynchroniseerde songteksten). De app bevat geen advertenties of trackers.</string>
+    <string name="about_role_development">Ontwikkeling</string>
+    <string name="about_role_bottomsheet">Basiscode van de BottomSheet</string>
+    <string name="about_role_ui_base">Basis van de interface en het project</string>
+    <string name="about_role_original_project">Oorspronkelijk project waarop OpenTune is gebaseerd</string>
+    <string name="artist_subscribers_count">%1$s abonnees</string>
+    <string name="section_trending_week">Trending deze week</string>
+    <string name="section_albums_now">Populaire albums</string>
+    <string name="section_playlists_discover">Afspeellijsten om te ontdekken</string>
+    <string name="section_in_genre">Trending in %1$s</string>
+</resources>

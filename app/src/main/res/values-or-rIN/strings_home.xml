@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">ଆପଣଙ୍କ ସ୍ଥାନୀୟ ସଂଗୀତ ଦେଖିବାକୁ ଆମକୁ ଆପଣଙ୍କ ଅଡିଓ ଫାଇଲ୍‌ର\nଅନୁମତି ଆବଶ୍ୟକ।</string>
+    <string name="recently_added">ସମ୍ପ୍ରତି ଯୋଡ଼ାଯାଇଛି</string>
+    <string name="search_banner_streaming">Streaming ରେ ଖୋଜୁଛି</string>
+    <string name="search_banner_local">ଆପଣଙ୍କ ସ୍ଥାନୀୟ ଲାଇବ୍ରେରୀରେ ଖୋଜୁଛି</string>
+    <string name="search_banner_tap_local">ସ୍ଥାନୀୟକୁ ବଦଳାଇବାକୁ ଟାପ୍ କରନ୍ତୁ</string>
+    <string name="search_banner_tap_streaming">ଷ୍ଟ୍ରିମିଂକୁ ବଦଳାଇବାକୁ ଟାପ୍ କରନ୍ତୁ</string>
+    <string name="mode_hint_to_local">ହୋମ୍, ସର୍ଚ୍ଚ ଓ ଲାଇବ୍ରେରୀ ଆପଣଙ୍କ ଡିଭାଇସର ସଂଗୀତ ବ୍ୟବହାର କରିବ</string>
+    <string name="mode_hint_to_streaming">ହୋମ୍, ସର୍ଚ୍ଚ ଓ ଲାଇବ୍ରେରୀ Streaming ବ୍ୟବହାର କରିବ</string>
+    <string name="search_hint_streaming">ଷ୍ଟ୍ରିମିଂରେ ଖୋଜନ୍ତୁ…</string>
+    <string name="search_hint_device">ଆପଣଙ୍କ ଡିଭାଇସରେ ଖୋଜନ୍ତୁ…</string>
+    <string name="forgotten_favorites">ଭୁଲିଯାଇଥିବା ପସନ୍ଦ</string>
+    <string name="your_music_count">ଆପଣଙ୍କ ସଂଗୀତ (%1$dଟି ଗୀତ)</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Aby zobaczyć Twoją muzykę lokalną, potrzebujemy dostępu\ndo plików audio.</string>
+    <string name="recently_added">Ostatnio dodane</string>
+    <string name="search_banner_streaming">Wyszukiwanie w Streaming</string>
+    <string name="search_banner_local">Wyszukiwanie w Twojej bibliotece lokalnej</string>
+    <string name="search_banner_tap_local">Dotknij, aby przełączyć na Lokalne</string>
+    <string name="search_banner_tap_streaming">Dotknij, aby przełączyć na Streaming</string>
+    <string name="mode_hint_to_local">Ekran główny, wyszukiwanie i biblioteka będą używać muzyki z urządzenia</string>
+    <string name="mode_hint_to_streaming">Ekran główny, wyszukiwanie i biblioteka będą używać Streaming</string>
+    <string name="search_hint_streaming">Szukaj w streamingu…</string>
+    <string name="search_hint_device">Szukaj na urządzeniu…</string>
+    <string name="your_music_count">Twoja muzyka (%1$d utworów)</string>
+</resources>

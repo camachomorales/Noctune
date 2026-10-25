@@ -1,0 +1,26 @@
+/*
+ * Noctune
+ * Copyright (C) 2026 Betsy
+ * SPDX-License-Identifier: GPL-3.0-only
+ *
+ * Based on InnerTune and OpenTune (GPL-3.0). Modified by Betsy, 2026.
+ * Portions remain under the copyright of their original authors.
+ */
+
+package com.betsy.lrclib.models
+
+import kotlinx.serialization.Serializable
+import kotlin.math.abs
+
+@Serializable
+data class Track(
+    val id: Int,
+    val trackName: String,
+    val artistName: String,
+    val duration: Double,
+    val plainLyrics: String?,
+    val syncedLyrics: String?,
+)
+
+internal fun List<Track>.bestMatchingFor(duration: Int) = firstOrNull { abs(it.duration.toInt() - duration) <= 2 }
+

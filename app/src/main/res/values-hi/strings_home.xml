@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">आपका लोकल म्यूज़िक देखने के लिए हमें आपकी ऑडियो फ़ाइलों\nतक पहुँच चाहिए।</string>
+    <string name="recently_added">हाल ही में जोड़े गए</string>
+    <string name="search_banner_streaming">Streaming में खोज रहे हैं</string>
+    <string name="search_banner_local">आपकी लोकल लाइब्रेरी में खोज रहे हैं</string>
+    <string name="search_banner_tap_local">लोकल पर जाने के लिए टैप करें</string>
+    <string name="search_banner_tap_streaming">स्ट्रीमिंग पर जाने के लिए टैप करें</string>
+    <string name="mode_hint_to_local">होम, खोज और लाइब्रेरी आपके डिवाइस का संगीत इस्तेमाल करेंगे</string>
+    <string name="mode_hint_to_streaming">होम, खोज और लाइब्रेरी Streaming इस्तेमाल करेंगे</string>
+    <string name="search_hint_streaming">स्ट्रीमिंग में खोजें…</string>
+    <string name="search_hint_device">अपने डिवाइस में खोजें…</string>
+    <string name="your_music_count">आपका संगीत (%1$d गाने)</string>
+</resources>

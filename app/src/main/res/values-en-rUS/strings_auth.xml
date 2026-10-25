@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NEW file: app/src/main/res/values-en-rUS/strings_auth.xml -->
+<resources>
+    <string name="auth_sign_in">Sign In</string>
+    <string name="auth_create_account">Create Account</string>
+    <string name="auth_welcome_back">Welcome back!</string>
+    <string name="auth_join_today">Join us today!</string>
+    <string name="auth_create">Create</string>
+    <string name="auth_cancel">Cancel</string>
+    <string name="auth_name">Name</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_toggle_password">Show or hide password</string>
+    <string name="auth_statistics">Statistics</string>
+    <string name="auth_songs_played">Songs Played</string>
+    <string name="auth_time_listened">Time Listened</string>
+    <string name="auth_favorites">Favorites</string>
+    <string name="auth_account_info">Account Info</string>
+    <string name="auth_member_since">Member since</string>
+    <string name="auth_sign_out_title">Sign out?</string>
+    <string name="auth_sign_out_message">You\'ll switch to guest mode. Your playlists will be here again when you sign back in.</string>
+    <string name="auth_guest_warning">Create an account to keep your playlists and stats linked to you on this device.</string>
+    <string name="auth_error_name">Enter your name.</string>
+    <string name="auth_error_email_invalid">That email doesn\'t look right.</string>
+    <string name="auth_error_password_short">The password must be at least %1$d characters.</string>
+    <string name="auth_error_email_taken">There is already an account with that email.</string>
+    <string name="auth_error_wrong_credentials">Wrong email or password.</string>
+</resources>

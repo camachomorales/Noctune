@@ -26,7 +26,7 @@
     <string name="new_release_albums">"Nowości"</string>
     <string name="forgotten_favorites">"Ulubione utwory z przeszłości"</string>
     <string name="similar_to">"Podobne do"</string>
-    <string name="your_ytb_playlists">"Twoje konto YouTube"</string>
+    <string name="your_ytb_playlists">"Twoje konto Streaming"</string>
 
     <!-- History -->
     <string name="today">"Dzisiaj"</string>
@@ -47,7 +47,7 @@
 
     <!-- Search -->
     <string name="search">"Szukaj"</string>
-    <string name="search_yt_music">"Szukaj w YouTube Music"</string>
+    <string name="search_yt_music">"Szukaj w Streaming"</string>
     <string name="search_library">"Szukaj w bibliotece"</string>
     <string name="filter_library">"Biblioteka"</string>
     <string name="filter_liked">"Polubione"</string>
@@ -86,7 +86,7 @@
     <string name="remove_download_playlist_confirm">"Czy na pewno chcesz usunąć z urządzenia wszystkie pobrane utwory z playlisty \"%s\"?"</string>
     <string name="delete_playlist_confirm">"Czy na pewno chcesz usunąć playlistę \"%s\"?"</string>
     <string name="elements_selected">"Wybrano %1$d elementów"</string>
-    <string name="allows_for_sync_witch_youtube">"Uwaga: To pozwala na synchronizację z YouTube Music. Później NIE można tego zmienić."</string>
+    <string name="allows_for_sync_witch_youtube">"Uwaga: To pozwala na synchronizację z Streaming. Później NIE można tego zmienić."</string>
 
     <!-- Button -->
     <string name="retry">"Spróbuj ponownie"</string>
@@ -315,7 +315,7 @@
     <string name="token_hidden">"Kliknij aby pokazać token"</string>
     <string name="token_shown">"Kliknij ponownie, aby skopiować lub edytować"</string>
     <string name="token_adv_login_description">"To jest ZAAWANSOWANA metoda logowania. Jako alternatywa do portalu w sieci, możesz tu bezpośrednio podać lub zaktualizować swój token logowania. Na przykład ta metoda może przyspieszyć logowanie na wielu urządzeniach. Miej na uwadze, że aplikacja nie zatwierdzi żadnego nieprawidłowego formatu tokenu"</string>
-    <string name="ytm_sync">"Automatycznie zsynchronizuj ze swoim kontem YouTube Music"</string>
+    <string name="ytm_sync">"Automatycznie zsynchronizuj ze swoim kontem Streaming"</string>
     <string name="general">"Ogólne"</string>
     <string name="content_language">"Domyślny język treści"</string>
     <string name="content_country">"Domyślny kraj treści"</string>
@@ -387,7 +387,7 @@
     <string name="backup_create_failed">"Nie udało się stworzyć kopii zapasowej"</string>
     <string name="restore_failed">"Nie udało się przywrócić kopii"</string>
     <string name="discord_integration">"Integracja dla Discorda"</string>
-    <string name="discord_information">"OpenTune używa biblioteki KizzyRPC do ustawienia statusu Twojego konta Discord. Wiąże się to z użyciem połączenia Discord Gateway, co może być uznane za naruszenie TOS Discorda. Nie ma jednak znanych przypadków zawieszania kont użytkowników z tego powodu. Używaj na własne ryzyko. OpenTune wyodrębni tylko Twój token, a wszystko inne jest przechowywane lokalnie."</string>
+    <string name="discord_information">"music używa biblioteki KizzyRPC do ustawienia statusu Twojego konta Discord. Wiąże się to z użyciem połączenia Discord Gateway, co może być uznane za naruszenie TOS Discorda. Nie ma jednak znanych przypadków zawieszania kont użytkowników z tego powodu. Używaj na własne ryzyko. music wyodrębni tylko Twój token, a wszystko inne jest przechowywane lokalnie."</string>
     <string name="dismiss">"Usuń"</string>
     <string name="options">"Opcje"</string>
     <string name="preview">"Podgląd"</string>
@@ -505,11 +505,11 @@
     <string name="notifications_enabled">"Powiadomienia włączone"</string>
     <string name="notifications_disabled">"Powiadomienia wyłączone"</string>
     <string name="visitor_data_title">"Rozwiązywanie problemów"</string>
-    <string name="visitor_data_description">"Jeśli doświadczasz problemów z połączeniem dla YouTube zresetowanie danych wizytora może pomóc."</string>
+    <string name="visitor_data_description">"Jeśli doświadczasz problemów z połączeniem dla Streaming zresetowanie danych wizytora może pomóc."</string>
     <string name="visitor_data_info_button">"O co chodzi?"</string>
     <string name="visitor_data_reset_button">"Reset"</string>
     <string name="visitor_data_info_title">"Czym są dane wizytora?"</string>
-    <string name="visitor_data_info_intro">"Dane wizytora jest to indentyfikator używany, aby YouTube mógł znaleść twoją sesję. Kiedy dane są źle interpretowane, mogą one tworzyć takie problemy:"</string>
+    <string name="visitor_data_info_intro">"Dane wizytora jest to indentyfikator używany, aby Streaming mógł znaleść twoją sesję. Kiedy dane są źle interpretowane, mogą one tworzyć takie problemy:"</string>
     <string name="visitor_data_info_problems">"• Problem z połączeniem
 • Problem z ładowaniem treści
 • Problem z wyszukiwaniem
@@ -518,12 +518,12 @@
     <string name="visitor_data_info_note">"To działa zarówno dla anonimowych jak i zalogowanych użytkowników."</string>
     <string name="visitor_data_info_confirm">"Ok"</string>
     <string name="visitor_data_reset_title">"Zresetuj dane wizytora"</string>
-    <string name="visitor_data_reset_message">"Czy jesteś pewien, że chcesz zresetować dane wizytora? Stworzy to nowy identyfikator dla YouTube i może naprawić problemy z łącznością. Reset może usunąć ustawienia oraz powiązane konta aplikacji. Zaleca się stworzenie kopii zapasowej przed resetem.
+    <string name="visitor_data_reset_message">"Czy jesteś pewien, że chcesz zresetować dane wizytora? Stworzy to nowy identyfikator dla Streaming i może naprawić problemy z łącznością. Reset może usunąć ustawienia oraz powiązane konta aplikacji. Zaleca się stworzenie kopii zapasowej przed resetem.
 
 Aplikacja zrestartuje się automatycznie."</string>
     <string name="visitor_data_reset_confirm">"Resetuj"</string>
     <string name="visitor_data_reset_cancel">"Anuluj"</string>
-    <string name="widget_title">"Odtwarzacz Opentune"</string>
+    <string name="widget_title">"Odtwarzacz music"</string>
     <string name="error_saving_image">"Błąd zapisywania obrazu"</string>
     <string name="processing">"przetwarzanie"</string>
     <string name="subscribed">"subskrybujesz"</string>

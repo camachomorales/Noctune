@@ -24,7 +24,7 @@
     <string name="new_release_albums">"Noves publicacions"</string>
     <string name="forgotten_favorites">"Favorits oblidats"</string>
     <string name="similar_to">"Semblant a"</string>
-    <string name="your_ytb_playlists">"El vostre compte del Youtube"</string>
+    <string name="your_ytb_playlists">"El vostre compte del Streaming"</string>
 
     <!-- History -->
     <string name="today">"Avui"</string>
@@ -45,7 +45,7 @@
 
     <!-- Search -->
     <string name="search">"Cerca"</string>
-    <string name="search_yt_music">"Cerca al Youtube Music"</string>
+    <string name="search_yt_music">"Cerca al Streaming"</string>
     <string name="search_library">"Cerca a la biblioteca..."</string>
     <string name="filter_library">"Biblioteca"</string>
     <string name="filter_liked">"Agradat"</string>
@@ -84,7 +84,7 @@
     <string name="remove_download_playlist_confirm">"Segur que vols eliminar totes les \"%s\" cançons de l'emmagatzematge de cançons baixades?"</string>
     <string name="delete_playlist_confirm">"Segur que vols esborrar la llista de reproducció \"%s\"?"</string>
     <string name="elements_selected">"S'han seleccionat %1$d elements"</string>
-    <string name="allows_for_sync_witch_youtube">"Nota: això permet sincronitzar amb el Youtube Music i NO es pot modificar després."</string>
+    <string name="allows_for_sync_witch_youtube">"Nota: això permet sincronitzar amb el Streaming i NO es pot modificar després."</string>
 
     <!-- Button -->
     <string name="retry">"Torna a provar"</string>
@@ -294,7 +294,7 @@ Treu el m'agrada a tot"</string>
     <string name="token_hidden">"Toqueu per mostrar el token"</string>
     <string name="token_shown">"Torneu a tocar per a copiar o editar"</string>
     <string name="token_adv_login_description">"Aquest és un mètode d'inici de sessió AVANÇAT. Com a alternativa al portal web, podeu introduir o actualitzar directament el vostre token d'inici de sessió aquí. Per exemple, això pot accelerar l'inici de sessió en diversos dispositius. Tingueu en compte que no s'acceptaran els formats de token no vàlids que l'aplicació no pugui analitzar"</string>
-    <string name="ytm_sync">"Sincronitza automàticament amb el vostre compte de YouTube Music"</string>
+    <string name="ytm_sync">"Sincronitza automàticament amb el vostre compte de Streaming"</string>
     <string name="general">"General"</string>
     <string name="content_language">"Idioma predeterminat del contingut"</string>
     <string name="content_country">"País predeterminat del contingut"</string>
@@ -366,7 +366,7 @@ Treu el m'agrada a tot"</string>
     <string name="backup_create_failed">"No s'ha pogut crear la còpia de seguretat"</string>
     <string name="restore_failed">"No s'ha pogut recuperar la còpia de seguretat"</string>
     <string name="discord_integration">"Integració amb Discord"</string>
-    <string name="discord_information">"OpenTune utiliza la biblioteca KizzyRPC para establecer el estado de su cuenta de Discord. Esto implica el uso de la conexión Discord Gateway, que puede considerarse una violación de las condiciones de servicio de Discord. Sin embargo, no se conocen casos de cuentas de usuario suspendidas por este motivo. Utilícelo bajo su propia responsabilidad. OpenTune sólo extraerá tu token, y todo lo demás se almacena localmente."</string>
+    <string name="discord_information">"music utiliza la biblioteca KizzyRPC para establecer el estado de su cuenta de Discord. Esto implica el uso de la conexión Discord Gateway, que puede considerarse una violación de las condiciones de servicio de Discord. Sin embargo, no se conocen casos de cuentas de usuario suspendidas por este motivo. Utilícelo bajo su propia responsabilidad. music sólo extraerá tu token, y todo lo demás se almacena localmente."</string>
     <string name="dismiss">"Ignora"</string>
     <string name="options">"Opcions"</string>
     <string name="preview">"Previsualització"</string>
@@ -481,55 +481,15 @@ Treu el m'agrada a tot"</string>
     <string name="navigation_error">"Error de navegación"</string>
     <string name="notifications_enabled">"Notificaciones habilitadas"</string>
     <string name="notifications_disabled">"Notificaciones desabilitadas"</string>
-    <string name="visitor_data_title"></string>
-    <string name="visitor_data_description"></string>
-    <string name="visitor_data_info_button"></string>
-    <string name="visitor_data_reset_button"></string>
-    <string name="visitor_data_info_title"></string>
-    <string name="visitor_data_info_intro"></string>
-    <string name="visitor_data_info_problems"></string>
-    <string name="visitor_data_info_solution"></string>
-    <string name="visitor_data_info_note"></string>
-    <string name="visitor_data_info_confirm"></string>
-    <string name="visitor_data_reset_title"></string>
-    <string name="visitor_data_reset_message"></string>
-    <string name="visitor_data_reset_confirm"></string>
-    <string name="visitor_data_reset_cancel"></string>
-    <string name="widget_title"></string>
     <string name="error_saving_image">"Error al guardar imagen"</string>
     <string name="processing">"Procesando"</string>
     <string name="subscribed">"Suscrito"</string>
     <string name="subscribe">"Suscribirse"</string>
     <string name="language">"Idioma"</string>
-    <string name="selection_mode_active"></string>
 
     <!-- Avatar Selection -->
-    <string name="avatar_selection"></string>
-    <string name="choose_predefined_avatar"></string>
 
     <!-- Avatar Descriptions for Predefined Avatars -->
-    <string name="geometric_avatar_1"></string>
-    <string name="geometric_avatar_2"></string>
-    <string name="geometric_avatar_3"></string>
-    <string name="geometric_avatar_4"></string>
-    <string name="geometric_avatar_5"></string>
-    <string name="geometric_avatar_6"></string>
-    <string name="purple_initial_avatar"></string>
-    <string name="blue_initial_avatar"></string>
-    <string name="green_initial_avatar"></string>
-    <string name="orange_initial_avatar"></string>
-    <string name="red_initial_avatar"></string>
-    <string name="teal_initial_avatar"></string>
-    <string name="dots_pattern_avatar"></string>
-    <string name="waves_pattern_avatar"></string>
-    <string name="gradient_pattern_avatar"></string>
-    <string name="music_note_avatar"></string>
-    <string name="equalizer_avatar"></string>
-    <string name="headphones_avatar"></string>
-    <string name="discord_use_details"></string>
-    <string name="discord_use_details_description"></string>
-    <string name="community"></string>
-    <string name="app_info"></string>
     <string name="hide_controls">"Amaga els controls"</string>
     <string name="show_controls">"Mostra els controls"</string>
     <string name="customize_lyrics_image">"Personalitza la imatge de la lletra"</string>
@@ -540,22 +500,7 @@ Treu el m'agrada a tot"</string>
     <string name="share_lyrics_image">"Compartiu la imatge de la lletra"</string>
     <string name="error_generating_image">"S'ha produït un error generant la imatge"</string>
     <string name="cover_color">"Color de la portada"</string>
-    <string name="Rotatelyricsbackground"></string>
-    <string name="playlist_add_local_to_synced_note"></string>
     <string name="manage">"Gestiona"</string>
     <string name="clear">"Neteja"</string>
     <string name="playing_from">"Reproduïnt des de"</string>
-    <string name="SmallButtonsShape"></string>
-    <string name="cloud_upload_title"></string>
-    <string name="cloud_upload_enabled_description"></string>
-    <string name="cloud_upload_disabled_description"></string>
-    <string name="backup_with_cloud"></string>
-    <string name="uploading_backup"></string>
-    <string name="backup_success"></string>
-    <string name="backup_upload_error"></string>
-    <string name="cache_clearing"></string>
-    <string name="info_button"></string>
-    <string name="reset_button"></string>
-    <string name="processing_songs"></string>
-    <string name="understood"></string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">要查看你的本地音乐，我们需要访问\n你的音频文件。</string>
+    <string name="recently_added">最近添加</string>
+    <string name="search_banner_streaming">正在搜索 Streaming</string>
+    <string name="search_banner_local">正在搜索你的本地资料库</string>
+    <string name="search_banner_tap_local">点按切换到本地</string>
+    <string name="search_banner_tap_streaming">点按切换到流媒体</string>
+    <string name="mode_hint_to_local">主页、搜索和资料库将使用设备上的音乐</string>
+    <string name="mode_hint_to_streaming">主页、搜索和资料库将使用 Streaming</string>
+    <string name="search_hint_streaming">搜索流媒体…</string>
+    <string name="search_hint_device">搜索你的设备…</string>
+</resources>

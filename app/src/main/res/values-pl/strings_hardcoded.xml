@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-pl/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">Twoja muzyka, Twój świat</string>
+    <string name="about_license_name">GNU GPL v3 lub nowsza</string>
+    <string name="about_license_title">Licencja</string>
+    <string name="about_license_text">%1$s to wolne oprogramowanie: możesz go używać, badać, modyfikować i redystrybuować na warunkach licencji %2$s. Jest rozpowszechniany BEZ ŻADNEJ GWARANCJI.</string>
+    <string name="about_view_license">Zobacz licencję</string>
+    <string name="about_source_code">Kod źródłowy</string>
+    <string name="about_third_party_services">Zewnętrzne usługi sieciowe: Audius, Internet Archive i LRCLIB (zsynchronizowane teksty piosenek). Aplikacja nie zawiera reklam ani trackerów.</string>
+    <string name="about_role_development">Programowanie</string>
+    <string name="about_role_bottomsheet">Podstawowy kod BottomSheet</string>
+    <string name="about_role_ui_base">Podstawa interfejsu i projektu</string>
+    <string name="about_role_original_project">Oryginalny projekt, na którym bazuje OpenTune</string>
+    <string name="artist_subscribers_count">Subskrybenci: %1$s</string>
+    <string name="section_trending_week">Na topie w tym tygodniu</string>
+    <string name="section_albums_now">Albumy na czasie</string>
+    <string name="section_playlists_discover">Playlisty do odkrycia</string>
+    <string name="section_in_genre">Na topie: %1$s</string>
+</resources>

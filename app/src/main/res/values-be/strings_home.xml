@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Каб убачыць лакальную музыку, нам патрэбны доступ\nда вашых аўдыяфайлаў.</string>
+    <string name="recently_added">Нядаўна дададзена</string>
+    <string name="search_banner_streaming">Пошук у Streaming</string>
+    <string name="search_banner_local">Пошук у вашай лакальнай бібліятэцы</string>
+    <string name="search_banner_tap_local">Націсніце, каб пераключыцца на лакальны рэжым</string>
+    <string name="search_banner_tap_streaming">Націсніце, каб пераключыцца на струменевую перадачу</string>
+    <string name="mode_hint_to_local">Галоўная, пошук і бібліятэка будуць выкарыстоўваць музыку з прылады</string>
+    <string name="mode_hint_to_streaming">Галоўная, пошук і бібліятэка будуць выкарыстоўваць Streaming</string>
+    <string name="search_hint_streaming">Пошук у струменевай перадачы…</string>
+    <string name="search_hint_device">Пошук на прыладзе…</string>
+    <string name="forgotten_favorites">Забытыя ўлюбёнае</string>
+    <string name="your_music_count">Ваша музыка (%1$d песень)</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">برای دیدن موسیقی محلی شما به دسترسی\nبه فایل‌های صوتی‌تان نیاز داریم.</string>
+    <string name="recently_added">اخیراً اضافه‌شده</string>
+    <string name="search_banner_streaming">جستجو در Streaming</string>
+    <string name="search_banner_local">جستجو در کتابخانه محلی شما</string>
+    <string name="search_banner_tap_local">برای تغییر به محلی ضربه بزنید</string>
+    <string name="search_banner_tap_streaming">برای تغییر به پخش آنلاین ضربه بزنید</string>
+    <string name="mode_hint_to_local">خانه، جستجو و کتابخانه از موسیقی دستگاه شما استفاده می‌کنند</string>
+    <string name="mode_hint_to_streaming">خانه، جستجو و کتابخانه از Streaming استفاده می‌کنند</string>
+    <string name="search_hint_streaming">جستجو در پخش آنلاین…</string>
+    <string name="search_hint_device">جستجو در دستگاه شما…</string>
+    <string name="forgotten_favorites">موردعلاقه‌های فراموش‌شده</string>
+    <string name="your_music_count">موسیقی شما (%1$d آهنگ)</string>
+</resources>

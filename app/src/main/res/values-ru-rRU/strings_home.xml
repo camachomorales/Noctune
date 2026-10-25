@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Чтобы увидеть вашу локальную музыку, нам нужен доступ\nк вашим аудиофайлам.</string>
+    <string name="recently_added">Недавно добавленные</string>
+    <string name="search_banner_streaming">Поиск в Streaming</string>
+    <string name="search_banner_local">Поиск в вашей локальной библиотеке</string>
+    <string name="search_banner_tap_local">Нажмите, чтобы переключиться на локальный режим</string>
+    <string name="search_banner_tap_streaming">Нажмите, чтобы переключиться на стриминг</string>
+    <string name="mode_hint_to_local">Главная, поиск и библиотека будут использовать музыку с устройства</string>
+    <string name="mode_hint_to_streaming">Главная, поиск и библиотека будут использовать Streaming</string>
+    <string name="search_hint_streaming">Поиск в стриминге…</string>
+    <string name="search_hint_device">Поиск на устройстве…</string>
+</resources>

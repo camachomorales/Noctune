@@ -24,7 +24,7 @@
     <string name="new_release_albums">"Yeni çıkanlar"</string>
     <string name="forgotten_favorites">"Bir zamanlar sevdiklerin"</string>
     <string name="similar_to">"Şuna benzer"</string>
-    <string name="your_ytb_playlists">"Youtube Hesabın"</string>
+    <string name="your_ytb_playlists">"Streaming Hesabın"</string>
 
     <!-- History -->
     <string name="today">"Bugün"</string>
@@ -45,7 +45,7 @@
 
     <!-- Search -->
     <string name="search">"Ara"</string>
-    <string name="search_yt_music">"Youtube Music'te ara"</string>
+    <string name="search_yt_music">"Streaming'te ara"</string>
     <string name="search_library">"Kitaplıkta ara"</string>
     <string name="filter_library">"Kitaplık"</string>
     <string name="filter_liked">"Beğenildi"</string>
@@ -84,7 +84,7 @@
     <string name="remove_download_playlist_confirm">"\"%s\" içindeki tüm şarkıları silmek istediğine emin misin?"</string>
     <string name="delete_playlist_confirm">"\"%s\" çalma listesini silmek istediğine emin misin?"</string>
     <string name="elements_selected">"%1$d Element Seçdi"</string>
-    <string name="allows_for_sync_witch_youtube">"Not: Youtube Music ile senkronize etmenizi sağlar. Sonradan DEĞİŞTİRİLEMEZ."</string>
+    <string name="allows_for_sync_witch_youtube">"Not: Streaming ile senkronize etmenizi sağlar. Sonradan DEĞİŞTİRİLEMEZ."</string>
 
     <!-- Button -->
     <string name="retry">"Tekrar"</string>
@@ -290,7 +290,7 @@
     <string name="token_hidden">"Tokeni göstermek için tıkla"</string>
     <string name="token_shown">"Kopyalamak ya da düzenlemek için tekrar tıklayınız"</string>
     <string name="token_adv_login_description">"Bu GELİŞMİŞ bir giriş yöntemidir. Web portalına alternatif olarak giriş tokeninizi buraya girebilir veya düzenleyebilirsiniz. Örnek olarak bu, birden fazla cihazda oturum açmayı hızlandırabilir. Lütfen uygulamanın ayrıştıramadığı geçersiz tokenlerin kabul edilmeyeceğini not edin."</string>
-    <string name="ytm_sync">"Otomatik olarak Youtube Music hesabınla senkronize et"</string>
+    <string name="ytm_sync">"Otomatik olarak Streaming hesabınla senkronize et"</string>
     <string name="general">"Genel"</string>
     <string name="content_language">"Varsayılan içerik dili"</string>
     <string name="content_country">"Varsayılan içerik ülkesi"</string>
@@ -362,7 +362,7 @@
     <string name="backup_create_failed">"Yedek oluşturulamadı"</string>
     <string name="restore_failed">"Yedek yüklenemedi"</string>
     <string name="discord_integration">"Discord entegrasyonu"</string>
-    <string name="discord_information">"Opentune discord hesabınızın durumunu ayarlamak için KizzyRPC kütüphanesini kullanır. Bu, Discord'un Hizmet Şartları'nın ihlali olarak değerlendirilebilecek Discord Gateway bağlantısının kullanılmasını gerektirir. Ancak, bu nedenle kullanıcı hesaplarının askıya alındığı bilinen bir vaka yoktur. Kendi sorumluluğunuzda kullanın. OpenTunne yalnızca tokeninizi çıkarır, diğer her şey yerel olarak depolanır."</string>
+    <string name="discord_information">"music discord hesabınızın durumunu ayarlamak için KizzyRPC kütüphanesini kullanır. Bu, Discord'un Hizmet Şartları'nın ihlali olarak değerlendirilebilecek Discord Gateway bağlantısının kullanılmasını gerektirir. Ancak, bu nedenle kullanıcı hesaplarının askıya alındığı bilinen bir vaka yoktur. Kendi sorumluluğunuzda kullanın. OpenTunne yalnızca tokeninizi çıkarır, diğer her şey yerel olarak depolanır."</string>
     <string name="dismiss">"Vazgeç"</string>
     <string name="options">"Ayarlar"</string>
     <string name="preview">"Önizleme"</string>
@@ -487,11 +487,11 @@ Giriş yap"</string>
     <string name="notifications_enabled">"Bildirimler etkinleştirildi"</string>
     <string name="notifications_disabled">"Bildirimler devre dışı"</string>
     <string name="visitor_data_title">"Sorun Giderme"</string>
-    <string name="visitor_data_description">"YouTube ile bağlantı sorunları yaşıyorsanız, VISITOR_DATA'yı sıfırlamak yardımcı olabilir."</string>
+    <string name="visitor_data_description">"Streaming ile bağlantı sorunları yaşıyorsanız, VISITOR_DATA'yı sıfırlamak yardımcı olabilir."</string>
     <string name="visitor_data_info_button">"Nedir o?"</string>
     <string name="visitor_data_reset_button">"Sıfırla"</string>
     <string name="visitor_data_info_title">"VISITOR_DATA nedir?"</string>
-    <string name="visitor_data_info_intro">"VISITOR_DATA, YouTube tarafından oturumunuzu izlemek için kullanılan bir tanımlayıcıdır. Bozulduğunda şunlara neden olabilir:"</string>
+    <string name="visitor_data_info_intro">"VISITOR_DATA, Streaming tarafından oturumunuzu izlemek için kullanılan bir tanımlayıcıdır. Bozulduğunda şunlara neden olabilir:"</string>
     <string name="visitor_data_info_problems">"• Bağlantı hataları
 • İçerik yüklemede sorunlar
 • Arama başarısızlıkları
@@ -500,7 +500,7 @@ Giriş yap"</string>
     <string name="visitor_data_info_note">"Bu hem anonim kullanıcılar hem de oturum açmış kullanıcılar için çalışır."</string>
     <string name="visitor_data_info_confirm">"Anladım"</string>
     <string name="visitor_data_reset_title">"VISITOR_DATA'yı sıfırla"</string>
-    <string name="visitor_data_reset_message">"VISITOR_DATA'yı sıfırlamak istediğinize emin misiniz? Bu, YouTube için yeni bir tanımlayıcı oluşturacak ve bağlantı sorunlarını çözebilecektir.
+    <string name="visitor_data_reset_message">"VISITOR_DATA'yı sıfırlamak istediğinize emin misiniz? Bu, Streaming için yeni bir tanımlayıcı oluşturacak ve bağlantı sorunlarını çözebilecektir.
 
 Uygulama otomatik olarak yeniden başlatılacaktır."</string>
     <string name="visitor_data_reset_confirm">"Sıfırla"</string>
@@ -568,79 +568,4 @@ Uygulama otomatik olarak yeniden başlatılacaktır."</string>
     <string name="reset_button">"Sıfırla"</string>
     <string name="processing_songs">"Şarkıları işlemek..."</string>
     <string name="understood">"Anlaşıldı"</string>
-    <string name="tap_to_open"></string>
-    <string name="animate_lyrics"></string>
-    <string name="animate_lyrics_desc"></string>
-    <string name="changing_language"></string>
-    <string name="auto_scroll"></string>
-    <string name="tertiary_color_style"></string>
-    <string name="details_desc"></string>
-    <string name="equalizer_desc"></string>
-    <string name="advanced_desc"></string>
-    <string name="check_out_album_share"></string>
-    <string name="album_text"></string>
-    <string name="by_text"></string>
-    <string name="more"></string>
-    <string name="uploaded_playlist"></string>
-    <string name="auto_playlist"></string>
-    <string name="saved"></string>
-    <string name="add_to_queue_content_desc"></string>
-    <string name="queue_label"></string>
-    <string name="more_options_content_desc"></string>
-    <string name="playlist_description_start"></string>
-    <string name="playlist_duration_description"></string>
-    <string name="hour"></string>
-    <string name="hours"></string>
-    <string name="minutes"></string>
-    <string name="and"></string>
-    <string name="of_music"></string>
-    <string name="playlist_enjoy_message"></string>
-    <string name="live_media"></string>
-    <string name="live_media_desc"></string>
-    <string name="notification_body"></string>
-    <string name="show_album_art"></string>
-    <string name="show_album_art_desc"></string>
-    <string name="show_artist_name"></string>
-    <string name="show_artist_name_desc"></string>
-    <string name="show_album_name"></string>
-    <string name="show_album_name_desc"></string>
-    <string name="show_action_buttons"></string>
-    <string name="show_action_buttons_desc"></string>
-    <string name="show_progress"></string>
-    <string name="show_progress_desc"></string>
-    <string name="show_timestamps"></string>
-    <string name="show_timestamps_desc"></string>
-    <string name="hide_on_qs"></string>
-    <string name="hide_on_qs_desc"></string>
-    <string name="status_bar_pill"></string>
-    <string name="pill_song_title"></string>
-    <string name="pill_song_title_desc"></string>
-    <string name="pill_elapsed_time"></string>
-    <string name="pill_elapsed_time_desc"></string>
-    <string name="pill_remaining_time"></string>
-    <string name="pill_remaining_time_desc"></string>
-    <string name="grant_permission"></string>
-    <string name="notification_listener_permission_needed"></string>
-    <string name="notification_listener_permission_desc"></string>
-    <string name="accessibility_permission_needed"></string>
-    <string name="accessibility_permission_desc"></string>
-    <string name="live_media_compatibility_title"></string>
-    <string name="live_media_compatibility_message"></string>
-    <string name="permissions"></string>
-    <string name="granted"></string>
-    <string name="pill_content_desc"></string>
-    <string name="play_action"></string>
-    <string name="pause_action"></string>
-    <string name="next_action"></string>
-    <string name="previous_action"></string>
-    <string name="loading_lyrics"></string>
-    <string name="apple_music"></string>
-    <string name="extra_button_type"></string>
-    <string name="none"></string>
-    <string name="repeat"></string>
-    <string name="show_extra_button"></string>
-    <string name="cancel_timer"></string>
-    <string name="start_timer"></string>
-    <string name="sleep_timer_active"></string>
-    <string name="sleep_timer_desc"></string>
 </resources>

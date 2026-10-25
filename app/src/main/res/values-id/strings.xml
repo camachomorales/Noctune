@@ -23,7 +23,7 @@
     <string name="forgotten_favorites">Favorit yang terlupakan</string>
     <string name="similar_to">Mirip dengan</string>
     <string name="keep_listening">Terus mendengarkan</string>
-    <string name="your_ytb_playlists">Akun YouTube Anda</string>
+    <string name="your_ytb_playlists">Akun Streaming Anda</string>
 
     <!-- History -->
     <string name="today">Hari ini</string>
@@ -44,7 +44,7 @@
 
     <!-- Search -->
     <string name="search">Mencari</string>
-    <string name="search_yt_music">Cari musik YouTube…</string>
+    <string name="search_yt_music">Cari musik Streaming…</string>
     <string name="search_library">Cari Perpustakaan…</string>
     <string name="filter_library">Perpustakaan</string>
     <string name="filter_liked">Disukai</string>
@@ -83,7 +83,7 @@
     <string name="remove_download_playlist_confirm">Apakah Anda benar -benar ingin menghapus semua lagu playlist \ "%s \" dari penyimpanan lagu yang diunduh?</string>
     <string name="delete_playlist_confirm">Apakah Anda benar -benar ingin menghapus daftar putar \ "%s \"?</string>
     <string name="elements_selected">%1 $ D Elemen dipilih</string>
-    <string name="allows_for_sync_witch_youtube">Catatan: Ini memungkinkan untuk menyinkronkan dengan musik YouTube. Ini tidak bisa diubah nanti.</string>
+    <string name="allows_for_sync_witch_youtube">Catatan: Ini memungkinkan untuk menyinkronkan dengan musik Streaming. Ini tidak bisa diubah nanti.</string>
 
     <!-- Button -->
     <string name="retry">Mencoba kembali</string>
@@ -300,7 +300,7 @@
     <string name="token_hidden">Ketuk untuk menampilkan token</string>
     <string name="token_shown">Ketuk lagi untuk menyalin atau mengedit</string>
     <string name="token_adv_login_description">Ini adalah metode login canggih. Sebagai alternatif untuk portal web, Anda dapat langsung memasukkan atau memperbarui token login Anda di sini. Misalnya, ini dapat mempercepat masuk pada beberapa perangkat. Harap dicatat bahwa token yang tidak valid format yang gagal diurai aplikasi tidak akan diterima</string>
-    <string name="ytm_sync">Sinkronisasi secara otomatis dengan akun musik YouTube Anda</string>
+    <string name="ytm_sync">Sinkronisasi secara otomatis dengan akun musik Streaming Anda</string>
     <string name="general">Umum</string>
     <string name="content_language">Bahasa konten default</string>
     <string name="content_country">Negara konten default</string>
@@ -378,7 +378,7 @@
     <string name="restore_failed">Gagal mengembalikan cadangan</string>
 
     <string name="discord_integration">Integrasi Perselisihan</string>
-    <string name="discord_information">OpenTune menggunakan pustaka Kizzyrpc untuk mengatur status akun perselisihan Anda. Ini melibatkan penggunaan koneksi gateway Discord, yang dapat dianggap sebagai pelanggaran tos perselisihan. Namun, tidak ada kasus akun pengguna yang diketahui yang ditangguhkan karena alasan ini. Gunakan dengan risiko Anda sendiri.  OpenTunne hanya akan mengekstrak token Anda, dan yang lainnya disimpan secara lokal.</string>
+    <string name="discord_information">music menggunakan pustaka Kizzyrpc untuk mengatur status akun perselisihan Anda. Ini melibatkan penggunaan koneksi gateway Discord, yang dapat dianggap sebagai pelanggaran tos perselisihan. Namun, tidak ada kasus akun pengguna yang diketahui yang ditangguhkan karena alasan ini. Gunakan dengan risiko Anda sendiri.  OpenTunne hanya akan mengekstrak token Anda, dan yang lainnya disimpan secara lokal.</string>
     <string name="dismiss">Membubarkan</string>
     <string name="options">Opsi</string>
     <string name="preview">Pratinjau</string>

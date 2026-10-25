@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-fa-rIR/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">ورود</string>
+    <string name="auth_create_account">ایجاد حساب</string>
+    <string name="auth_welcome_back">دوباره خوش آمدید!</string>
+    <string name="auth_join_today">همین امروز به ما بپیوندید!</string>
+    <string name="auth_create">ایجاد</string>
+    <string name="auth_cancel">لغو</string>
+    <string name="auth_name">نام</string>
+    <string name="auth_email">ایمیل</string>
+    <string name="auth_password">رمز عبور</string>
+    <string name="auth_toggle_password">نمایش یا پنهان کردن رمز عبور</string>
+    <string name="auth_statistics">آمار</string>
+    <string name="auth_songs_played">ترانه‌های پخش‌شده</string>
+    <string name="auth_time_listened">مدت گوش دادن</string>
+    <string name="auth_favorites">موردعلاقه‌ها</string>
+    <string name="auth_account_info">اطلاعات حساب</string>
+    <string name="auth_member_since">عضو از</string>
+    <string name="auth_sign_out_title">از حساب خارج می‌شوید؟</string>
+    <string name="auth_sign_out_message">به حالت مهمان تغییر می‌کنید. هنگام ورود دوباره، لیست‌های پخش شما دوباره اینجا خواهند بود.</string>
+    <string name="auth_guest_warning">یک حساب ایجاد کنید تا لیست‌های پخش و آمار شما در این دستگاه به شما مرتبط بماند.</string>
+    <string name="auth_error_name">نام خود را وارد کنید.</string>
+    <string name="auth_error_email_invalid">به نظر می‌رسد این ایمیل معتبر نیست.</string>
+    <string name="auth_error_password_short">رمز عبور باید حداقل %1$d نویسه باشد.</string>
+    <string name="auth_error_email_taken">حسابی با این ایمیل از قبل وجود دارد.</string>
+    <string name="auth_error_wrong_credentials">ایمیل یا رمز عبور نادرست است.</string>
+</resources>

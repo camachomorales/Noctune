@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-cs/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">Vaše hudba, váš svět</string>
+    <string name="about_license_name">GNU GPL v3 nebo novější</string>
+    <string name="about_license_title">Licence</string>
+    <string name="about_license_text">%1$s je svobodný software: můžete jej používat, studovat, upravovat a dále šířit za podmínek licence %2$s. Je šířen BEZ JAKÉKOLI ZÁRUKY.</string>
+    <string name="about_view_license">Zobrazit licenci</string>
+    <string name="about_source_code">Zdrojový kód</string>
+    <string name="about_third_party_services">Síťové služby třetích stran: Audius, Internet Archive a LRCLIB (synchronizované texty písní). Aplikace neobsahuje reklamy ani sledovací nástroje.</string>
+    <string name="about_role_development">Vývoj</string>
+    <string name="about_role_bottomsheet">Základní kód BottomSheet</string>
+    <string name="about_role_ui_base">Základ rozhraní a projektu</string>
+    <string name="about_role_original_project">Původní projekt, na kterém je OpenTune založen</string>
+    <string name="artist_subscribers_count">Odběratelé: %1$s</string>
+    <string name="section_trending_week">Trendy tohoto týdne</string>
+    <string name="section_albums_now">Alba v trendu</string>
+    <string name="section_playlists_discover">Playlisty k objevování</string>
+    <string name="section_in_genre">V trendu: %1$s</string>
+</resources>

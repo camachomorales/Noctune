@@ -25,7 +25,7 @@
     <string name="new_release_albums">"Nouveautés"</string>
     <string name="forgotten_favorites">"Favoris oubliés"</string>
     <string name="similar_to">"Similaire à"</string>
-    <string name="your_ytb_playlists">"Votre compte YouTube"</string>
+    <string name="your_ytb_playlists">"Votre compte Streaming"</string>
 
     <!-- History -->
     <string name="today">"Aujourd'hui"</string>
@@ -46,7 +46,7 @@
 
     <!-- Search -->
     <string name="search">"Recherche"</string>
-    <string name="search_yt_music">"Rechercher sur YouTube Music…"</string>
+    <string name="search_yt_music">"Rechercher sur Streaming…"</string>
     <string name="search_library">"Rechercher dans la Bibliothèque…"</string>
     <string name="filter_library">"Bibliothèque"</string>
     <string name="filter_liked">"Favoris"</string>
@@ -85,7 +85,7 @@
     <string name="remove_download_playlist_confirm">"Voulez-vous vraiment supprimer tous les titres de la playlist « %s » du stockage des titres téléchargés ?"</string>
     <string name="delete_playlist_confirm">"Voulez-vous vraiment supprimer la playlist « %s » ?"</string>
     <string name="elements_selected">"%1$d Éléments sélectionnés"</string>
-    <string name="allows_for_sync_witch_youtube">"Remarque : Ceci permet la synchronisation avec YouTube Music. Ce paramètre ne peut pas être modifié ultérieurement."</string>
+    <string name="allows_for_sync_witch_youtube">"Remarque : Ceci permet la synchronisation avec Streaming. Ce paramètre ne peut pas être modifié ultérieurement."</string>
 
     <!-- Button -->
     <string name="retry">"Réessayer"</string>
@@ -300,7 +300,7 @@
     <string name="token_hidden">"Appuyez pour afficher le jeton"</string>
     <string name="token_shown">"Appuyez à nouveau pour copier ou modifier"</string>
     <string name="token_adv_login_description">"Il s'agit d'une méthode de connexion avancée. Au lieu du portail web, vous pouvez saisir ou mettre à jour directement votre jeton de connexion ici. Cela peut par exemple accélérer la connexion sur plusieurs appareils. Veuillez noter que tout format de jeton non valide que l'application ne parvient pas à analyser ne sera pas accepté."</string>
-    <string name="ytm_sync">"Synchronisation automatique avec votre compte YouTube Music"</string>
+    <string name="ytm_sync">"Synchronisation automatique avec votre compte Streaming"</string>
     <string name="general">"Général"</string>
     <string name="content_language">"Langue du contenu par défaut"</string>
     <string name="content_country">"Pays de contenu par défaut"</string>
@@ -372,7 +372,7 @@
     <string name="backup_create_failed">"Impossible de créer une sauvegarde"</string>
     <string name="restore_failed">"Échec de la restauration de la sauvegarde"</string>
     <string name="discord_integration">"Intégration de Discord"</string>
-    <string name="discord_information">"OpenTune utilise la bibliothèque KizzyRPC pour définir le statut de votre compte Discord. Cela implique l'utilisation de la connexion Discord Gateway, ce qui peut être considéré comme une violation des conditions d'utilisation de Discord. Cependant, aucun compte utilisateur n'a été suspendu pour cette raison. Utilisez-le à vos risques et périls. OpenTune extraira uniquement votre jeton, le reste étant stocké localement."</string>
+    <string name="discord_information">"music utilise la bibliothèque KizzyRPC pour définir le statut de votre compte Discord. Cela implique l'utilisation de la connexion Discord Gateway, ce qui peut être considéré comme une violation des conditions d'utilisation de Discord. Cependant, aucun compte utilisateur n'a été suspendu pour cette raison. Utilisez-le à vos risques et périls. music extraira uniquement votre jeton, le reste étant stocké localement."</string>
     <string name="dismiss">"Rejeter"</string>
     <string name="options">"Options"</string>
     <string name="preview">"Aperçu"</string>
@@ -565,79 +565,4 @@
     <string name="reset_button">"Réinitialiser"</string>
     <string name="processing_songs">"Traitement des chansons…"</string>
     <string name="understood">"Compris"</string>
-    <string name="tap_to_open"></string>
-    <string name="animate_lyrics"></string>
-    <string name="animate_lyrics_desc"></string>
-    <string name="changing_language"></string>
-    <string name="auto_scroll"></string>
-    <string name="tertiary_color_style"></string>
-    <string name="details_desc"></string>
-    <string name="equalizer_desc"></string>
-    <string name="advanced_desc"></string>
-    <string name="check_out_album_share"></string>
-    <string name="album_text"></string>
-    <string name="by_text"></string>
-    <string name="more"></string>
-    <string name="uploaded_playlist"></string>
-    <string name="auto_playlist"></string>
-    <string name="saved"></string>
-    <string name="add_to_queue_content_desc"></string>
-    <string name="queue_label"></string>
-    <string name="more_options_content_desc"></string>
-    <string name="playlist_description_start"></string>
-    <string name="playlist_duration_description"></string>
-    <string name="hour"></string>
-    <string name="hours"></string>
-    <string name="minutes"></string>
-    <string name="and"></string>
-    <string name="of_music"></string>
-    <string name="playlist_enjoy_message"></string>
-    <string name="live_media"></string>
-    <string name="live_media_desc"></string>
-    <string name="notification_body"></string>
-    <string name="show_album_art"></string>
-    <string name="show_album_art_desc"></string>
-    <string name="show_artist_name"></string>
-    <string name="show_artist_name_desc"></string>
-    <string name="show_album_name"></string>
-    <string name="show_album_name_desc"></string>
-    <string name="show_action_buttons"></string>
-    <string name="show_action_buttons_desc"></string>
-    <string name="show_progress"></string>
-    <string name="show_progress_desc"></string>
-    <string name="show_timestamps"></string>
-    <string name="show_timestamps_desc"></string>
-    <string name="hide_on_qs"></string>
-    <string name="hide_on_qs_desc"></string>
-    <string name="status_bar_pill"></string>
-    <string name="pill_song_title"></string>
-    <string name="pill_song_title_desc"></string>
-    <string name="pill_elapsed_time"></string>
-    <string name="pill_elapsed_time_desc"></string>
-    <string name="pill_remaining_time"></string>
-    <string name="pill_remaining_time_desc"></string>
-    <string name="grant_permission"></string>
-    <string name="notification_listener_permission_needed"></string>
-    <string name="notification_listener_permission_desc"></string>
-    <string name="accessibility_permission_needed"></string>
-    <string name="accessibility_permission_desc"></string>
-    <string name="live_media_compatibility_title"></string>
-    <string name="live_media_compatibility_message"></string>
-    <string name="permissions"></string>
-    <string name="granted"></string>
-    <string name="pill_content_desc"></string>
-    <string name="play_action"></string>
-    <string name="pause_action"></string>
-    <string name="next_action"></string>
-    <string name="previous_action"></string>
-    <string name="loading_lyrics"></string>
-    <string name="apple_music"></string>
-    <string name="extra_button_type"></string>
-    <string name="none"></string>
-    <string name="repeat"></string>
-    <string name="show_extra_button"></string>
-    <string name="cancel_timer"></string>
-    <string name="start_timer"></string>
-    <string name="sleep_timer_active"></string>
-    <string name="sleep_timer_desc"></string>
 </resources>

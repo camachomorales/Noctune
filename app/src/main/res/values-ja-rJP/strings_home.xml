@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">ローカル音楽を表示するには、オーディオファイルへの\nアクセスが必要です。</string>
+    <string name="recently_added">最近追加</string>
+    <string name="search_banner_streaming">Streaming を検索中</string>
+    <string name="search_banner_local">ローカルライブラリを検索中</string>
+    <string name="search_banner_tap_local">タップしてローカルに切り替え</string>
+    <string name="search_banner_tap_streaming">タップしてストリーミングに切り替え</string>
+    <string name="mode_hint_to_local">ホーム、検索、ライブラリは端末内の音楽を使用します</string>
+    <string name="mode_hint_to_streaming">ホーム、検索、ライブラリは Streaming を使用します</string>
+    <string name="search_hint_streaming">ストリーミングを検索…</string>
+    <string name="search_hint_device">端末内を検索…</string>
+    <string name="your_music_count">あなたの音楽（%1$d曲）</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-de/strings_hardcoded.xml -->
+<resources>
+    <string name="about_app_description">Deine Musik, deine Welt</string>
+    <string name="about_license_name">GNU GPL v3 oder neuer</string>
+    <string name="about_license_title">Lizenz</string>
+    <string name="about_license_text">%1$s ist freie Software: Du kannst sie unter den Bedingungen der Lizenz %2$s nutzen, untersuchen, verändern und weiterverbreiten. Es wird KEINE GARANTIE gewährt.</string>
+    <string name="about_view_license">Lizenz ansehen</string>
+    <string name="about_source_code">Quellcode</string>
+    <string name="about_third_party_services">Netzwerkdienste von Drittanbietern: Audius, Internet Archive und LRCLIB (synchronisierte Songtexte). Die App enthält keine Werbung und keine Tracker.</string>
+    <string name="about_role_development">Entwicklung</string>
+    <string name="about_role_bottomsheet">BottomSheet-Basiscode</string>
+    <string name="about_role_ui_base">Basis für Oberfläche und Projekt</string>
+    <string name="about_role_original_project">Ursprüngliches Projekt, auf dem OpenTune basiert</string>
+    <string name="artist_subscribers_count">%1$s Abonnenten</string>
+    <string name="section_trending_week">Trends der Woche</string>
+    <string name="section_albums_now">Angesagte Alben</string>
+    <string name="section_playlists_discover">Playlists zum Entdecken</string>
+    <string name="section_in_genre">Beliebt in %1$s</string>
+</resources>

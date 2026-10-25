@@ -1,0 +1,16 @@
+Noctune es un reproductor de música de código abierto para Android con dos modos: tu música local y streaming en línea.
+
+<b>Modo local</b>
+• Reproduce la música guardada en tu teléfono.
+• Busca en tu biblioteca con sugerencias de tus búsquedas anteriores y de tus canciones locales.
+
+<b>Modo streaming</b>
+• Busca y escucha música de Audius, la plataforma de música descentralizada.
+• Busca y reproduce audio libre de Internet Archive: grabaciones de dominio público, conciertos en vivo, netlabels, audiolibros y radio antigua. Se muestra la licencia de cada elemento cuando quien lo subió la declara.
+
+<b>Además</b>
+• Listas de reproducción, favoritos e historial.
+• Letras sincronizadas de LrcLib.
+• Temporizador de apagado, descargas sin conexión y modo invitado.
+
+Noctune no tiene anuncios ni rastreo, y no usa servicios de Google.

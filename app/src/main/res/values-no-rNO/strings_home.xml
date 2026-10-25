@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">For å se din lokale musikk trenger vi tilgang\ntil lydfilene dine.</string>
+    <string name="recently_added">Nylig lagt til</string>
+    <string name="search_banner_streaming">Søker i Streaming</string>
+    <string name="search_banner_local">Søker i ditt lokale bibliotek</string>
+    <string name="search_banner_tap_local">Trykk for å bytte til Lokal</string>
+    <string name="search_banner_tap_streaming">Trykk for å bytte til Strømming</string>
+    <string name="mode_hint_to_local">Hjem, søk og bibliotek bruker musikk fra enheten din</string>
+    <string name="mode_hint_to_streaming">Hjem, søk og bibliotek bruker Streaming</string>
+    <string name="search_hint_streaming">Søk i strømming…</string>
+    <string name="search_hint_device">Søk på enheten din…</string>
+    <string name="forgotten_favorites">Glemte favoritter</string>
+    <string name="your_music_count">Din musikk (%1$d sanger)</string>
+</resources>

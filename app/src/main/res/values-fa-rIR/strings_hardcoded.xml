@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-fa-rIR/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">موسیقی شما، دنیای شما</string>
+    <string name="about_license_name">GNU GPL نسخه 3 یا بالاتر</string>
+    <string name="about_license_title">مجوز</string>
+    <string name="about_license_text">%1$s یک نرم‌افزار آزاد است: می‌توانید طبق شرایط مجوز %2$s از آن استفاده کنید، آن را بررسی کنید، تغییر دهید و دوباره منتشر کنید. این برنامه بدون هیچ‌گونه ضمانتی ارائه می‌شود.</string>
+    <string name="about_view_license">مشاهده مجوز</string>
+    <string name="about_source_code">کد منبع</string>
+    <string name="about_third_party_services">سرویس‌های شبکه‌ای شخص ثالث: Audius، Internet Archive و LRCLIB (متن ترانه همگام‌سازی‌شده). این برنامه تبلیغات و ردیاب ندارد.</string>
+    <string name="about_role_development">توسعه</string>
+    <string name="about_role_bottomsheet">کد پایه BottomSheet</string>
+    <string name="about_role_ui_base">پایه رابط کاربری و پروژه</string>
+    <string name="about_role_original_project">پروژه اصلی که OpenTune بر پایه آن ساخته شده است</string>
+    <string name="artist_subscribers_count">%1$s مشترک</string>
+    <string name="section_trending_week">پرطرفدارهای این هفته</string>
+    <string name="section_albums_now">آلبوم‌های پرطرفدار</string>
+    <string name="section_playlists_discover">لیست‌های پخش برای کشف</string>
+    <string name="section_in_genre">پرطرفدار در %1$s</string>
+</resources>

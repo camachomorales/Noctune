@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-ca/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">La teva música, el teu món</string>
+    <string name="about_license_name">GNU GPL v3 o posterior</string>
+    <string name="about_license_title">Llicència</string>
+    <string name="about_license_text">%1$s és programari lliure: pots usar-lo, estudiar-lo, modificar-lo i redistribuir-lo segons els termes de la llicència %2$s. Es distribueix SENSE CAP GARANTIA.</string>
+    <string name="about_view_license">Mostra la llicència</string>
+    <string name="about_source_code">Codi font</string>
+    <string name="about_third_party_services">Serveis de xarxa de tercers: Audius, Internet Archive i LRCLIB (lletres sincronitzades). L\'aplicació no inclou publicitat ni rastrejadors.</string>
+    <string name="about_role_development">Desenvolupament</string>
+    <string name="about_role_bottomsheet">Codi base del BottomSheet</string>
+    <string name="about_role_ui_base">Base de la interfície i del projecte</string>
+    <string name="about_role_original_project">Projecte original en què es basa OpenTune</string>
+    <string name="artist_subscribers_count">%1$s subscriptors</string>
+    <string name="section_trending_week">Tendències de la setmana</string>
+    <string name="section_albums_now">Àlbums del moment</string>
+    <string name="section_playlists_discover">Llistes per descobrir</string>
+    <string name="section_in_genre">Tendències en %1$s</string>
+</resources>

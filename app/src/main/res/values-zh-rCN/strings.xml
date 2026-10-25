@@ -23,7 +23,7 @@
     <string name="new_release_albums">"新发布"</string>
     <string name="forgotten_favorites">"被遗忘的最爱"</string>
     <string name="similar_to">"相似歌曲"</string>
-    <string name="your_ytb_playlists">"你的YouTube账户"</string>
+    <string name="your_ytb_playlists">"你的Streaming账户"</string>
 
     <!-- History -->
     <string name="today">"今日"</string>
@@ -44,7 +44,7 @@
 
     <!-- Search -->
     <string name="search">"查找"</string>
-    <string name="search_yt_music">"在YouTube音乐中搜寻……"</string>
+    <string name="search_yt_music">"在Streaming音乐中搜寻……"</string>
     <string name="search_library">"搜索分类"</string>
     <string name="filter_library">"分类"</string>
     <string name="filter_liked">"我喜爱的"</string>
@@ -83,7 +83,7 @@
     <string name="remove_download_playlist_confirm">"您确实要从“已下载歌曲”存储中删除所有“%s”播放列表歌曲吗？"</string>
     <string name="delete_playlist_confirm">"您确实要删除播放列表“%s”吗？"</string>
     <string name="elements_selected">"已选择 %1$d 个元素"</string>
-    <string name="allows_for_sync_witch_youtube">"注意：此选项允许与 YouTube Music 同步。之后不可更改。"</string>
+    <string name="allows_for_sync_witch_youtube">"注意：此选项允许与 Streaming 同步。之后不可更改。"</string>
 
     <!-- Button -->
     <string name="retry">"重试"</string>
@@ -235,7 +235,7 @@
     <string name="settings">"设置"</string>
     <string name="login_settings">"登录设置"</string>
     <string name="use_login_for_browse">"登录以浏览会员内容"</string>
-    <string name="use_login_for_browse_desc">"使用YouTube会员帐户登录，即可以展示会员内容"</string>
+    <string name="use_login_for_browse_desc">"使用Streaming会员帐户登录，即可以展示会员内容"</string>
     <string name="general_settings">"常规设置"</string>
     <string name="appearance">"外观"</string>
     <string name="theme">"主题"</string>
@@ -280,7 +280,7 @@
     <string name="token_hidden">"点击显示令牌"</string>
     <string name="token_shown">"再次点击即可复制或编辑"</string>
     <string name="token_adv_login_description">"这是一种高级登录方式。作为网页门户的替代方案，您可以直接在此处输入或更新您的登录令牌。例如，这可以加快在多个设备上的登录速度。请注意，任何应用程序无法解析的无效令牌格式都将不被接受。"</string>
-    <string name="ytm_sync">"自动与您的 YouTube 音乐帐户同步"</string>
+    <string name="ytm_sync">"自动与您的 Streaming 音乐帐户同步"</string>
     <string name="general">"一般的"</string>
     <string name="content_language">"默认显示语言"</string>
     <string name="content_country">"默认内容国家/地区"</string>
@@ -352,7 +352,7 @@
     <string name="backup_create_failed">"创建备份失败"</string>
     <string name="restore_failed">"恢复备份失败"</string>
     <string name="discord_integration">"Discord 集成"</string>
-    <string name="discord_information">"OpenTune 使用 KizzyRPC 库来设置您的 Discord 帐户状态。这涉及使用 Discord 网关连接，这可能被视为违反 Discord 的服务条款 (TOS)。但是，目前尚无已知用户帐户因此被暂停的案例。使用风险自负。OpenTunne 只会提取您的令牌，其他所有内容都存储在本地。"</string>
+    <string name="discord_information">"music 使用 KizzyRPC 库来设置您的 Discord 帐户状态。这涉及使用 Discord 网关连接，这可能被视为违反 Discord 的服务条款 (TOS)。但是，目前尚无已知用户帐户因此被暂停的案例。使用风险自负。OpenTunne 只会提取您的令牌，其他所有内容都存储在本地。"</string>
     <string name="dismiss">"忽略"</string>
     <string name="options">"选项"</string>
     <string name="preview">"预览"</string>
@@ -471,7 +471,7 @@
     <string name="visitor_data_info_button">"这是什么？"</string>
     <string name="visitor_data_reset_button">"重置"</string>
     <string name="visitor_data_info_title">"什么是访客数据？"</string>
-    <string name="visitor_data_info_intro">"访客数据 是 YouTube 用来跟踪您的会话的标识符。当它损坏时，可能会导致："</string>
+    <string name="visitor_data_info_intro">"访客数据 是 Streaming 用来跟踪您的会话的标识符。当它损坏时，可能会导致："</string>
     <string name="visitor_data_info_problems">"• 连接错误
 • 内容加载问题
 • 搜索失败
@@ -480,7 +480,7 @@
     <string name="visitor_data_info_note">"这适用于匿名用户和已登录用户。"</string>
     <string name="visitor_data_info_confirm">"了解"</string>
     <string name="visitor_data_reset_title">"重置 访客数据"</string>
-    <string name="visitor_data_reset_message">"您确定要重置 访客数据 吗?这将为 YouTube 生成一个新的标识符，并可能修复连接问题。
+    <string name="visitor_data_reset_message">"您确定要重置 访客数据 吗?这将为 Streaming 生成一个新的标识符，并可能修复连接问题。
 
 应用程序将自动重启。"</string>
     <string name="visitor_data_reset_confirm">"重置"</string>
@@ -548,79 +548,4 @@
     <string name="reset_button">"重置"</string>
     <string name="processing_songs">"正在加载歌曲"</string>
     <string name="understood">"已知晓"</string>
-    <string name="tap_to_open"></string>
-    <string name="animate_lyrics"></string>
-    <string name="animate_lyrics_desc"></string>
-    <string name="changing_language"></string>
-    <string name="auto_scroll"></string>
-    <string name="tertiary_color_style"></string>
-    <string name="details_desc"></string>
-    <string name="equalizer_desc"></string>
-    <string name="advanced_desc"></string>
-    <string name="check_out_album_share"></string>
-    <string name="album_text"></string>
-    <string name="by_text"></string>
-    <string name="more"></string>
-    <string name="uploaded_playlist"></string>
-    <string name="auto_playlist"></string>
-    <string name="saved"></string>
-    <string name="add_to_queue_content_desc"></string>
-    <string name="queue_label"></string>
-    <string name="more_options_content_desc"></string>
-    <string name="playlist_description_start"></string>
-    <string name="playlist_duration_description"></string>
-    <string name="hour"></string>
-    <string name="hours"></string>
-    <string name="minutes"></string>
-    <string name="and"></string>
-    <string name="of_music"></string>
-    <string name="playlist_enjoy_message"></string>
-    <string name="live_media"></string>
-    <string name="live_media_desc"></string>
-    <string name="notification_body"></string>
-    <string name="show_album_art"></string>
-    <string name="show_album_art_desc"></string>
-    <string name="show_artist_name"></string>
-    <string name="show_artist_name_desc"></string>
-    <string name="show_album_name"></string>
-    <string name="show_album_name_desc"></string>
-    <string name="show_action_buttons"></string>
-    <string name="show_action_buttons_desc"></string>
-    <string name="show_progress"></string>
-    <string name="show_progress_desc"></string>
-    <string name="show_timestamps"></string>
-    <string name="show_timestamps_desc"></string>
-    <string name="hide_on_qs"></string>
-    <string name="hide_on_qs_desc"></string>
-    <string name="status_bar_pill"></string>
-    <string name="pill_song_title"></string>
-    <string name="pill_song_title_desc"></string>
-    <string name="pill_elapsed_time"></string>
-    <string name="pill_elapsed_time_desc"></string>
-    <string name="pill_remaining_time"></string>
-    <string name="pill_remaining_time_desc"></string>
-    <string name="grant_permission"></string>
-    <string name="notification_listener_permission_needed"></string>
-    <string name="notification_listener_permission_desc"></string>
-    <string name="accessibility_permission_needed"></string>
-    <string name="accessibility_permission_desc"></string>
-    <string name="live_media_compatibility_title"></string>
-    <string name="live_media_compatibility_message"></string>
-    <string name="permissions"></string>
-    <string name="granted"></string>
-    <string name="pill_content_desc"></string>
-    <string name="play_action"></string>
-    <string name="pause_action"></string>
-    <string name="next_action"></string>
-    <string name="previous_action"></string>
-    <string name="loading_lyrics"></string>
-    <string name="apple_music"></string>
-    <string name="extra_button_type"></string>
-    <string name="none"></string>
-    <string name="repeat"></string>
-    <string name="show_extra_button"></string>
-    <string name="cancel_timer"></string>
-    <string name="start_timer"></string>
-    <string name="sleep_timer_active"></string>
-    <string name="sleep_timer_desc"></string>
 </resources>

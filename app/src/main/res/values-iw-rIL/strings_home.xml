@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">כדי להציג את המוזיקה המקומית שלך אנחנו צריכים גישה\nלקובצי האודיו שלך.</string>
+    <string name="recently_added">נוספו לאחרונה</string>
+    <string name="search_banner_streaming">מחפש ב-Streaming</string>
+    <string name="search_banner_local">מחפש בספרייה המקומית שלך</string>
+    <string name="search_banner_tap_local">הקש כדי לעבור למצב מקומי</string>
+    <string name="search_banner_tap_streaming">הקש כדי לעבור לסטרימינג</string>
+    <string name="mode_hint_to_local">מסך הבית, החיפוש והספרייה ישתמשו במוזיקה מהמכשיר שלך</string>
+    <string name="mode_hint_to_streaming">מסך הבית, החיפוש והספרייה ישתמשו ב-Streaming</string>
+    <string name="search_hint_streaming">חפש בסטרימינג…</string>
+    <string name="search_hint_device">חפש במכשיר שלך…</string>
+    <string name="forgotten_favorites">מועדפים נשכחים</string>
+    <string name="your_music_count">המוזיקה שלך (%1$d שירים)</string>
+</resources>

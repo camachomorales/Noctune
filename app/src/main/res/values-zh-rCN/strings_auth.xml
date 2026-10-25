@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 新文件：app/src/main/res/values-zh-rCN/strings_auth.xml -->
+<resources>
+    <string name="auth_sign_in">登录</string>
+    <string name="auth_create_account">创建账户</string>
+    <string name="auth_welcome_back">欢迎回来！</string>
+    <string name="auth_join_today">今天就加入我们吧！</string>
+    <string name="auth_create">创建</string>
+    <string name="auth_cancel">取消</string>
+    <string name="auth_name">姓名</string>
+    <string name="auth_email">电子邮箱</string>
+    <string name="auth_password">密码</string>
+    <string name="auth_toggle_password">显示或隐藏密码</string>
+    <string name="auth_statistics">统计数据</string>
+    <string name="auth_songs_played">播放的歌曲</string>
+    <string name="auth_time_listened">收听时长</string>
+    <string name="auth_favorites">收藏</string>
+    <string name="auth_account_info">账户信息</string>
+    <string name="auth_member_since">注册时间</string>
+    <string name="auth_sign_out_title">要登出吗？</string>
+    <string name="auth_sign_out_message">您将切换到访客模式。重新登录后，您的播放列表会再次出现在这里。</string>
+    <string name="auth_guest_warning">创建账户，让您的播放列表和统计数据在此设备上与您绑定。</string>
+    <string name="auth_error_name">请输入您的姓名。</string>
+    <string name="auth_error_email_invalid">该邮箱地址看起来不正确。</string>
+    <string name="auth_error_password_short">密码至少需要 %1$d 个字符。</string>
+    <string name="auth_error_email_taken">该邮箱地址已注册账户。</string>
+    <string name="auth_error_wrong_credentials">邮箱或密码错误。</string>
+</resources>

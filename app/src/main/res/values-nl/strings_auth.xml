@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-nl/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">Inloggen</string>
+    <string name="auth_create_account">Account aanmaken</string>
+    <string name="auth_welcome_back">Welkom terug!</string>
+    <string name="auth_join_today">Doe vandaag nog mee!</string>
+    <string name="auth_create">Aanmaken</string>
+    <string name="auth_cancel">Annuleren</string>
+    <string name="auth_name">Naam</string>
+    <string name="auth_email">E-mail</string>
+    <string name="auth_password">Wachtwoord</string>
+    <string name="auth_toggle_password">Wachtwoord tonen of verbergen</string>
+    <string name="auth_statistics">Statistieken</string>
+    <string name="auth_songs_played">Afgespeelde nummers</string>
+    <string name="auth_time_listened">Luistertijd</string>
+    <string name="auth_favorites">Favorieten</string>
+    <string name="auth_account_info">Accountgegevens</string>
+    <string name="auth_member_since">Lid sinds</string>
+    <string name="auth_sign_out_title">Uitloggen?</string>
+    <string name="auth_sign_out_message">Je schakelt over naar de gastmodus. Je afspeellijsten zijn weer hier zodra je opnieuw inlogt.</string>
+    <string name="auth_guest_warning">Maak een account aan om je afspeellijsten en statistieken op dit apparaat aan jou gekoppeld te houden.</string>
+    <string name="auth_error_name">Vul je naam in.</string>
+    <string name="auth_error_email_invalid">Dit e-mailadres lijkt niet te kloppen.</string>
+    <string name="auth_error_password_short">Het wachtwoord moet minimaal %1$d tekens bevatten.</string>
+    <string name="auth_error_email_taken">Er bestaat al een account met dit e-mailadres.</string>
+    <string name="auth_error_wrong_credentials">Onjuist e-mailadres of wachtwoord.</string>
+</resources>

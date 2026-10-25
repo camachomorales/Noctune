@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-bn-rIN/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">আপনার সংগীত, আপনার বিশ্ব</string>
+    <string name="about_license_name">GNU GPL v3 বা পরবর্তী সংস্করণ</string>
+    <string name="about_license_title">লাইসেন্স</string>
+    <string name="about_license_text">%1$s একটি ফ্রি সফটওয়্যার: আপনি %2$s লাইসেন্সের শর্ত অনুযায়ী এটি ব্যবহার, অধ্যয়ন, পরিবর্তন এবং পুনরায় বিতরণ করতে পারেন। এটি কোনো ওয়ারেন্টি ছাড়াই বিতরণ করা হয়।</string>
+    <string name="about_view_license">লাইসেন্স দেখুন</string>
+    <string name="about_source_code">সোর্স কোড</string>
+    <string name="about_third_party_services">তৃতীয় পক্ষের নেটওয়ার্ক পরিষেবা: Audius, Internet Archive এবং LRCLIB (সিঙ্ক করা গানের কথা)। অ্যাপে কোনো বিজ্ঞাপন বা ট্র্যাকার নেই।</string>
+    <string name="about_role_development">ডেভেলপমেন্ট</string>
+    <string name="about_role_bottomsheet">BottomSheet-এর বেস কোড</string>
+    <string name="about_role_ui_base">ইন্টারফেস ও প্রজেক্টের ভিত্তি</string>
+    <string name="about_role_original_project">মূল প্রজেক্ট, যার উপর OpenTune ভিত্তি করে তৈরি</string>
+    <string name="artist_subscribers_count">%1$s জন সাবস্ক্রাইবার</string>
+    <string name="section_trending_week">এই সপ্তাহের ট্রেন্ডিং</string>
+    <string name="section_albums_now">ট্রেন্ডিং অ্যালবাম</string>
+    <string name="section_playlists_discover">আবিষ্কারের জন্য প্লেলিস্ট</string>
+    <string name="section_in_genre">%1$s-এ ট্রেন্ডিং</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-cs/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">Přihlásit se</string>
+    <string name="auth_create_account">Vytvořit účet</string>
+    <string name="auth_welcome_back">Vítejte zpět!</string>
+    <string name="auth_join_today">Přidejte se k nám ještě dnes!</string>
+    <string name="auth_create">Vytvořit</string>
+    <string name="auth_cancel">Zrušit</string>
+    <string name="auth_name">Jméno</string>
+    <string name="auth_email">E-mail</string>
+    <string name="auth_password">Heslo</string>
+    <string name="auth_toggle_password">Zobrazit nebo skrýt heslo</string>
+    <string name="auth_statistics">Statistiky</string>
+    <string name="auth_songs_played">Přehrané skladby</string>
+    <string name="auth_time_listened">Doba poslechu</string>
+    <string name="auth_favorites">Oblíbené</string>
+    <string name="auth_account_info">Informace o účtu</string>
+    <string name="auth_member_since">Členem od</string>
+    <string name="auth_sign_out_title">Odhlásit se?</string>
+    <string name="auth_sign_out_message">Přepnete se do režimu hosta. Vaše playlisty se tu znovu objeví, jakmile se znovu přihlásíte.</string>
+    <string name="auth_guest_warning">Vytvořte si účet, aby zůstaly vaše playlisty a statistiky na tomto zařízení propojeny s vámi.</string>
+    <string name="auth_error_name">Zadejte své jméno.</string>
+    <string name="auth_error_email_invalid">Tento e-mail nevypadá správně.</string>
+    <string name="auth_error_password_short">Heslo musí mít alespoň %1$d znaků.</string>
+    <string name="auth_error_email_taken">Účet s tímto e-mailem již existuje.</string>
+    <string name="auth_error_wrong_credentials">Nesprávný e-mail nebo heslo.</string>
+</resources>

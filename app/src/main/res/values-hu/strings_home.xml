@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">A helyi zenéd megjelenítéséhez hozzáférés kell\na hangfájljaidhoz.</string>
+    <string name="recently_added">Nemrég hozzáadva</string>
+    <string name="search_banner_streaming">Keresés a Streaming-on</string>
+    <string name="search_banner_local">Keresés a helyi könyvtáradban</string>
+    <string name="search_banner_tap_local">Koppints a Helyi módra váltáshoz</string>
+    <string name="search_banner_tap_streaming">Koppints a Streaming módra váltáshoz</string>
+    <string name="mode_hint_to_local">A kezdőlap, a keresés és a könyvtár az eszközöd zenéit használja</string>
+    <string name="mode_hint_to_streaming">A kezdőlap, a keresés és a könyvtár a Streaming-ot használja</string>
+    <string name="search_hint_streaming">Keresés a streamingben…</string>
+    <string name="search_hint_device">Keresés az eszközön…</string>
+    <string name="your_music_count">A zenéd (%1$d dal)</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">तपाईंको स्थानीय संगीत हेर्न हामीलाई तपाईंका अडियो फाइलहरूमा\nपहुँच चाहिन्छ।</string>
+    <string name="recently_added">हालै थपिएको</string>
+    <string name="search_banner_streaming">Streaming मा खोज्दै</string>
+    <string name="search_banner_local">तपाईंको स्थानीय पुस्तकालयमा खोज्दै</string>
+    <string name="search_banner_tap_local">स्थानीयमा बदल्न ट्याप गर्नुहोस्</string>
+    <string name="search_banner_tap_streaming">स्ट्रिमिङमा बदल्न ट्याप गर्नुहोस्</string>
+    <string name="mode_hint_to_local">होम, खोज र पुस्तकालयले तपाईंको उपकरणको संगीत प्रयोग गर्नेछन्</string>
+    <string name="mode_hint_to_streaming">होम, खोज र पुस्तकालयले Streaming प्रयोग गर्नेछन्</string>
+    <string name="search_hint_streaming">स्ट्रिमिङमा खोज्नुहोस्…</string>
+    <string name="search_hint_device">आफ्नो उपकरणमा खोज्नुहोस्…</string>
+    <string name="your_music_count">तपाईंको संगीत (%1$d गीत)</string>
+</resources>

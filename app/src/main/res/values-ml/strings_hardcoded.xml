@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-ml/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">നിങ്ങളുടെ സംഗീതം, നിങ്ങളുടെ ലോകം</string>
+    <string name="about_license_name">GNU GPL v3 അല്ലെങ്കിൽ പുതിയത്</string>
+    <string name="about_license_title">ലൈസൻസ്</string>
+    <string name="about_license_text">%1$s ഒരു സ്വതന്ത്ര സോഫ്റ്റ്‌വെയറാണ്: %2$s ലൈസൻസിന്റെ വ്യവസ്ഥകൾ അനുസരിച്ച് നിങ്ങൾക്ക് ഇത് ഉപയോഗിക്കാനും പഠിക്കാനും പരിഷ്കരിക്കാനും വീണ്ടും വിതരണം ചെയ്യാനും കഴിയും. യാതൊരു വാറന്റിയും ഇല്ലാതെയാണ് ഇത് വിതരണം ചെയ്യുന്നത്.</string>
+    <string name="about_view_license">ലൈസൻസ് കാണുക</string>
+    <string name="about_source_code">സോഴ്സ് കോഡ്</string>
+    <string name="about_third_party_services">മൂന്നാം കക്ഷി നെറ്റ്‌വർക്ക് സേവനങ്ങൾ: Audius, Internet Archive, LRCLIB (സമന്വയിപ്പിച്ച വരികൾ). ആപ്പിൽ പരസ്യങ്ങളോ ട്രാക്കറുകളോ ഇല്ല.</string>
+    <string name="about_role_development">ഡെവലപ്മെന്റ്</string>
+    <string name="about_role_bottomsheet">BottomSheet ബേസ് കോഡ്</string>
+    <string name="about_role_ui_base">ഇന്റർഫേസിന്റെയും പ്രോജക്ടിന്റെയും അടിസ്ഥാനം</string>
+    <string name="about_role_original_project">OpenTune അടിസ്ഥാനമാക്കിയ യഥാർത്ഥ പ്രോജക്ട്</string>
+    <string name="artist_subscribers_count">%1$s സബ്‌സ്‌ക്രൈബർമാർ</string>
+    <string name="section_trending_week">ഈ ആഴ്ചയിലെ ട്രെൻഡിംഗ്</string>
+    <string name="section_albums_now">ട്രെൻഡിംഗ് ആൽബങ്ങൾ</string>
+    <string name="section_playlists_discover">കണ്ടെത്താനുള്ള പ്ലേലിസ്റ്റുകൾ</string>
+    <string name="section_in_genre">%1$s-ൽ ട്രെൻഡിംഗ്</string>
+</resources>

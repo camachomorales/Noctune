@@ -1,0 +1,712 @@
+/*
+ * Noctune
+ * Copyright (C) 2026 Betsy
+ * SPDX-License-Identifier: GPL-3.0-only
+ *
+ * Based on InnerTune and OpenTune (GPL-3.0). Modified by Betsy, 2026.
+ * Portions remain under the copyright of their original authors.
+ */
+
+package com.betsy.music.ui.screens.settings
+
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.WindowInsetsSides
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.only
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
+import androidx.compose.material3.TopAppBarScrollBehavior
+import androidx.compose.material3.rememberModalBottomSheetState
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableLongStateOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.navigation.NavController
+import coil.annotation.ExperimentalCoilApi
+import coil.compose.AsyncImage
+import coil.imageLoader
+import com.betsy.music.LocalPlayerAwareWindowInsets
+import com.betsy.music.LocalPlayerConnection
+import com.betsy.music.R
+import com.betsy.music.constants.MaxImageCacheSizeKey
+import com.betsy.music.constants.MaxSongCacheSizeKey
+import com.betsy.music.constants.ThumbnailCornerRadius
+import com.betsy.music.db.entities.Song
+import com.betsy.music.extensions.tryOrNull
+import com.betsy.music.ui.component.IconButton
+import com.betsy.music.ui.component.ListPreference
+import com.betsy.music.ui.utils.backToMain
+import com.betsy.music.ui.utils.formatFileSize
+import com.betsy.music.ui.theme.rememberAdaptiveOnColor
+import com.betsy.music.utils.rememberPreference
+import com.betsy.music.viewmodels.HistoryViewModel
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.isActive
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+@OptIn(ExperimentalCoilApi::class, ExperimentalMaterial3Api::class)
+@Composable
+fun StorageSettings(
+    navController: NavController,
+    scrollBehavior: TopAppBarScrollBehavior,
+    viewModel: HistoryViewModel = hiltViewModel(),
+) {
+    val context = LocalContext.current
+    val imageDiskCache = context.imageLoader.diskCache ?: return
+    val playerCache = LocalPlayerConnection.current?.service?.playerCache ?: return
+    val downloadCache = LocalPlayerConnection.current?.service?.downloadCache ?: return
+    val (accentColorInt) = com.betsy.music.utils.rememberPreference(
+        com.betsy.music.constants.AccentColorKey, defaultValue = 0xFF3b9cac.toInt()
+    )
+    val accentColor = remember(accentColorInt) { Color(accentColorInt.toLong() or 0xFF000000L) }
+    val adaptiveColor = com.betsy.music.ui.theme.rememberAdaptiveOnColor()
+
+    val coroutineScope = rememberCoroutineScope()
+    val (maxImageCacheSize, onMaxImageCacheSizeChange) = rememberPreference(
+        key = MaxImageCacheSizeKey,
+        defaultValue = -1
+    )
+    val (maxSongCacheSize, onMaxSongCacheSizeChange) = rememberPreference(
+        key = MaxSongCacheSizeKey,
+        defaultValue = -1
+    )
+
+    var imageCacheSize by remember { mutableLongStateOf(imageDiskCache.size) }
+    var playerCacheSize by remember { mutableLongStateOf(tryOrNull { playerCache.cacheSpace } ?: 0) }
+    var downloadCacheSize by remember { mutableLongStateOf(tryOrNull { downloadCache.cacheSpace } ?: 0) }
+
+    val animatedImageCacheSize by animateFloatAsState(
+        targetValue = if (maxImageCacheSize == -1) 0f
+        else (imageCacheSize.toFloat() / (maxImageCacheSize * 1024 * 1024L)).coerceIn(0f, 1f),
+        label = "imageCacheProgress",
+    )
+
+    val animatedPlayerCacheSize by animateFloatAsState(
+        targetValue = if (maxSongCacheSize == -1) 0f
+        else (playerCacheSize.toFloat() / (maxSongCacheSize * 1024 * 1024L)).coerceIn(0f, 1f),
+        label = "playerCacheProgress",
+    )
+    val animatedDownloadCacheSize by animateFloatAsState(
+        targetValue = if (downloadCacheSize == 0L) 0f else 1f,
+        label = "downloadCacheProgress",
+    )
+
+    var showCachedSongsSheet by remember { mutableStateOf(false) }
+    val adaptiveTextColor = rememberAdaptiveOnColor()
+
+    LaunchedEffect(imageDiskCache) {
+        while (isActive) {
+            delay(500)
+            imageCacheSize = imageDiskCache.size
+        }
+    }
+    LaunchedEffect(playerCache) {
+        while (isActive) {
+            delay(500)
+            playerCacheSize = tryOrNull { playerCache.cacheSpace } ?: 0
+        }
+    }
+    LaunchedEffect(downloadCache) {
+        while (isActive) {
+            delay(500)
+            downloadCacheSize = tryOrNull { downloadCache.cacheSpace } ?: 0
+        }
+    }
+
+    Box(modifier = Modifier.fillMaxSize()) {
+        Column(
+            modifier = Modifier
+                .windowInsetsPadding(LocalPlayerAwareWindowInsets.current.only(WindowInsetsSides.Horizontal + WindowInsetsSides.Top))
+                .verticalScroll(rememberScrollState())
+                .padding(horizontal = 16.dp, vertical = 8.dp),
+            verticalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
+            
+            StorageCard(
+                title = stringResource(R.string.downloaded_songs),
+                icon = R.drawable.download,
+                usedSize = downloadCacheSize,
+                maxSize = null,
+                progress = if (downloadCacheSize > 0) animatedDownloadCacheSize else 0f,
+                onClearClick = {
+                    coroutineScope.launch(Dispatchers.IO) {
+                        try {
+                            downloadCache.keys.toList().forEach { key ->
+                                tryOrNull { downloadCache.removeResource(key) }
+                            }
+                        } catch (e: Exception) {
+                            e.printStackTrace()
+                        }
+                    }
+                },
+                onManageClick = null
+            )
+
+            
+            StorageCard(
+                title = stringResource(R.string.song_cache),
+                icon = R.drawable.music_note,
+                usedSize = playerCacheSize,
+                maxSize = if (maxSongCacheSize == -1) -1L else maxSongCacheSize * 1024 * 1024L,
+                progress = animatedPlayerCacheSize,
+                onClearClick = {
+                    coroutineScope.launch(Dispatchers.IO) {
+                        try {
+                            playerCache.keys.toList().forEach { key ->
+                                tryOrNull { playerCache.removeResource(key) }
+                            }
+                        } catch (e: Exception) {
+                            e.printStackTrace()
+                        }
+                    }
+                },
+                onManageClick = { showCachedSongsSheet = true },
+                extraContent = {
+                    ListPreference(
+                        title = { Text(stringResource(R.string.max_cache_size)) },
+                        selectedValue = maxSongCacheSize,
+                        values = listOf(-1, 128, 256, 512, 1024, 2048, 4096, 8192),
+                        valueText = {
+                            if (it == -1) stringResource(R.string.unlimited)
+                            else formatFileSize(it * 1024 * 1024L)
+                        },
+                        onValueSelected = onMaxSongCacheSizeChange,
+                    )
+                }
+            )
+
+            
+            StorageCard(
+                title = stringResource(R.string.image_cache),
+                icon = R.drawable.image,
+                usedSize = imageCacheSize,
+                maxSize = if (maxImageCacheSize == -1) -1L else maxImageCacheSize * 1024 * 1024L,
+                progress = animatedImageCacheSize,
+                onClearClick = {
+                    coroutineScope.launch(Dispatchers.IO) {
+                        try {
+                            imageDiskCache.clear()
+                        } catch (e: Exception) {
+                            e.printStackTrace()
+                        }
+                    }
+                },
+                onManageClick = null,
+                extraContent = {
+                    ListPreference(
+                        title = { Text(stringResource(R.string.max_cache_size)) },
+                        selectedValue = maxImageCacheSize,
+                        values = listOf(-1, 128, 256, 512, 1024, 2048, 4096, 8192),
+                        valueText = {
+                            if (it == -1) stringResource(R.string.unlimited)
+                            else formatFileSize(it * 1024 * 1024L)
+                        },
+                        onValueSelected = onMaxImageCacheSizeChange,
+                    )
+                }
+            )
+        }
+
+        TopAppBar(
+            title = { Text(stringResource(R.string.storage), color = adaptiveColor) },
+            navigationIcon = {
+                IconButton(
+                    onClick = navController::navigateUp,
+                    onLongClick = navController::backToMain,
+                ) {
+                    Icon(
+                        painterResource(R.drawable.arrow_back),
+                        contentDescription = null,
+                        tint = adaptiveColor,
+                    )
+                }
+            },
+            colors = TopAppBarDefaults.topAppBarColors(
+                containerColor = Color.Transparent,
+                scrolledContainerColor = Color.Transparent,
+            ),
+        )
+    }
+
+    
+    if (showCachedSongsSheet) {
+        CachedSongsBottomSheet(
+            playerCache = playerCache,
+            viewModel = viewModel,
+            onDismiss = { showCachedSongsSheet = false }
+        )
+    }
+}
+
+@Composable
+private fun StorageCard(
+    title: String,
+    icon: Int,
+    usedSize: Long,
+    maxSize: Long?,
+    progress: Float,
+    onClearClick: () -> Unit,
+    onManageClick: (() -> Unit)?,
+    extraContent: (@Composable () -> Unit)? = null
+) {
+    val (accentColorInt) = com.betsy.music.utils.rememberPreference(
+        com.betsy.music.constants.AccentColorKey, defaultValue = 0xFF3b9cac.toInt()
+    )
+    val accentColor = remember(accentColorInt) { Color(accentColorInt.toLong() or 0xFF000000L) }
+    val adaptiveColor = com.betsy.music.ui.theme.rememberAdaptiveOnColor()
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(20.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = adaptiveColor.copy(alpha = 0.06f)
+        ),
+        elevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
+    ) {
+        Column(
+            modifier = Modifier.padding(20.dp),
+            verticalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
+            
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                Box(
+                    modifier = Modifier
+                        .size(40.dp)
+                        .clip(RoundedCornerShape(12.dp))
+                        .background(accentColor.copy(alpha = 0.1f)),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        painter = painterResource(icon),
+                        contentDescription = null,
+                        tint = accentColor,
+                        modifier = Modifier.size(24.dp)
+                    )
+                }
+
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(
+                        text = title,
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.SemiBold,
+                        color = adaptiveColor
+                    )
+                }
+            }
+
+            
+            if (usedSize > 0) {
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    LinearProgressIndicator(
+                        progress = { progress },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(8.dp)
+                            .clip(RoundedCornerShape(4.dp)),
+                        color = com.betsy.music.ui.theme.rememberAccentColor(),
+                        trackColor = com.betsy.music.ui.theme.accentProgressTrackColor(),
+                    )
+
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Text(
+                            text = formatFileSize(usedSize),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = adaptiveColor
+                        )
+                        if (maxSize != null) {
+                            Text(
+                                text = if (maxSize == -1L) stringResource(R.string.unlimited)
+                                else formatFileSize(maxSize),
+                                style = MaterialTheme.typography.bodyMedium,
+                                color = adaptiveColor
+                            )
+                        }
+                    }
+                }
+            } else {
+                Text(
+                    text = stringResource(R.string.size_used, formatFileSize(0)),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = adaptiveColor
+                )
+            }
+
+            
+            extraContent?.invoke()
+
+            
+            if (usedSize > 0) {
+                HorizontalDivider(
+                    thickness = 0.5.dp,
+                    color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.3f)
+                )
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    if (onManageClick != null) {
+                        ActionButton(
+                            text = stringResource(R.string.manage),
+                            icon = R.drawable.settings,
+                            onClick = onManageClick,
+                            modifier = Modifier.weight(1f)
+                        )
+                    }
+
+                    ActionButton(
+                        text = stringResource(R.string.clear),
+                        icon = R.drawable.delete,
+                        onClick = onClearClick,
+                        modifier = Modifier.weight(1f),
+                        isDestructive = true
+                    )
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun ActionButton(
+    text: String,
+    icon: Int,
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier,
+    isDestructive: Boolean = false
+) {
+    val (accentColorInt) = com.betsy.music.utils.rememberPreference(
+        com.betsy.music.constants.AccentColorKey, defaultValue = 0xFF3b9cac.toInt()
+    )
+    val accentColor = remember(accentColorInt) { Color(accentColorInt.toLong() or 0xFF000000L) }
+    Box(
+        modifier = modifier
+            .clip(RoundedCornerShape(12.dp))
+            .background(
+                if (isDestructive)
+                    MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.3f)
+                else
+                    MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.3f)
+            )
+            .clickable(onClick = onClick)
+            .padding(vertical = 12.dp, horizontal = 16.dp),
+        contentAlignment = Alignment.Center
+    ) {
+        Row(
+            horizontalArrangement = Arrangement.Center,
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Icon(
+                painter = painterResource(icon),
+                contentDescription = null,
+                tint = if (isDestructive)
+                    MaterialTheme.colorScheme.error
+                else
+                    accentColor,
+                modifier = Modifier.size(18.dp)
+            )
+            Spacer(modifier = Modifier.width(8.dp))
+            Text(
+                text = text,
+                style = MaterialTheme.typography.labelLarge,
+                color = if (isDestructive)
+                    MaterialTheme.colorScheme.error
+                else
+                    accentColor,
+                fontWeight = FontWeight.Medium
+            )
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalCoilApi::class)
+@Composable
+private fun CachedSongsBottomSheet(
+    playerCache: androidx.media3.datasource.cache.Cache,
+    viewModel: HistoryViewModel,
+    onDismiss: () -> Unit
+) {
+    val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+    val coroutineScope = rememberCoroutineScope()
+    val events by viewModel.events.collectAsState()
+    val adaptiveColor = com.betsy.music.ui.theme.rememberAdaptiveOnColor()
+
+    
+    val cachedSongIds = remember(playerCache) {
+        playerCache.keys.map { it.toString() }.toSet()
+    }
+
+    
+    val cachedSongs = remember(events, cachedSongIds) {
+        events.values.flatten()
+            .map { it.song }
+            .distinctBy { it.id }
+            .filter { it.id in cachedSongIds }
+    }
+
+    
+    val cachedSongsWithSize = remember(cachedSongs, playerCache) {
+        cachedSongs.mapNotNull { song ->
+            val size = tryOrNull {
+                playerCache.getCachedBytes(song.id, 0, Long.MAX_VALUE)
+            } ?: 0L
+
+            if (size > 0) {
+                CachedSongInfo(song = song, size = size)
+            } else null
+        }.sortedByDescending { it.size }
+    }
+
+    var displayedSongs by remember { mutableStateOf(cachedSongsWithSize) }
+
+    LaunchedEffect(cachedSongsWithSize) {
+        displayedSongs = cachedSongsWithSize
+    }
+
+    ModalBottomSheet(
+        onDismissRequest = onDismiss,
+        sheetState = sheetState,
+        dragHandle = {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 12.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Box(
+                    modifier = Modifier
+                        .width(32.dp)
+                        .height(4.dp)
+                        .clip(RoundedCornerShape(2.dp))
+                        .background(adaptiveColor.copy(alpha = 0.4f))
+                )
+            }
+        }
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp)
+        ) {
+            
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(bottom = 16.dp),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Column {
+                    Text(
+                        text = stringResource(R.string.cached_playlist),
+                        style = MaterialTheme.typography.titleLarge,
+                        fontWeight = FontWeight.Bold,
+                        color = adaptiveColor
+                    )
+                    Text(
+                        text = pluralStringResource(
+                            R.plurals.n_song,
+                            displayedSongs.size,
+                            displayedSongs.size
+                        ),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = adaptiveColor
+                    )
+                }
+
+                if (displayedSongs.isNotEmpty()) {
+                    IconButton(
+                        onClick = {
+                            coroutineScope.launch(Dispatchers.IO) {
+                                try {
+                                    
+                                    playerCache.keys.toList().forEach { key ->
+                                        tryOrNull { playerCache.removeResource(key) }
+                                    }
+                                    
+                                    withContext(Dispatchers.Main) {
+                                        displayedSongs = emptyList()
+                                    }
+                                } catch (e: Exception) {
+                                    e.printStackTrace()
+                                }
+                            }
+                        },
+                        onLongClick = {                               }
+                    ) {
+                        Icon(
+                            painter = painterResource(R.drawable.delete),
+                            contentDescription = stringResource(R.string.clear_all_downloads),
+                            tint = MaterialTheme.colorScheme.error
+                        )
+                    }
+                }
+            }
+
+            
+            LazyColumn(
+                modifier = Modifier.fillMaxWidth(),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                items(displayedSongs, key = { it.song.id }) { songInfo ->
+                    CachedSongItem(
+                        songInfo = songInfo,
+                        onDeleteClick = {
+                            coroutineScope.launch(Dispatchers.IO) {
+                                try {
+                                    
+                                    val keysToRemove = playerCache.keys.filter { key ->
+                                        key.contains(songInfo.song.id)
+                                    }
+
+                                    keysToRemove.forEach { key ->
+                                        tryOrNull { playerCache.removeResource(key) }
+                                    }
+
+                                    
+                                    withContext(Dispatchers.Main) {
+                                        displayedSongs = displayedSongs.filter {
+                                            it.song.id != songInfo.song.id
+                                        }
+                                    }
+                                } catch (e: Exception) {
+                                    e.printStackTrace()
+                                }
+                            }
+                        }
+                    )
+                }
+
+                item {
+                    Spacer(modifier = Modifier.height(16.dp))
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun CachedSongItem(
+    songInfo: CachedSongInfo,
+    onDeleteClick: () -> Unit
+) {
+    val adaptiveColor = com.betsy.music.ui.theme.rememberAdaptiveOnColor()
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(12.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = adaptiveColor.copy(alpha = 0.06f)
+        ),
+        elevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            
+            AsyncImage(
+                model = songInfo.song.thumbnailUrl,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(48.dp)
+                    .clip(RoundedCornerShape(ThumbnailCornerRadius))
+            )
+
+            
+            Column(
+                modifier = Modifier.weight(1f),
+                verticalArrangement = Arrangement.spacedBy(2.dp)
+            ) {
+                Text(
+                    text = songInfo.song.title,
+                    style = MaterialTheme.typography.bodyMedium,
+                    fontWeight = FontWeight.Medium,
+                    maxLines = 1
+                )
+                Text(
+                    text = songInfo.song.artists.joinToString(", ") { it.name },
+                    style = MaterialTheme.typography.bodySmall,
+                    color = adaptiveColor,
+                    maxLines = 1
+                )
+                Text(
+                    text = formatFileSize(songInfo.size),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = adaptiveColor.copy(alpha = 0.7f)
+                )
+            }
+
+            
+            IconButton(
+                onClick = onDeleteClick,
+                onLongClick = {                               }
+            ) {
+                Icon(
+                    painter = painterResource(R.drawable.delete),
+                    contentDescription = stringResource(R.string.clear_song_cache),
+                    tint = MaterialTheme.colorScheme.error,
+                    modifier = Modifier.size(20.dp)
+                )
+            }
+        }
+    }
+}
+
+private data class CachedSongInfo(
+    val song: Song,
+    val size: Long
+)

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Archivo NUEVO: app/src/main/res/values-es/strings_auth.xml -->
+<resources>
+    <string name="auth_sign_in">Iniciar sesión</string>
+    <string name="auth_create_account">Crear cuenta</string>
+    <string name="auth_welcome_back">¡Te damos la bienvenida de nuevo!</string>
+    <string name="auth_join_today">¡Únete hoy mismo!</string>
+    <string name="auth_create">Crear</string>
+    <string name="auth_cancel">Cancelar</string>
+    <string name="auth_name">Nombre</string>
+    <string name="auth_email">Correo electrónico</string>
+    <string name="auth_password">Contraseña</string>
+    <string name="auth_toggle_password">Mostrar u ocultar contraseña</string>
+    <string name="auth_statistics">Estadísticas</string>
+    <string name="auth_songs_played">Canciones reproducidas</string>
+    <string name="auth_time_listened">Tiempo de escucha</string>
+    <string name="auth_favorites">Favoritos</string>
+    <string name="auth_account_info">Información de la cuenta</string>
+    <string name="auth_member_since">Miembro desde</string>
+    <string name="auth_sign_out_title">¿Cerrar sesión?</string>
+    <string name="auth_sign_out_message">Cambiarás al modo invitado. Tus playlists volverán a estar aquí cuando inicies sesión de nuevo.</string>
+    <string name="auth_guest_warning">Crea una cuenta para mantener tus playlists y estadísticas vinculadas a ti en este dispositivo.</string>
+    <string name="auth_error_name">Escribe tu nombre.</string>
+    <string name="auth_error_email_invalid">Ese correo no parece válido.</string>
+    <string name="auth_error_password_short">La contraseña debe tener al menos %1$d caracteres.</string>
+    <string name="auth_error_email_taken">Ya existe una cuenta con ese correo.</string>
+    <string name="auth_error_wrong_credentials">Correo o contraseña incorrectos.</string>
+</resources>

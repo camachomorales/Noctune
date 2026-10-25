@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Om jou plaaslike musiek te sien, het ons toegang\ntot jou oudiolêers nodig.</string>
+    <string name="recently_added">Onlangs bygevoeg</string>
+    <string name="search_banner_streaming">Soek tans in Streaming</string>
+    <string name="search_banner_local">Soek tans in jou plaaslike biblioteek</string>
+    <string name="search_banner_tap_local">Tik om na Plaaslik oor te skakel</string>
+    <string name="search_banner_tap_streaming">Tik om na Stroom oor te skakel</string>
+    <string name="mode_hint_to_local">Tuis, soek en biblioteek sal musiek van jou toestel gebruik</string>
+    <string name="mode_hint_to_streaming">Tuis, soek en biblioteek sal Streaming gebruik</string>
+    <string name="search_hint_streaming">Soek stroom…</string>
+    <string name="search_hint_device">Soek jou toestel…</string>
+    <string name="your_music_count">Jou musiek (%1$d liedjies)</string>
+</resources>

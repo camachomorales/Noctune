@@ -22,7 +22,7 @@
     <string name="forgotten_favorites">Elfeledett kedvencek</string>
     <string name="similar_to">Hasonló ehhez</string>
     <string name="keep_listening">Hallgassa tovább</string>
-    <string name="your_ytb_playlists">Az Ön Youtube fiókja</string>
+    <string name="your_ytb_playlists">Az Ön Streaming fiókja</string>
     <!-- History -->
     <string name="today">Ma</string>
     <string name="yesterday">Tegnap</string>
@@ -40,7 +40,7 @@
     <string name="continuous">Folytonos</string>
     <!-- Search -->
     <string name="search">Keresés</string>
-    <string name="search_yt_music">Keresés a YouTube Zenén…</string>
+    <string name="search_yt_music">Keresés a Streaming Zenén…</string>
     <string name="search_library">Keresés a könyvtárban…</string>
     <string name="filter_library">Könyvtár</string>
     <string name="filter_liked">Tetszett</string>
@@ -75,7 +75,7 @@
     <string name="remove_download_playlist_confirm">Biztosan el akarja távolítani a \"%s\" lejátszási lista összes dalját a Letöltött Dalok tárjából?</string>
     <string name="delete_playlist_confirm">Biztosan ki akarja törölni a \"%s\" lejátszási listát?</string>
     <string name="elements_selected">%1$d elem kiválasztva</string>
-    <string name="allows_for_sync_witch_youtube">Figyelem: Ez engedélyezi a szinkronizálást a YouTube Zenével. Ez később NEM változtatható meg.</string>
+    <string name="allows_for_sync_witch_youtube">Figyelem: Ez engedélyezi a szinkronizálást a Streaming Zenével. Ez később NEM változtatható meg.</string>
     <!-- Button -->
     <string name="retry">Újra</string>
     <string name="radio">Rádió</string>
@@ -273,7 +273,7 @@
     <string name="token_hidden">Koppintásra mutassa a tokent</string>
     <string name="token_shown">Újabb koppintásra másolja vagy szerkeszti</string>
     <string name="token_adv_login_description">Ez egy HALADÓ bejelentkezési módszer. A web portállal ellentétben, közvetlenül tudja beírni vagy frissíteni a tokenjét. Ezzel például felgyorsíthatja az egyszerre több eszközön való bejelentkezést. Azonban minden olyan token amely nem megy át az app ellenőrzésen, hibára fog futni</string>
-    <string name="ytm_sync">Automatikusan szinkronizáljon a YouTube Zene fiókjával</string>
+    <string name="ytm_sync">Automatikusan szinkronizáljon a Streaming Zene fiókjával</string>
     <string name="general">Általános</string>
     <string name="content_language">Tartalom alapértelmezett nyelve</string>
     <string name="content_country">Tartalom alapértelmezett nyelve</string>
@@ -345,7 +345,7 @@
     <string name="backup_create_failed">Mentés sikertelen</string>
     <string name="restore_failed">Mentés visszaállítása sikertelen</string>
     <string name="discord_integration">Discord integráció</string>
-    <string name="discord_information">Az OpenTune a KizzyRPC könyvtárat használja a Discord fiók státusz megváltoztatásához. Ehhez szorosan hozzájárul a Discord Gateway kapcsolat, amely szigorúan véve a Discord felhasználási feltételek megszegéseként fogható fel. Habár nincs ismert fiók tiltási eset ilyen okból kifolyólag, csak saját felelősségre ajánlott. Az OpenTunne csak a tokenjét fogja kinyerni, minden más helyileg kerül tárolásra.</string>
+    <string name="discord_information">Az music a KizzyRPC könyvtárat használja a Discord fiók státusz megváltoztatásához. Ehhez szorosan hozzájárul a Discord Gateway kapcsolat, amely szigorúan véve a Discord felhasználási feltételek megszegéseként fogható fel. Habár nincs ismert fiók tiltási eset ilyen okból kifolyólag, csak saját felelősségre ajánlott. Az OpenTunne csak a tokenjét fogja kinyerni, minden más helyileg kerül tárolásra.</string>
     <string name="dismiss">Elrejt</string>
     <string name="options">Opciók</string>
     <string name="preview">Előnézet</string>

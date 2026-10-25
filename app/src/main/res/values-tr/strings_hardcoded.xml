@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yeni dosya: app/src/main/res/values-tr/strings_hardcoded.xml -->
+<resources>
+    <!-- Hakkında ekranı -->
+    <string name="about_app_description">Müziğiniz, dünyanız</string>
+    <string name="about_license_name">GNU GPL v3 veya üzeri</string>
+    <string name="about_license_title">Lisans</string>
+    <string name="about_license_text">%1$s özgür yazılımdır: %2$s lisansının koşulları altında kullanabilir, inceleyebilir, değiştirebilir ve yeniden dağıtabilirsiniz. HİÇBİR GARANTİ VERİLMEZ.</string>
+    <string name="about_view_license">Lisansı görüntüle</string>
+    <string name="about_source_code">Kaynak kod</string>
+    <string name="about_third_party_services">Üçüncü taraf ağ hizmetleri: Audius, Internet Archive ve LRCLIB (senkronize şarkı sözleri). Uygulamada reklam veya izleyici bulunmaz.</string>
+    <string name="about_role_development">Geliştirme</string>
+    <string name="about_role_bottomsheet">BottomSheet temel kodu</string>
+    <string name="about_role_ui_base">Arayüz ve proje temeli</string>
+    <string name="about_role_original_project">OpenTune uygulamasının dayandığı özgün proje</string>
+
+    <!-- Sanatçı ekranı -->
+    <string name="artist_subscribers_count">%1$s abone</string>
+
+    <!-- Home -->
+    <string name="section_trending_week">Haftanın trendleri</string>
+    <string name="section_albums_now">Öne çıkan albümler</string>
+    <string name="section_playlists_discover">Keşfedilecek çalma listeleri</string>
+    <string name="section_in_genre">%1$s türünde trend</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-hi/strings_auth.xml (auth) -->
+<resources>
+    <string name="auth_sign_in">साइन इन करें</string>
+    <string name="auth_create_account">खाता बनाएँ</string>
+    <string name="auth_welcome_back">वापसी पर स्वागत है!</string>
+    <string name="auth_join_today">आज ही हमसे जुड़ें!</string>
+    <string name="auth_create">बनाएँ</string>
+    <string name="auth_cancel">रद्द करें</string>
+    <string name="auth_name">नाम</string>
+    <string name="auth_email">ईमेल</string>
+    <string name="auth_password">पासवर्ड</string>
+    <string name="auth_toggle_password">पासवर्ड दिखाएँ या छिपाएँ</string>
+    <string name="auth_statistics">आँकड़े</string>
+    <string name="auth_songs_played">चलाए गए गीत</string>
+    <string name="auth_time_listened">सुनने का समय</string>
+    <string name="auth_favorites">पसंदीदा</string>
+    <string name="auth_account_info">खाते की जानकारी</string>
+    <string name="auth_member_since">सदस्य बनने की तारीख</string>
+    <string name="auth_sign_out_title">साइन आउट करें?</string>
+    <string name="auth_sign_out_message">आप अतिथि मोड में चले जाएँगे। दोबारा साइन इन करने पर आपकी प्लेलिस्ट यहाँ फिर से दिखेंगी।</string>
+    <string name="auth_guest_warning">खाता बनाएँ ताकि आपकी प्लेलिस्ट और आँकड़े इस डिवाइस पर आपसे जुड़े रहें।</string>
+    <string name="auth_error_name">अपना नाम दर्ज करें।</string>
+    <string name="auth_error_email_invalid">यह ईमेल सही नहीं लग रहा है।</string>
+    <string name="auth_error_password_short">पासवर्ड में कम से कम %1$d वर्ण होने चाहिए।</string>
+    <string name="auth_error_email_taken">इस ईमेल से पहले से एक खाता मौजूद है।</string>
+    <string name="auth_error_wrong_credentials">ईमेल या पासवर्ड गलत है।</string>
+</resources>

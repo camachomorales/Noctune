@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-sv-rSE/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">Din musik, din värld</string>
+    <string name="about_license_name">GNU GPL v3 eller senare</string>
+    <string name="about_license_title">Licens</string>
+    <string name="about_license_text">%1$s är fri programvara: du får använda, studera, ändra och vidaredistribuera den enligt villkoren i licensen %2$s. Den distribueras UTAN NÅGON GARANTI.</string>
+    <string name="about_view_license">Visa licens</string>
+    <string name="about_source_code">Källkod</string>
+    <string name="about_third_party_services">Nätverkstjänster från tredje part: Audius, Internet Archive och LRCLIB (synkroniserade låttexter). Appen innehåller inga annonser eller spårare.</string>
+    <string name="about_role_development">Utveckling</string>
+    <string name="about_role_bottomsheet">Baskod för BottomSheet</string>
+    <string name="about_role_ui_base">Grund för gränssnittet och projektet</string>
+    <string name="about_role_original_project">Originalprojektet som OpenTune bygger på</string>
+    <string name="artist_subscribers_count">%1$s prenumeranter</string>
+    <string name="section_trending_week">Trendar den här veckan</string>
+    <string name="section_albums_now">Trendande album</string>
+    <string name="section_playlists_discover">Spellistor att upptäcka</string>
+    <string name="section_in_genre">Trendar inom %1$s</string>
+</resources>

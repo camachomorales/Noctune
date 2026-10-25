@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Новый файл: app/src/main/res/values-ru-rRU/strings_auth.xml -->
+<resources>
+    <string name="auth_sign_in">Войти</string>
+    <string name="auth_create_account">Создать аккаунт</string>
+    <string name="auth_welcome_back">С возвращением!</string>
+    <string name="auth_join_today">Присоединяйтесь к нам сегодня!</string>
+    <string name="auth_create">Создать</string>
+    <string name="auth_cancel">Отмена</string>
+    <string name="auth_name">Имя</string>
+    <string name="auth_email">Эл. почта</string>
+    <string name="auth_password">Пароль</string>
+    <string name="auth_toggle_password">Показать или скрыть пароль</string>
+    <string name="auth_statistics">Статистика</string>
+    <string name="auth_songs_played">Прослушано треков</string>
+    <string name="auth_time_listened">Время прослушивания</string>
+    <string name="auth_favorites">Избранное</string>
+    <string name="auth_account_info">Информация об аккаунте</string>
+    <string name="auth_member_since">С нами с</string>
+    <string name="auth_sign_out_title">Выйти из аккаунта?</string>
+    <string name="auth_sign_out_message">Вы перейдёте в гостевой режим. Ваши плейлисты снова будут здесь, когда вы войдёте снова.</string>
+    <string name="auth_guest_warning">Создайте аккаунт, чтобы плейлисты и статистика сохранялись за вами на этом устройстве.</string>
+    <string name="auth_error_name">Введите своё имя.</string>
+    <string name="auth_error_email_invalid">Этот адрес эл. почты выглядит неверно.</string>
+    <string name="auth_error_password_short">Пароль должен содержать не менее %1$d символов.</string>
+    <string name="auth_error_email_taken">Аккаунт с таким адресом эл. почты уже существует.</string>
+    <string name="auth_error_wrong_credentials">Неверный адрес эл. почты или пароль.</string>
+</resources>

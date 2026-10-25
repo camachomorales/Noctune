@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-ne/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">तपाईंको सङ्गीत, तपाईंको संसार</string>
+    <string name="about_license_name">GNU GPL v3 वा पछिल्लो संस्करण</string>
+    <string name="about_license_title">इजाजतपत्र</string>
+    <string name="about_license_text">%1$s स्वतन्त्र सफ्टवेयर हो: तपाईं %2$s इजाजतपत्रका सर्तहरू अनुसार यसलाई प्रयोग, अध्ययन, परिमार्जन र पुनर्वितरण गर्न सक्नुहुन्छ। यो कुनै पनि ग्यारेन्टी बिना वितरण गरिएको हो।</string>
+    <string name="about_view_license">इजाजतपत्र हेर्नुहोस्</string>
+    <string name="about_source_code">स्रोत कोड</string>
+    <string name="about_third_party_services">तेस्रो पक्षका नेटवर्क सेवाहरू: Audius, Internet Archive र LRCLIB (सिङ्क गरिएका गीतका बोल)। एपमा कुनै विज्ञापन वा ट्र्याकर छैन।</string>
+    <string name="about_role_development">विकास</string>
+    <string name="about_role_bottomsheet">BottomSheet को आधार कोड</string>
+    <string name="about_role_ui_base">इन्टरफेस र परियोजनाको आधार</string>
+    <string name="about_role_original_project">OpenTune आधारित रहेको मूल परियोजना</string>
+    <string name="artist_subscribers_count">%1$s सब्सक्राइबर</string>
+    <string name="section_trending_week">यस हप्ताको ट्रेन्डिङ</string>
+    <string name="section_albums_now">ट्रेन्डिङ एल्बमहरू</string>
+    <string name="section_playlists_discover">पत्ता लगाउनका लागि प्लेलिस्टहरू</string>
+    <string name="section_in_genre">%1$s मा ट्रेन्डिङ</string>
+</resources>

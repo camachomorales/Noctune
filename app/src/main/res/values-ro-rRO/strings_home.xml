@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Pentru a-ți vedea muzica locală avem nevoie de acces\nla fișierele tale audio.</string>
+    <string name="recently_added">Adăugate recent</string>
+    <string name="search_banner_streaming">Se caută în Streaming</string>
+    <string name="search_banner_local">Se caută în biblioteca ta locală</string>
+    <string name="search_banner_tap_local">Atinge pentru a trece la Local</string>
+    <string name="search_banner_tap_streaming">Atinge pentru a trece la Streaming</string>
+    <string name="mode_hint_to_local">Acasă, căutarea și biblioteca vor folosi muzica de pe dispozitiv</string>
+    <string name="mode_hint_to_streaming">Acasă, căutarea și biblioteca vor folosi Streaming</string>
+    <string name="search_hint_streaming">Caută în streaming…</string>
+    <string name="search_hint_device">Caută pe dispozitiv…</string>
+    <string name="forgotten_favorites">Favorite uitate</string>
+    <string name="your_music_count">Muzica ta (%1$d melodii)</string>
+</resources>

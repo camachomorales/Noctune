@@ -1,21 +1,16 @@
-A YouTube Music client with Material Design 3, for Android.
+Noctune is an open source music player for Android with two modes: your own local music and online streaming.
 
-Features:
+<b>Local mode</b>
+• Plays the music stored on your phone.
+• Search your library with suggestions from your previous searches and your local songs.
 
-- Ad-free playback
-- Background playback
-- Advanced search
-- Integrated login
-- Library management
-- Offline mode
-- Synchronized lyrics
-- Silence skipping
-- Audio normalization
-- Tempo and pitch control
-- Dynamic theme
-- Multi-language support
-- Android Auto support
-- Material Design 3
-- Download covers
-- Customize playlist minuatures
-- Add a custom Avatar
+<b>Streaming mode</b>
+• Search and stream music from Audius, the decentralized music platform.
+• Search and play free audio from Internet Archive: public domain recordings, live concerts, netlabels, audiobooks and old time radio. The license of each item is shown when the uploader declares one.
+
+<b>More</b>
+• Playlists, favorites and listening history.
+• Synced lyrics from LrcLib.
+• Sleep timer, offline downloads and a guest mode.
+
+Noctune has no ads and no tracking, and it does not use Google services.

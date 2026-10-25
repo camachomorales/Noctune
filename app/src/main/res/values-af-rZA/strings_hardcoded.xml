@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/values-af-rZA/strings_hardcoded.xml (hardcoded) -->
+<resources>
+    <string name="about_app_description">Jou musiek, jou wêreld</string>
+    <string name="about_license_name">GNU GPL v3 of nuwer</string>
+    <string name="about_license_title">Lisensie</string>
+    <string name="about_license_text">%1$s is vrye sagteware: jy kan dit gebruik, bestudeer, wysig en herversprei onder die voorwaardes van die %2$s-lisensie. Dit word SONDER ENIGE WAARBORG versprei.</string>
+    <string name="about_view_license">Bekyk lisensie</string>
+    <string name="about_source_code">Bronkode</string>
+    <string name="about_third_party_services">Derdeparty-netwerkdienste: Audius, Internet Archive en LRCLIB (gesinkroniseerde liedjieteks). Die toep bevat geen advertensies of spoorsnyers nie.</string>
+    <string name="about_role_development">Ontwikkeling</string>
+    <string name="about_role_bottomsheet">BottomSheet-basiskode</string>
+    <string name="about_role_ui_base">Grondslag van die koppelvlak en projek</string>
+    <string name="about_role_original_project">Die oorspronklike projek waarop OpenTune gebaseer is</string>
+    <string name="artist_subscribers_count">%1$s intekenare</string>
+    <string name="section_trending_week">Gewild hierdie week</string>
+    <string name="section_albums_now">Gewilde albums</string>
+    <string name="section_playlists_discover">Snitlyste om te ontdek</string>
+    <string name="section_in_genre">Gewild in %1$s</string>
+</resources>

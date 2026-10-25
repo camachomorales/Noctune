@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Um deine lokale Musik anzuzeigen, benötigen wir Zugriff\nauf deine Audiodateien.</string>
+    <string name="recently_added">Zuletzt hinzugefügt</string>
+    <string name="search_banner_streaming">Suche in Streaming</string>
+    <string name="search_banner_local">Suche in deiner lokalen Bibliothek</string>
+    <string name="search_banner_tap_local">Tippe, um zu Lokal zu wechseln</string>
+    <string name="search_banner_tap_streaming">Tippe, um zu Streaming zu wechseln</string>
+    <string name="mode_hint_to_local">Start, Suche und Bibliothek verwenden Musik von deinem Gerät</string>
+    <string name="mode_hint_to_streaming">Start, Suche und Bibliothek verwenden Streaming</string>
+    <string name="search_hint_streaming">Streaming durchsuchen…</string>
+    <string name="search_hint_device">Gerät durchsuchen…</string>
+</resources>

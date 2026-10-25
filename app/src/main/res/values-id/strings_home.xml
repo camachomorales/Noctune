@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Untuk melihat musik lokal Anda, kami memerlukan akses\nke file audio Anda.</string>
+    <string name="recently_added">Baru ditambahkan</string>
+    <string name="search_banner_streaming">Mencari di Streaming</string>
+    <string name="search_banner_local">Mencari di pustaka lokal Anda</string>
+    <string name="search_banner_tap_local">Ketuk untuk beralih ke Lokal</string>
+    <string name="search_banner_tap_streaming">Ketuk untuk beralih ke Streaming</string>
+    <string name="mode_hint_to_local">Beranda, pencarian, dan pustaka akan memakai musik dari perangkat Anda</string>
+    <string name="mode_hint_to_streaming">Beranda, pencarian, dan pustaka akan memakai Streaming</string>
+    <string name="search_hint_streaming">Cari di streaming…</string>
+    <string name="search_hint_device">Cari di perangkat Anda…</string>
+    <string name="your_music_count">Musik Anda (%1$d lagu)</string>
+</resources>

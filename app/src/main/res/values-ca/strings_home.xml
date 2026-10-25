@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_permission_message">Per veure la teva música local necessitem accés\nals teus fitxers d\'àudio.</string>
+    <string name="recently_added">Afegit recentment</string>
+    <string name="search_banner_streaming">Cercant a Streaming</string>
+    <string name="search_banner_local">Cercant a la teva biblioteca local</string>
+    <string name="search_banner_tap_local">Toca per canviar a Local</string>
+    <string name="search_banner_tap_streaming">Toca per canviar a Streaming</string>
+    <string name="mode_hint_to_local">Inici, cerca i biblioteca faran servir la música del dispositiu</string>
+    <string name="mode_hint_to_streaming">Inici, cerca i biblioteca faran servir Streaming</string>
+    <string name="search_hint_streaming">Cerca en streaming…</string>
+    <string name="search_hint_device">Cerca al dispositiu…</string>
+    <string name="your_music_count">La teva música (%1$d cançons)</string>
+</resources>

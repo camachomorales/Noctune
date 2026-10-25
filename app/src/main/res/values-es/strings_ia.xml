@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ia_source_audius">Audius</string>
+    <string name="ia_source_ia">Archivo de Internet</string>
+    <string name="ia_search_header">Buscando en Internet Archive</string>
+    <string name="ia_search_placeholder">Busca música y audio en Internet Archive…</string>
+    <string name="ia_results_title">Internet Archive: %1$s</string>
+    <string name="ia_downloads_count">%1$s descargas</string>
+    <string name="ia_play_all">Reproducir todo</string>
+    <string name="ia_shuffle">Aleatorio</string>
+    <string name="ia_view_site">Ver en archive.org</string>
+    <string name="ia_license">Licencia</string>
+    <string name="ia_no_audio">Este elemento no tiene audio reproducible.</string>
+    <string name="ia_load_error">No se pudo cargar desde Internet Archive</string>
+    <string name="ia_retry">Reintentar</string>
+    <string name="ia_load_more">Cargar más</string>
+</resources>
