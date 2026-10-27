@@ -298,7 +298,7 @@
     <string name="guest">অতিথি</string>
     <string name="no_account_local_data">অ্যাকাউন্ট নেই · লোকাল ডেটা</string>
     <string name="no_account_mode">অ্যাকাউন্টবিহীন মোড</string>
-    <string name="uninstall_warning_short">অ্যাপ আনইনস্টল করলে আপনার ডেটা হারিয়ে যাবে। সংরক্ষণ করতে সাইন ইন করুন।</string>
+    <string name="uninstall_warning_short">আপনি অ্যাপটি আনইনস্টল করলে আপনার ডেটা হারিয়ে যাবে। ডেটা সংরক্ষণ ও পুনরুদ্ধার করতে একটি ব্যাকআপ তৈরি করুন।</string>
     <string name="accent_color_label">অ্যাকসেন্ট রঙ</string>
     <string name="mode_streaming_home">🌐 স্ট্রিমিং মোড</string>
     <string name="mode_local_home">📱 লোকাল মিউজিক</string>

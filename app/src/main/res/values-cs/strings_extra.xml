@@ -182,7 +182,7 @@
     <string name="guest">Host</string>
     <string name="no_account_local_data">Bez účtu · místní data</string>
     <string name="no_account_mode">Režim bez účtu</string>
-    <string name="uninstall_warning_short">Pokud aplikaci odinstalujete, přijdete o data. Přihlaste se, abyste je uložili.</string>
+    <string name="uninstall_warning_short">Pokud aplikaci odinstalujete, přijdete o svá data. Vytvořte zálohu, abyste je zachovali a mohli obnovit.</string>
     <string name="accent_color_label">Barva zvýraznění</string>
     <string name="mode_streaming_home">🌐 Režim streamování</string>
     <string name="mode_local_home">📱 Místní hudba</string>

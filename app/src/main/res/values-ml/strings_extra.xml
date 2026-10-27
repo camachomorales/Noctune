@@ -150,7 +150,7 @@
     <string name="guest">ഗസ്റ്റ്</string>
     <string name="no_account_local_data">അക്കൗണ്ടില്ല · ലോക്കൽ ഡാറ്റ</string>
     <string name="no_account_mode">അക്കൗണ്ട് ഇല്ലാത്ത മോഡ്</string>
-    <string name="uninstall_warning_short">ആപ്പ് അൺഇൻസ്റ്റാൾ ചെയ്താൽ നിങ്ങളുടെ ഡാറ്റ നഷ്ടമാകും. സംരക്ഷിക്കാൻ സൈൻ ഇൻ ചെയ്യുക.</string>
+    <string name="uninstall_warning_short">ആപ്പ് അൺഇൻസ്റ്റാൾ ചെയ്താൽ നിങ്ങളുടെ ഡാറ്റ നഷ്ടമാകും. അവ സൂക്ഷിക്കാനും പുനഃസ്ഥാപിക്കാനും ഒരു ബാക്കപ്പ് സൃഷ്ടിക്കുക.</string>
     <string name="accent_color_label">ആക്സന്റ് നിറം</string>
     <string name="mode_streaming_home">🌐 സ്ട്രീമിംഗ് മോഡ്</string>
     <string name="mode_local_home">📱 ലോക്കൽ സംഗീതം</string>

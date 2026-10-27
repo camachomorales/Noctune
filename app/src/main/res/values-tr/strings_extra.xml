@@ -182,7 +182,7 @@
     <string name="guest">Misafir</string>
     <string name="no_account_local_data">Hesap yok · yerel veriler</string>
     <string name="no_account_mode">Hesapsız mod</string>
-    <string name="uninstall_warning_short">Uygulamayı kaldırırsan verilerini kaybedersin. Kaydetmek için oturum aç.</string>
+    <string name="uninstall_warning_short">Uygulamayı kaldırırsanız verilerinizi kaybedersiniz. Verilerinizi korumak ve geri yüklemek için bir yedek oluşturun.</string>
     <string name="accent_color_label">Vurgu rengi</string>
     <string name="mode_streaming_home">🌐 Akış modu</string>
     <string name="mode_local_home">📱 Yerel müzik</string>

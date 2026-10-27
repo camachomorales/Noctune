@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uninstall_warning_short">If you uninstall the app, you will lose your data. Create a backup to keep it and restore it later.</string>
+</resources>

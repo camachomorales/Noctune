@@ -107,7 +107,7 @@
     <string name="guest">Гость</string>
     <string name="no_account_local_data">Без аккаунта · локальные данные</string>
     <string name="no_account_mode">Режим без аккаунта</string>
-    <string name="uninstall_warning_short">Если вы удалите приложение, данные будут потеряны. Войдите, чтобы сохранить их.</string>
+    <string name="uninstall_warning_short">Если вы удалите приложение, вы потеряете свои данные. Создайте резервную копию, чтобы сохранить и восстановить их.</string>
     <string name="accent_color_label">Акцентный цвет</string>
     <string name="mode_streaming_home">🌐 Режим стриминга</string>
     <string name="mode_local_home">📱 Локальная музыка</string>

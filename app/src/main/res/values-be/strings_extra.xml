@@ -298,7 +298,7 @@
     <string name="guest">Госць</string>
     <string name="no_account_local_data">Без уліковага запісу · лакальныя даныя</string>
     <string name="no_account_mode">Рэжым без уліковага запісу</string>
-    <string name="uninstall_warning_short">Калі выдаліць праграму, вы страціце даныя. Увайдзіце, каб іх захаваць.</string>
+    <string name="uninstall_warning_short">Калі вы выдаліце праграму, вы страціце свае даныя. Стварыце рэзервовую копію, каб захаваць іх і аднавіць.</string>
     <string name="accent_color_label">Колер акцэнту</string>
     <string name="mode_streaming_home">🌐 Рэжым струменевай перадачы</string>
     <string name="mode_local_home">📱 Лакальная музыка</string>

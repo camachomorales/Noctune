@@ -298,7 +298,7 @@
     <string name="guest">مهمان</string>
     <string name="no_account_local_data">بدون حساب · داده‌های محلی</string>
     <string name="no_account_mode">حالت بدون حساب</string>
-    <string name="uninstall_warning_short">اگر برنامه را حذف کنید داده‌هایتان از بین می‌رود. برای ذخیره وارد شوید.</string>
+    <string name="uninstall_warning_short">اگر برنامه را حذف کنید، داده‌هایتان از بین می‌رود. برای نگه‌داشتن و بازیابی آن‌ها یک نسخه پشتیبان بسازید.</string>
     <string name="accent_color_label">رنگ تأکید</string>
     <string name="mode_streaming_home">🌐 حالت پخش آنلاین</string>
     <string name="mode_local_home">📱 موسیقی محلی</string>

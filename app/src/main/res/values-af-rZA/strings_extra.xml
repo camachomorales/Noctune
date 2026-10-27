@@ -173,7 +173,7 @@
     <string name="guest">Gas</string>
     <string name="no_account_local_data">Geen rekening · plaaslike data</string>
     <string name="no_account_mode">Modus sonder rekening</string>
-    <string name="uninstall_warning_short">As jy die toep deïnstalleer, verloor jy jou data. Meld aan om dit te stoor.</string>
+    <string name="uninstall_warning_short">As jy die toep deïnstalleer, sal jy jou data verloor. Skep \'n rugsteun om dit te behou en te herstel.</string>
     <string name="accent_color_label">Beklemtoningskleur</string>
     <string name="mode_streaming_home">🌐 Stroommodus</string>
     <string name="mode_local_home">📱 Plaaslike musiek</string>

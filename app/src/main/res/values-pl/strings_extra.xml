@@ -125,7 +125,7 @@
     <string name="guest">Gość</string>
     <string name="no_account_local_data">Brak konta · dane lokalne</string>
     <string name="no_account_mode">Tryb bez konta</string>
-    <string name="uninstall_warning_short">Jeśli odinstalujesz aplikację, stracisz dane. Zaloguj się, aby je zapisać.</string>
+    <string name="uninstall_warning_short">Jeśli odinstalujesz aplikację, stracisz swoje dane. Utwórz kopię zapasową, aby je zachować i przywrócić.</string>
     <string name="accent_color_label">Kolor akcentu</string>
     <string name="mode_streaming_home">🌐 Tryb streamingu</string>
     <string name="mode_local_home">📱 Muzyka lokalna</string>

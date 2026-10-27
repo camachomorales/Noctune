@@ -164,7 +164,7 @@
     <string name="guest">अतिथि</string>
     <string name="no_account_local_data">कोई खाता नहीं · लोकल डेटा</string>
     <string name="no_account_mode">बिना खाते का मोड</string>
-    <string name="uninstall_warning_short">ऐप अनइंस्टॉल करने पर आपका डेटा चला जाएगा। सहेजने के लिए साइन इन करें।</string>
+    <string name="uninstall_warning_short">यदि आप ऐप अनइंस्टॉल करते हैं, तो आपका डेटा खो जाएगा। उसे सुरक्षित रखने और पुनर्स्थापित करने के लिए बैकअप बनाएं।</string>
     <string name="accent_color_label">एक्सेंट रंग</string>
     <string name="mode_streaming_home">🌐 स्ट्रीमिंग मोड</string>
     <string name="mode_local_home">📱 लोकल म्यूज़िक</string>

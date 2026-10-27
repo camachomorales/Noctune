@@ -160,7 +160,7 @@
     <string name="guest">Gäst</string>
     <string name="no_account_local_data">Inget konto · lokal data</string>
     <string name="no_account_mode">Läge utan konto</string>
-    <string name="uninstall_warning_short">Om du avinstallerar appen förlorar du din data. Logga in för att spara den.</string>
+    <string name="uninstall_warning_short">Om du avinstallerar appen förlorar du dina data. Skapa en säkerhetskopia för att behålla och återställa dem.</string>
     <string name="accent_color_label">Accentfärg</string>
     <string name="mode_streaming_home">🌐 Streamingläge</string>
     <string name="mode_local_home">📱 Lokal musik</string>

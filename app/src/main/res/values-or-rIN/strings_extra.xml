@@ -298,7 +298,7 @@
     <string name="guest">ଅତିଥି</string>
     <string name="no_account_local_data">ଖାତା ନାହିଁ · ସ୍ଥାନୀୟ ଡାଟା</string>
     <string name="no_account_mode">ଖାତାବିହୀନ ମୋଡ୍</string>
-    <string name="uninstall_warning_short">ଆପ୍ ଅନଇନଷ୍ଟଲ୍ କଲେ ଆପଣଙ୍କ ଡାଟା ହଜିଯିବ। ସଞ୍ଚୟ କରିବାକୁ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ।</string>
+    <string name="uninstall_warning_short">ଆପ୍ ଅନଇନଷ୍ଟଲ୍ କଲେ ଆପଣଙ୍କ ଡାଟା ହରାଇଯିବ। ଏହାକୁ ସୁରକ୍ଷିତ ରଖିବା ଓ ପୁନଃସ୍ଥାପନ କରିବା ପାଇଁ ଏକ ବ୍ୟାକଅପ୍ ତିଆରି କରନ୍ତୁ।</string>
     <string name="accent_color_label">ଆକ୍ସେଣ୍ଟ ରଙ୍ଗ</string>
     <string name="mode_streaming_home">🌐 ଷ୍ଟ୍ରିମିଂ ମୋଡ୍</string>
     <string name="mode_local_home">📱 ସ୍ଥାନୀୟ ସଂଗୀତ</string>

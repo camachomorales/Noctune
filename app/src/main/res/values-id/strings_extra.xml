@@ -175,7 +175,7 @@
     <string name="guest">Tamu</string>
     <string name="no_account_local_data">Tanpa akun · data lokal</string>
     <string name="no_account_mode">Mode tanpa akun</string>
-    <string name="uninstall_warning_short">Jika Anda menghapus aplikasi, data Anda akan hilang. Masuk untuk menyimpannya.</string>
+    <string name="uninstall_warning_short">Jika Anda menghapus instalan aplikasi, data Anda akan hilang. Buat cadangan untuk menyimpan dan memulihkannya.</string>
     <string name="accent_color_label">Warna aksen</string>
     <string name="mode_streaming_home">🌐 Mode streaming</string>
     <string name="mode_local_home">📱 Musik lokal</string>

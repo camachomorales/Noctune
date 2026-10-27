@@ -207,7 +207,7 @@
     <string name="guest">Επισκέπτης</string>
     <string name="no_account_local_data">Χωρίς λογαριασμό · τοπικά δεδομένα</string>
     <string name="no_account_mode">Λειτουργία χωρίς λογαριασμό</string>
-    <string name="uninstall_warning_short">Αν απεγκαταστήσετε την εφαρμογή, θα χάσετε τα δεδομένα σας. Συνδεθείτε για να τα αποθηκεύσετε.</string>
+    <string name="uninstall_warning_short">Αν απεγκαταστήσετε την εφαρμογή, θα χάσετε τα δεδομένα σας. Δημιουργήστε αντίγραφο ασφαλείας για να τα διατηρήσετε και να τα επαναφέρετε.</string>
     <string name="accent_color_label">Χρώμα έμφασης</string>
     <string name="mode_streaming_home">🌐 Λειτουργία streaming</string>
     <string name="mode_local_home">📱 Τοπική μουσική</string>

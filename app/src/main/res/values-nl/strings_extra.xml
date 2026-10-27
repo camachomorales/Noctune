@@ -298,7 +298,7 @@
     <string name="guest">Gast</string>
     <string name="no_account_local_data">Geen account · lokale gegevens</string>
     <string name="no_account_mode">Modus zonder account</string>
-    <string name="uninstall_warning_short">Als je de app verwijdert, verlies je je gegevens. Meld je aan om ze op te slaan.</string>
+    <string name="uninstall_warning_short">Als je de app verwijdert, verlies je je gegevens. Maak een back-up om ze te bewaren en te herstellen.</string>
     <string name="accent_color_label">Accentkleur</string>
     <string name="mode_streaming_home">🌐 Streamingmodus</string>
     <string name="mode_local_home">📱 Lokale muziek</string>

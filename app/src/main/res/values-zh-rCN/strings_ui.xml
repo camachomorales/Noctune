@@ -107,7 +107,7 @@
     <string name="guest">访客</string>
     <string name="no_account_local_data">无账号 · 本地数据</string>
     <string name="no_account_mode">无账号模式</string>
-    <string name="uninstall_warning_short">卸载应用会丢失您的数据。登录即可保存。</string>
+    <string name="uninstall_warning_short">如果卸载应用，您的数据将丢失。请创建备份以保留并恢复数据。</string>
     <string name="accent_color_label">强调色</string>
     <string name="mode_streaming_home">🌐 流媒体模式</string>
     <string name="mode_local_home">📱 本地音乐</string>

@@ -107,7 +107,7 @@
     <string name="guest">Ospite</string>
     <string name="no_account_local_data">Nessun account · dati locali</string>
     <string name="no_account_mode">Modalità senza account</string>
-    <string name="uninstall_warning_short">Se disinstalli l\'app perderai i tuoi dati. Accedi per salvarli.</string>
+    <string name="uninstall_warning_short">Se disinstalli l\'app perderai i tuoi dati. Crea un backup per conservarli e ripristinarli.</string>
     <string name="accent_color_label">Colore di accento</string>
     <string name="mode_streaming_home">🌐 Modalità streaming</string>
     <string name="mode_local_home">📱 Musica locale</string>

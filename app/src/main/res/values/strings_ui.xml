@@ -107,7 +107,7 @@
     <string name="guest">Guest</string>
     <string name="no_account_local_data">No account · local data</string>
     <string name="no_account_mode">No-account mode</string>
-    <string name="uninstall_warning_short">If you uninstall the app you\'ll lose your data. Sign in to save it.</string>
+    <string name="uninstall_warning_short">If you uninstall the app, you will lose your data. Create a backup to keep it and restore it later.</string>
     <string name="accent_color_label">Accent color</string>
     <string name="mode_streaming_home">🌐 Streaming mode</string>
     <string name="mode_local_home">📱 Local music</string>

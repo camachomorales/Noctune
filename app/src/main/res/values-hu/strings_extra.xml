@@ -173,7 +173,7 @@
     <string name="guest">Vendég</string>
     <string name="no_account_local_data">Nincs fiók · helyi adatok</string>
     <string name="no_account_mode">Fiók nélküli mód</string>
-    <string name="uninstall_warning_short">Ha eltávolítod az alkalmazást, elveszted az adataidat. Jelentkezz be a mentésükhöz.</string>
+    <string name="uninstall_warning_short">Ha eltávolítod az alkalmazást, elveszíted az adataidat. Készíts biztonsági mentést, hogy megőrizhesd és visszaállíthasd őket.</string>
     <string name="accent_color_label">Kiemelőszín</string>
     <string name="mode_streaming_home">🌐 Streaming mód</string>
     <string name="mode_local_home">📱 Helyi zene</string>

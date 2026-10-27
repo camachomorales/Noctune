@@ -175,7 +175,7 @@
     <string name="guest">अतिथि</string>
     <string name="no_account_local_data">खाता छैन · स्थानीय डेटा</string>
     <string name="no_account_mode">खाताबिनाको मोड</string>
-    <string name="uninstall_warning_short">एप अनइन्स्टल गरे तपाईंको डेटा गुम्नेछ। सुरक्षित गर्न साइन इन गर्नुहोस्।</string>
+    <string name="uninstall_warning_short">तपाईंले एप अनइन्स्टल गर्नुभयो भने तपाईंको डेटा हराउनेछ। डेटा सुरक्षित राख्न र पुनःस्थापना गर्न ब्याकअप बनाउनुहोस्।</string>
     <string name="accent_color_label">एक्सेन्ट रङ</string>
     <string name="mode_streaming_home">🌐 स्ट्रिमिङ मोड</string>
     <string name="mode_local_home">📱 स्थानीय संगीत</string>

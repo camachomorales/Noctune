@@ -159,7 +159,7 @@
     <string name="guest">ゲスト</string>
     <string name="no_account_local_data">アカウントなし · ローカルデータ</string>
     <string name="no_account_mode">アカウントなしモード</string>
-    <string name="uninstall_warning_short">アプリをアンインストールするとデータが失われます。ログインして保存しましょう。</string>
+    <string name="uninstall_warning_short">アプリをアンインストールするとデータが失われます。バックアップを作成して、データを保持・復元しましょう。</string>
     <string name="accent_color_label">アクセントカラー</string>
     <string name="mode_streaming_home">🌐 ストリーミングモード</string>
     <string name="mode_local_home">📱 ローカルミュージック</string>

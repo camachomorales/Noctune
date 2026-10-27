@@ -150,7 +150,7 @@
     <string name="guest">Convidat</string>
     <string name="no_account_local_data">Sense compte · dades locals</string>
     <string name="no_account_mode">Mode sense compte</string>
-    <string name="uninstall_warning_short">Si desinstal·les l\'aplicació perdràs les dades. Inicia la sessió per desar-les.</string>
+    <string name="uninstall_warning_short">Si desinstal·les l\'aplicació perdràs les teves dades. Crea una còpia de seguretat per conservar-les i restaurar-les.</string>
     <string name="accent_color_label">Color d\'accent</string>
     <string name="mode_streaming_home">🌐 Mode streaming</string>
     <string name="mode_local_home">📱 Música local</string>

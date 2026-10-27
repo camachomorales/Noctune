@@ -182,7 +182,7 @@
     <string name="guest">ضيف</string>
     <string name="no_account_local_data">بلا حساب · بيانات محلية</string>
     <string name="no_account_mode">وضع بلا حساب</string>
-    <string name="uninstall_warning_short">إذا حذفت التطبيق ستفقد بياناتك. سجّل الدخول لحفظها.</string>
+    <string name="uninstall_warning_short">إذا قمت بإلغاء تثبيت التطبيق فستفقد بياناتك. أنشئ نسخة احتياطية للاحتفاظ بها واستعادتها.</string>
     <string name="accent_color_label">لون التمييز</string>
     <string name="mode_streaming_home">🌐 وضع البث</string>
     <string name="mode_local_home">📱 الموسيقى المحلية</string>

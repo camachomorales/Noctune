@@ -159,7 +159,7 @@
     <string name="guest">Khách</string>
     <string name="no_account_local_data">Không có tài khoản · dữ liệu cục bộ</string>
     <string name="no_account_mode">Chế độ không tài khoản</string>
-    <string name="uninstall_warning_short">Nếu gỡ cài đặt ứng dụng, bạn sẽ mất dữ liệu. Hãy đăng nhập để lưu.</string>
+    <string name="uninstall_warning_short">Nếu bạn gỡ cài đặt ứng dụng, bạn sẽ mất dữ liệu. Hãy tạo bản sao lưu để giữ và khôi phục dữ liệu.</string>
     <string name="accent_color_label">Màu nhấn</string>
     <string name="mode_streaming_home">🌐 Chế độ phát trực tuyến</string>
     <string name="mode_local_home">📱 Nhạc cục bộ</string>

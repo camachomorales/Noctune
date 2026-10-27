@@ -298,7 +298,7 @@
     <string name="guest">게스트</string>
     <string name="no_account_local_data">계정 없음 · 로컬 데이터</string>
     <string name="no_account_mode">계정 없는 모드</string>
-    <string name="uninstall_warning_short">앱을 삭제하면 데이터가 사라집니다. 저장하려면 로그인하세요.</string>
+    <string name="uninstall_warning_short">앱을 삭제하면 데이터가 사라집니다. 백업을 만들어 데이터를 보관하고 복원하세요.</string>
     <string name="accent_color_label">강조 색상</string>
     <string name="mode_streaming_home">🌐 스트리밍 모드</string>
     <string name="mode_local_home">📱 로컬 음악</string>

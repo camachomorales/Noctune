@@ -448,7 +448,7 @@
     <string name="guest">אורח</string>
     <string name="no_account_local_data">ללא חשבון · נתונים מקומיים</string>
     <string name="no_account_mode">מצב ללא חשבון</string>
-    <string name="uninstall_warning_short">אם תסיר את האפליקציה, הנתונים שלך יאבדו. התחבר כדי לשמור אותם.</string>
+    <string name="uninstall_warning_short">אם תסיר את האפליקציה, תאבד את הנתונים שלך. צור גיבוי כדי לשמור ולשחזר אותם.</string>
     <string name="accent_color_label">צבע הדגשה</string>
     <string name="mode_streaming_home">🌐 מצב סטרימינג</string>
     <string name="mode_local_home">📱 מוזיקה מקומית</string>

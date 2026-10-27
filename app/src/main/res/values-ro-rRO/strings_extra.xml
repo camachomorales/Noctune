@@ -448,7 +448,7 @@
     <string name="guest">Invitat</string>
     <string name="no_account_local_data">Fără cont · date locale</string>
     <string name="no_account_mode">Mod fără cont</string>
-    <string name="uninstall_warning_short">Dacă dezinstalezi aplicația, îți pierzi datele. Autentifică-te pentru a le salva.</string>
+    <string name="uninstall_warning_short">Dacă dezinstalezi aplicația, îți vei pierde datele. Creează o copie de rezervă pentru a le păstra și a le restaura.</string>
     <string name="accent_color_label">Culoare de accent</string>
     <string name="mode_streaming_home">🌐 Mod streaming</string>
     <string name="mode_local_home">📱 Muzică locală</string>

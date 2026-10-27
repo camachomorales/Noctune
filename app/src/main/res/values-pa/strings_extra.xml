@@ -298,7 +298,7 @@
     <string name="guest">ਮਹਿਮਾਨ</string>
     <string name="no_account_local_data">ਕੋਈ ਖਾਤਾ ਨਹੀਂ · ਲੋਕਲ ਡਾਟਾ</string>
     <string name="no_account_mode">ਬਿਨਾਂ ਖਾਤੇ ਦਾ ਮੋਡ</string>
-    <string name="uninstall_warning_short">ਐਪ ਅਣਇੰਸਟਾਲ ਕਰਨ ਨਾਲ ਤੁਹਾਡਾ ਡਾਟਾ ਚਲਾ ਜਾਵੇਗਾ। ਸੰਭਾਲਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ।</string>
+    <string name="uninstall_warning_short">ਜੇ ਤੁਸੀਂ ਐਪ ਅਣਇੰਸਟਾਲ ਕਰੋਗੇ, ਤਾਂ ਤੁਹਾਡਾ ਡਾਟਾ ਖਤਮ ਹੋ ਜਾਵੇਗਾ। ਇਸਨੂੰ ਸੰਭਾਲਣ ਅਤੇ ਬਹਾਲ ਕਰਨ ਲਈ ਬੈਕਅੱਪ ਬਣਾਓ।</string>
     <string name="accent_color_label">ਐਕਸੈਂਟ ਰੰਗ</string>
     <string name="mode_streaming_home">🌐 ਸਟ੍ਰੀਮਿੰਗ ਮੋਡ</string>
     <string name="mode_local_home">📱 ਲੋਕਲ ਸੰਗੀਤ</string>

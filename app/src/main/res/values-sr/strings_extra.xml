@@ -449,7 +449,7 @@
     <string name="guest">Гост</string>
     <string name="no_account_local_data">Без налога · локални подаци</string>
     <string name="no_account_mode">Режим без налога</string>
-    <string name="uninstall_warning_short">Ако деинсталирате апликацију, изгубићете податке. Пријавите се да их сачувате.</string>
+    <string name="uninstall_warning_short">Ако деинсталирате апликацију, изгубићете своје податке. Направите резервну копију да бисте их сачували и вратили.</string>
     <string name="accent_color_label">Боја акцента</string>
     <string name="mode_streaming_home">🌐 Режим стримовања</string>
     <string name="mode_local_home">📱 Локална музика</string>

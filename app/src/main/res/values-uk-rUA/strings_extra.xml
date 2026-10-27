@@ -173,7 +173,7 @@
     <string name="guest">Гість</string>
     <string name="no_account_local_data">Без облікового запису · локальні дані</string>
     <string name="no_account_mode">Режим без облікового запису</string>
-    <string name="uninstall_warning_short">Якщо видалити застосунок, ви втратите дані. Увійдіть, щоб їх зберегти.</string>
+    <string name="uninstall_warning_short">Якщо ви видалите застосунок, ви втратите свої дані. Створіть резервну копію, щоб зберегти й відновити їх.</string>
     <string name="accent_color_label">Колір акценту</string>
     <string name="mode_streaming_home">🌐 Режим стрімінгу</string>
     <string name="mode_local_home">📱 Локальна музика</string>
